@@ -1,0 +1,1500 @@
+2018-04-29T06:02:35.138092+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:02:35.138094+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:02:35.138096+00:00 app[web.1]:     import model
+2018-04-29T06:02:35.138098+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:02:35.138099+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:02:35.138101+00:00 app[web.1]:                                  ^
+2018-04-29T06:02:35.138103+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:02:35.138691+00:00 app[web.1]: [2018-04-29 06:02:35 +0000] [8] [ERROR] Exception in worker process
+2018-04-29T06:02:35.138694+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:35.138696+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:02:35.138698+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:02:35.138700+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:02:35.138702+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:02:35.138703+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:02:35.138705+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:02:35.138706+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:02:35.138708+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:02:35.138710+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:02:35.138711+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:02:35.138713+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:02:35.138715+00:00 app[web.1]:     import model
+2018-04-29T06:02:35.138716+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:02:35.138718+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:02:35.138719+00:00 app[web.1]:                                  ^
+2018-04-29T06:02:35.138721+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:02:35.138723+00:00 app[web.1]: 
+2018-04-29T06:02:35.138724+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:02:35.138726+00:00 app[web.1]: 
+2018-04-29T06:02:35.138728+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:35.138730+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:02:35.138731+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:02:35.138733+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:02:35.138735+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:02:35.138736+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:02:35.138738+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:02:35.138739+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:02:35.139158+00:00 app[web.1]: [2018-04-29 06:02:35 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T06:02:35.177665+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:02:35.177667+00:00 app[web.1]:   """)
+2018-04-29T06:02:35.180906+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:35.180907+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:02:35.180909+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:02:35.180904+00:00 app[web.1]: [2018-04-29 06:02:35 +0000] [9] [ERROR] inconsistent use of tabs and spaces in indentation (model.py, line 256)
+2018-04-29T06:02:35.180910+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:02:35.180911+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:02:35.180913+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:02:35.180914+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:02:35.180915+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:02:35.180916+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:02:35.180919+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:02:35.180918+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:02:35.180920+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:02:35.180921+00:00 app[web.1]:     import model
+2018-04-29T06:02:35.180923+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:02:35.180924+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:02:35.180925+00:00 app[web.1]:                                  ^
+2018-04-29T06:02:35.180929+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:02:35.181974+00:00 app[web.1]: [2018-04-29 06:02:35 +0000] [9] [ERROR] Exception in worker process
+2018-04-29T06:02:35.181976+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:35.181977+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:02:35.181978+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:02:35.181980+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:02:35.181981+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:02:35.181982+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:02:35.181983+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:02:35.181984+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:02:35.181986+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:02:35.181987+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:02:35.181993+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:02:35.181995+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:02:35.181996+00:00 app[web.1]:     import model
+2018-04-29T06:02:35.181997+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:02:35.181998+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:02:35.181999+00:00 app[web.1]:                                  ^
+2018-04-29T06:02:35.182000+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:02:35.182002+00:00 app[web.1]: 
+2018-04-29T06:02:35.182003+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:02:35.182004+00:00 app[web.1]: 
+2018-04-29T06:02:35.182005+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:35.182007+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:02:35.182008+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:02:35.182009+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:02:35.182010+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:02:35.182011+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:02:35.182012+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:02:35.182016+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:02:35.182642+00:00 app[web.1]: [2018-04-29 06:02:35 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T06:02:35.222641+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:35.222652+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 209, in run
+2018-04-29T06:02:35.222914+00:00 app[web.1]:     self.sleep()
+2018-04-29T06:02:35.222918+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 359, in sleep
+2018-04-29T06:02:35.223113+00:00 app[web.1]:     ready = select.select([self.PIPE[0]], [], [], 1.0)
+2018-04-29T06:02:35.223116+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 244, in handle_chld
+2018-04-29T06:02:35.223266+00:00 app[web.1]:     self.reap_workers()
+2018-04-29T06:02:35.223270+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 524, in reap_workers
+2018-04-29T06:02:35.223541+00:00 app[web.1]:     raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2018-04-29T06:02:35.223623+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2018-04-29T06:02:35.223629+00:00 app[web.1]: 
+2018-04-29T06:02:35.223631+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:02:35.223632+00:00 app[web.1]: 
+2018-04-29T06:02:35.223636+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:35.223659+00:00 app[web.1]:   File "/app/.heroku/python/bin/gunicorn", line 11, in <module>
+2018-04-29T06:02:35.223776+00:00 app[web.1]:     sys.exit(run())
+2018-04-29T06:02:35.223782+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+2018-04-29T06:02:35.223912+00:00 app[web.1]:     WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+2018-04-29T06:02:35.223918+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 203, in run
+2018-04-29T06:02:35.224213+00:00 app[web.1]:     super(Application, self).run()
+2018-04-29T06:02:35.224220+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 72, in run
+2018-04-29T06:02:35.224328+00:00 app[web.1]:     Arbiter(self).run()
+2018-04-29T06:02:35.224334+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 231, in run
+2018-04-29T06:02:35.224488+00:00 app[web.1]:     self.halt(reason=inst.reason, exit_status=inst.exit_status)
+2018-04-29T06:02:35.224493+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 344, in halt
+2018-04-29T06:02:35.224689+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 393, in stop
+2018-04-29T06:02:35.224683+00:00 app[web.1]:     self.stop()
+2018-04-29T06:02:35.224917+00:00 app[web.1]:     time.sleep(0.1)
+2018-04-29T06:02:35.224923+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 244, in handle_chld
+2018-04-29T06:02:35.225079+00:00 app[web.1]:     self.reap_workers()
+2018-04-29T06:02:35.225082+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 524, in reap_workers
+2018-04-29T06:02:35.225336+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2018-04-29T06:02:35.225310+00:00 app[web.1]:     raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2018-04-29T06:02:35.298020+00:00 heroku[web.1]: Process exited with status 1
+2018-04-29T06:02:35.436957+00:00 heroku[web.1]: State changed from starting to crashed
+2018-04-29T06:02:35.439164+00:00 heroku[web.1]: State changed from crashed to starting
+2018-04-29T06:02:47.401635+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T06:02:50.241334+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T06:02:50.244047+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [4] [INFO] Listening at: http://0.0.0.0:52676 (4)
+2018-04-29T06:02:50.244401+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [4] [INFO] Using worker: sync
+2018-04-29T06:02:50.254630+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T06:02:50.352588+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T06:02:50.466266+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:02:50.466270+00:00 app[web.1]:   """)
+2018-04-29T06:02:50.469668+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [8] [ERROR] inconsistent use of tabs and spaces in indentation (model.py, line 256)
+2018-04-29T06:02:50.469671+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:50.469672+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:02:50.469674+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:02:50.469676+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:02:50.469677+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:02:50.469679+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:02:50.469682+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:02:50.469683+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:02:50.469680+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:02:50.469685+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:02:50.469686+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:02:50.469688+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:02:50.469689+00:00 app[web.1]:     import model
+2018-04-29T06:02:50.469691+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:02:50.469692+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:02:50.469694+00:00 app[web.1]:                                  ^
+2018-04-29T06:02:50.469699+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:02:50.470792+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [8] [ERROR] Exception in worker process
+2018-04-29T06:02:50.470794+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:50.470796+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:02:50.470799+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:02:50.470797+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:02:50.470801+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:02:50.470802+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:02:50.470804+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:02:50.470805+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:02:50.470807+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:02:50.470809+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:02:50.470810+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:02:50.470812+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:02:50.470813+00:00 app[web.1]:     import model
+2018-04-29T06:02:50.470814+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:02:50.470816+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:02:50.470817+00:00 app[web.1]:                                  ^
+2018-04-29T06:02:50.470819+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:02:50.470820+00:00 app[web.1]: 
+2018-04-29T06:02:50.470822+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:02:50.470823+00:00 app[web.1]: 
+2018-04-29T06:02:50.470825+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:50.470826+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:02:50.470828+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:02:50.470829+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:02:50.470831+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:02:50.470832+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:02:50.470834+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:02:50.470839+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:02:50.471616+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T06:02:50.542538+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:02:50.542765+00:00 app[web.1]:   """)
+2018-04-29T06:02:50.542779+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [9] [ERROR] inconsistent use of tabs and spaces in indentation (model.py, line 256)
+2018-04-29T06:02:50.542781+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:50.542783+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:02:50.542784+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:02:50.542786+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:02:50.542788+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:02:50.542789+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:02:50.542791+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:02:50.542792+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:02:50.542794+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:02:50.542796+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:02:50.542797+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:02:50.542799+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:02:50.542800+00:00 app[web.1]:     import model
+2018-04-29T06:02:50.542802+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:02:50.542804+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:02:50.542805+00:00 app[web.1]:                                  ^
+2018-04-29T06:02:50.542807+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:02:50.543173+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [9] [ERROR] Exception in worker process
+2018-04-29T06:02:50.543175+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:50.543177+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:02:50.543179+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:02:50.543207+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:02:50.543212+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:02:50.543213+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:02:50.543215+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:02:50.543216+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:02:50.543218+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:02:50.543220+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:02:50.543221+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:02:50.543223+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:02:50.543224+00:00 app[web.1]:     import model
+2018-04-29T06:02:50.543226+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:02:50.543228+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:02:50.543229+00:00 app[web.1]:                                  ^
+2018-04-29T06:02:50.543231+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:02:50.543233+00:00 app[web.1]: 
+2018-04-29T06:02:50.543235+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:02:50.543236+00:00 app[web.1]: 
+2018-04-29T06:02:50.543238+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:02:50.543240+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:02:50.543241+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:02:50.543243+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:02:50.543244+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:02:50.543246+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:02:50.543248+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:02:50.543249+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:02:50.543900+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T06:02:50.657959+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T06:02:50.657963+00:00 app[web.1]: [2018-04-29 06:02:50 +0000] [4] [INFO] Reason: Worker failed to boot.
+2018-04-29T06:02:50.789021+00:00 heroku[web.1]: Process exited with status 3
+2018-04-29T06:02:50.948159+00:00 heroku[web.1]: State changed from starting to crashed
+2018-04-29T06:03:59.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-04-29T06:04:44.434091+00:00 heroku[web.1]: State changed from crashed to starting
+2018-04-29T06:04:44.092602+00:00 app[api]: Deploy df10b2df by user chandresh41414@gmail.com
+2018-04-29T06:03:59.000000+00:00 app[api]: Build succeeded
+2018-04-29T06:04:44.092602+00:00 app[api]: Release v62 created by user chandresh41414@gmail.com
+2018-04-29T06:04:53.781556+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T06:04:56.495686+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:04:56.495723+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 209, in run
+2018-04-29T06:04:56.496134+00:00 app[web.1]:     self.sleep()
+2018-04-29T06:04:56.496146+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 359, in sleep
+2018-04-29T06:04:56.496157+00:00 app[web.1]:     ready = select.select([self.PIPE[0]], [], [], 1.0)
+2018-04-29T06:04:56.496159+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 244, in handle_chld
+2018-04-29T06:04:56.496473+00:00 app[web.1]:     self.reap_workers()
+2018-04-29T06:04:56.230510+00:00 app[web.1]: [2018-04-29 06:04:56 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T06:04:56.231922+00:00 app[web.1]: [2018-04-29 06:04:56 +0000] [4] [INFO] Listening at: http://0.0.0.0:35050 (4)
+2018-04-29T06:04:56.496476+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 524, in reap_workers
+2018-04-29T06:04:56.496618+00:00 app[web.1]:     raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2018-04-29T06:04:56.232159+00:00 app[web.1]: [2018-04-29 06:04:56 +0000] [4] [INFO] Using worker: sync
+2018-04-29T06:04:56.496677+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2018-04-29T06:04:56.239882+00:00 app[web.1]: [2018-04-29 06:04:56 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T06:04:56.496680+00:00 app[web.1]: 
+2018-04-29T06:04:56.288573+00:00 app[web.1]: [2018-04-29 06:04:56 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T06:04:56.496682+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:04:56.496683+00:00 app[web.1]: 
+2018-04-29T06:04:56.379053+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:04:56.379057+00:00 app[web.1]:   """)
+2018-04-29T06:04:56.382586+00:00 app[web.1]: [2018-04-29 06:04:56 +0000] [8] [ERROR] inconsistent use of tabs and spaces in indentation (model.py, line 256)
+2018-04-29T06:04:56.496689+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:04:56.382590+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:04:56.496691+00:00 app[web.1]:   File "/app/.heroku/python/bin/gunicorn", line 11, in <module>
+2018-04-29T06:04:56.496773+00:00 app[web.1]:     sys.exit(run())
+2018-04-29T06:04:56.382594+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:04:56.382592+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:04:56.382596+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:04:56.382597+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:04:56.496779+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+2018-04-29T06:04:56.382599+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:04:56.496961+00:00 app[web.1]:     WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+2018-04-29T06:04:56.382601+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:04:56.496964+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 203, in run
+2018-04-29T06:04:56.497247+00:00 app[web.1]:     super(Application, self).run()
+2018-04-29T06:04:56.497250+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 72, in run
+2018-04-29T06:04:56.497398+00:00 app[web.1]:     Arbiter(self).run()
+2018-04-29T06:04:56.382602+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:04:56.382604+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:04:56.382606+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:04:56.497400+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 231, in run
+2018-04-29T06:04:56.497577+00:00 app[web.1]:     self.halt(reason=inst.reason, exit_status=inst.exit_status)
+2018-04-29T06:04:56.497580+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 344, in halt
+2018-04-29T06:04:56.382607+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:04:56.382609+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:04:56.497772+00:00 app[web.1]:     self.stop()
+2018-04-29T06:04:56.497775+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 393, in stop
+2018-04-29T06:04:56.497977+00:00 app[web.1]:     time.sleep(0.1)
+2018-04-29T06:04:56.497979+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 244, in handle_chld
+2018-04-29T06:04:56.498123+00:00 app[web.1]:     self.reap_workers()
+2018-04-29T06:04:56.382611+00:00 app[web.1]:     import model
+2018-04-29T06:04:56.498125+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 524, in reap_workers
+2018-04-29T06:04:56.382613+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:04:56.498367+00:00 app[web.1]:     raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2018-04-29T06:04:56.382615+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:04:56.498397+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2018-04-29T06:04:56.382616+00:00 app[web.1]:                                  ^
+2018-04-29T06:04:56.382657+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:04:56.383726+00:00 app[web.1]: [2018-04-29 06:04:56 +0000] [8] [ERROR] Exception in worker process
+2018-04-29T06:04:56.383729+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:04:56.383731+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:04:56.383733+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:04:56.383735+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:04:56.383736+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:04:56.383738+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:04:56.383740+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:04:56.383741+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:04:56.383743+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:04:56.383744+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:04:56.383745+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:04:56.383747+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:04:56.383749+00:00 app[web.1]:     import model
+2018-04-29T06:04:56.383751+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:04:56.383752+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:04:56.383754+00:00 app[web.1]:                                  ^
+2018-04-29T06:04:56.383756+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:04:56.383757+00:00 app[web.1]: 
+2018-04-29T06:04:56.383759+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:04:56.383761+00:00 app[web.1]: 
+2018-04-29T06:04:56.383762+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:04:56.383764+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:04:56.383766+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:04:56.383767+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:04:56.383769+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:04:56.383771+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:04:56.383772+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:04:56.383810+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:04:56.384620+00:00 app[web.1]: [2018-04-29 06:04:56 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T06:04:56.433689+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:04:56.433692+00:00 app[web.1]:   """)
+2018-04-29T06:04:56.438295+00:00 app[web.1]: [2018-04-29 06:04:56 +0000] [9] [ERROR] inconsistent use of tabs and spaces in indentation (model.py, line 256)
+2018-04-29T06:04:56.438299+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:04:56.438303+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:04:56.438305+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:04:56.438301+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:04:56.438307+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:04:56.438310+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:04:56.438308+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:04:56.438312+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:04:56.438314+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:04:56.438316+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:04:56.438317+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:04:56.438356+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:04:56.438360+00:00 app[web.1]:     import model
+2018-04-29T06:04:56.438361+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:04:56.438363+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:04:56.438365+00:00 app[web.1]:                                  ^
+2018-04-29T06:04:56.438416+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:04:56.439670+00:00 app[web.1]: [2018-04-29 06:04:56 +0000] [9] [ERROR] Exception in worker process
+2018-04-29T06:04:56.439673+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:04:56.439675+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:04:56.439676+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:04:56.439678+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:04:56.439680+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:04:56.439681+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:04:56.439683+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:04:56.439684+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:04:56.439686+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:04:56.439688+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:04:56.439695+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:04:56.439697+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:04:56.439699+00:00 app[web.1]:     import model
+2018-04-29T06:04:56.439700+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:04:56.439702+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:04:56.439704+00:00 app[web.1]:                                  ^
+2018-04-29T06:04:56.439705+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:04:56.439707+00:00 app[web.1]: 
+2018-04-29T06:04:56.439709+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:04:56.439710+00:00 app[web.1]: 
+2018-04-29T06:04:56.439712+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:04:56.439714+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:04:56.439715+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:04:56.439717+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:04:56.439718+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:04:56.439720+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:04:56.439721+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:04:56.439767+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:04:56.440646+00:00 app[web.1]: [2018-04-29 06:04:56 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T06:04:56.632963+00:00 heroku[web.1]: State changed from starting to crashed
+2018-04-29T06:04:56.614748+00:00 heroku[web.1]: Process exited with status 1
+2018-04-29T06:06:18.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-04-29T06:07:15.529809+00:00 heroku[web.1]: State changed from crashed to starting
+2018-04-29T06:07:15.327922+00:00 app[api]: Release v63 created by user chandresh41414@gmail.com
+2018-04-29T06:07:15.327922+00:00 app[api]: Deploy c0ae03ca by user chandresh41414@gmail.com
+2018-04-29T06:06:18.000000+00:00 app[api]: Build succeeded
+2018-04-29T06:07:28.702093+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T06:07:31.443524+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T06:07:31.443904+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [4] [INFO] Reason: Worker failed to boot.
+2018-04-29T06:07:31.125048+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T06:07:31.125992+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [4] [INFO] Listening at: http://0.0.0.0:15353 (4)
+2018-04-29T06:07:31.126137+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [4] [INFO] Using worker: sync
+2018-04-29T06:07:31.133651+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T06:07:31.228956+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T06:07:31.284660+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:07:31.284664+00:00 app[web.1]:   """)
+2018-04-29T06:07:31.290286+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [8] [ERROR] inconsistent use of tabs and spaces in indentation (model.py, line 256)
+2018-04-29T06:07:31.290289+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:07:31.290293+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:07:31.290291+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:07:31.290301+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:07:31.290303+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:07:31.290304+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:07:31.290306+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:07:31.290307+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:07:31.290309+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:07:31.290310+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:07:31.290312+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:07:31.290314+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:07:31.290315+00:00 app[web.1]:     import model
+2018-04-29T06:07:31.290316+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:07:31.290318+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:07:31.290319+00:00 app[web.1]:                                  ^
+2018-04-29T06:07:31.290326+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:07:31.293129+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [8] [ERROR] Exception in worker process
+2018-04-29T06:07:31.293132+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:07:31.293136+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:07:31.293134+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:07:31.293137+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:07:31.293139+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:07:31.293141+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:07:31.293142+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:07:31.293144+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:07:31.293145+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:07:31.293148+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:07:31.293147+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:07:31.293150+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:07:31.293152+00:00 app[web.1]:     import model
+2018-04-29T06:07:31.293153+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:07:31.293155+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:07:31.293156+00:00 app[web.1]:                                  ^
+2018-04-29T06:07:31.293158+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:07:31.293159+00:00 app[web.1]: 
+2018-04-29T06:07:31.293161+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:07:31.293163+00:00 app[web.1]: 
+2018-04-29T06:07:31.293164+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:07:31.293166+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:07:31.293167+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:07:31.293169+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:07:31.293170+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:07:31.293172+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:07:31.293173+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:07:31.293179+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:07:31.293904+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T06:07:31.319669+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:07:31.319672+00:00 app[web.1]:   """)
+2018-04-29T06:07:31.323524+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [9] [ERROR] inconsistent use of tabs and spaces in indentation (model.py, line 256)
+2018-04-29T06:07:31.323527+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:07:31.323531+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:07:31.323529+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:07:31.323533+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:07:31.323534+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:07:31.323536+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:07:31.323537+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:07:31.323539+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:07:31.323540+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:07:31.323542+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:07:31.323544+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:07:31.323546+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:07:31.323547+00:00 app[web.1]:     import model
+2018-04-29T06:07:31.323549+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:07:31.323550+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:07:31.323558+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:07:31.323552+00:00 app[web.1]:                                  ^
+2018-04-29T06:07:31.324525+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [9] [ERROR] Exception in worker process
+2018-04-29T06:07:31.324527+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:07:31.324529+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:07:31.324531+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:07:31.324532+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:07:31.324534+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:07:31.324535+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:07:31.324537+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:07:31.324539+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:07:31.324540+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:07:31.324542+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:07:31.324550+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:07:31.324551+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:07:31.324553+00:00 app[web.1]:     import model
+2018-04-29T06:07:31.324554+00:00 app[web.1]:   File "/app/model.py", line 256
+2018-04-29T06:07:31.324556+00:00 app[web.1]:     latitude = dt['latitude'][i+4]
+2018-04-29T06:07:31.324557+00:00 app[web.1]:                                  ^
+2018-04-29T06:07:31.324559+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:07:31.324561+00:00 app[web.1]: 
+2018-04-29T06:07:31.324562+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:07:31.324564+00:00 app[web.1]: 
+2018-04-29T06:07:31.324565+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:07:31.324567+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:07:31.324568+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:07:31.324570+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:07:31.324571+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:07:31.324573+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:07:31.324574+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:07:31.324580+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:07:31.325241+00:00 app[web.1]: [2018-04-29 06:07:31 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T06:07:31.567491+00:00 heroku[web.1]: Process exited with status 3
+2018-04-29T06:07:31.904570+00:00 heroku[web.1]: State changed from starting to crashed
+2018-04-29T06:09:37.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-04-29T06:10:24.419052+00:00 heroku[web.1]: State changed from crashed to starting
+2018-04-29T06:10:23.786260+00:00 app[api]: Release v64 created by user chandresh41414@gmail.com
+2018-04-29T06:10:23.786260+00:00 app[api]: Deploy a4119b46 by user chandresh41414@gmail.com
+2018-04-29T06:09:37.000000+00:00 app[api]: Build succeeded
+2018-04-29T06:10:36.533219+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T06:10:39.614871+00:00 app[web.1]: [2018-04-29 06:10:39 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T06:10:39.615580+00:00 app[web.1]: [2018-04-29 06:10:39 +0000] [4] [INFO] Listening at: http://0.0.0.0:4646 (4)
+2018-04-29T06:10:39.615741+00:00 app[web.1]: [2018-04-29 06:10:39 +0000] [4] [INFO] Using worker: sync
+2018-04-29T06:10:39.620408+00:00 app[web.1]: [2018-04-29 06:10:39 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T06:10:39.701041+00:00 app[web.1]: [2018-04-29 06:10:39 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T06:10:39.776884+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:10:39.776889+00:00 app[web.1]:   """)
+2018-04-29T06:10:39.810474+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:10:39.810477+00:00 app[web.1]:   """)
+2018-04-29T06:10:40.372602+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T06:13:09.180053+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=baa9153e-5416-4150-a9dc-f9434d430448 fwd="157.49.190.220" dyno=web.1 connect=1ms service=37ms status=200 bytes=538 protocol=https
+2018-04-29T06:13:09.181006+00:00 app[web.1]: 10.101.219.132 - - [29/Apr/2018:06:13:09 +0000] "GET /location HTTP/1.1" 200 385 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T06:13:26.463475+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-29T06:13:26.463538+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-29T06:13:26.471160+00:00 app[web.1]: predictions:  [0 1 0 0]
+2018-04-29T06:13:26.500625+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:13:26.500630+00:00 app[web.1]:   File "/app/.heroku/python/bin/bottle.py", line 862, in _handle
+2018-04-29T06:13:26.500632+00:00 app[web.1]:     return route.call(**args)
+2018-04-29T06:13:26.500634+00:00 app[web.1]:   File "/app/.heroku/python/bin/bottle.py", line 1740, in wrapper
+2018-04-29T06:13:26.500636+00:00 app[web.1]:     rv = callback(*a, **ka)
+2018-04-29T06:13:26.500637+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 27, in process
+2018-04-29T06:13:26.500639+00:00 app[web.1]:     model.predictPotholes(request.json)
+2018-04-29T06:13:26.500641+00:00 app[web.1]:   File "/app/model.py", line 286, in predictPotholes
+2018-04-29T06:13:26.500642+00:00 app[web.1]:     database.insert_location(y[i])
+2018-04-29T06:13:26.500644+00:00 app[web.1]:   File "/app/database.py", line 36, in insert_location
+2018-04-29T06:13:26.500646+00:00 app[web.1]:     cur.execute("INSERT INTO public.location(latitude, longitude) VALUES (loc[1], loc[0])")
+2018-04-29T06:13:26.500648+00:00 app[web.1]: psycopg2.ProgrammingError: column "loc" does not exist
+2018-04-29T06:13:26.500650+00:00 app[web.1]: LINE 1: ...INTO public.location(latitude, longitude) VALUES (loc[1], lo...
+2018-04-29T06:13:26.500652+00:00 app[web.1]:                                                              ^
+2018-04-29T06:13:26.500654+00:00 app[web.1]: 
+2018-04-29T06:13:26.513501+00:00 app[web.1]: 10.141.244.173 - - [29/Apr/2018:06:13:26 +0000] "POST /data HTTP/1.1" 500 765 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T06:13:26.512322+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=04d2b303-2b94-41a4-9a46-60e7c72a2a7a fwd="157.49.190.220" dyno=web.1 connect=1ms service=744ms status=500 bytes=945 protocol=https
+2018-04-29T06:19:31.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-04-29T06:20:13.527124+00:00 heroku[web.1]: Restarting
+2018-04-29T06:20:13.527672+00:00 heroku[web.1]: State changed from up to starting
+2018-04-29T06:19:31.000000+00:00 app[api]: Build succeeded
+2018-04-29T06:20:13.122264+00:00 app[api]: Deploy c0585186 by user chandresh41414@gmail.com
+2018-04-29T06:20:14.633704+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-29T06:20:13.122264+00:00 app[api]: Release v65 created by user chandresh41414@gmail.com
+2018-04-29T06:20:14.654075+00:00 app[web.1]: [2018-04-29 06:20:14 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T06:20:14.661136+00:00 app[web.1]: [2018-04-29 06:20:14 +0000] [4] [INFO] Handling signal: term
+2018-04-29T06:20:14.655237+00:00 app[web.1]: [2018-04-29 06:20:14 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T06:20:14.761881+00:00 app[web.1]: [2018-04-29 06:20:14 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T06:20:14.860908+00:00 heroku[web.1]: Process exited with status 0
+2018-04-29T06:20:26.112281+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T06:20:29.060889+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T06:20:28.957421+00:00 app[web.1]: [2018-04-29 06:20:28 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T06:20:28.958533+00:00 app[web.1]: [2018-04-29 06:20:28 +0000] [4] [INFO] Listening at: http://0.0.0.0:49146 (4)
+2018-04-29T06:20:28.958718+00:00 app[web.1]: [2018-04-29 06:20:28 +0000] [4] [INFO] Using worker: sync
+2018-04-29T06:20:28.973980+00:00 app[web.1]: [2018-04-29 06:20:28 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T06:20:29.041484+00:00 app[web.1]: [2018-04-29 06:20:29 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T06:20:29.386795+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:20:29.386840+00:00 app[web.1]:   """)
+2018-04-29T06:20:29.579199+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:20:29.579204+00:00 app[web.1]:   """)
+2018-04-29T06:21:00.346606+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=22687703-6725-4e19-a572-3eb9a5a5bab1 fwd="157.49.190.220" dyno=web.1 connect=0ms service=25ms status=200 bytes=538 protocol=https
+2018-04-29T06:21:00.347400+00:00 app[web.1]: 10.150.206.229 - - [29/Apr/2018:06:21:00 +0000] "GET /location HTTP/1.1" 200 385 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T06:21:14.146088+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=54bff4b0-cd9b-4cbf-9075-1b894247e6ba fwd="157.49.190.220" dyno=web.1 connect=0ms service=469ms status=200 bytes=159 protocol=https
+2018-04-29T06:21:14.131060+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-29T06:21:14.131092+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-29T06:21:14.144366+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T06:21:14.146929+00:00 app[web.1]: 10.150.206.229 - - [29/Apr/2018:06:21:14 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T06:21:24.920891+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=353720ee-812a-40d5-91be-f8d72234cd2b fwd="157.49.190.220" dyno=web.1 connect=0ms service=420ms status=500 bytes=945 protocol=https
+2018-04-29T06:21:24.858072+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-29T06:21:24.858090+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-29T06:21:24.863596+00:00 app[web.1]: predictions:  [0 0 2 0]
+2018-04-29T06:21:24.904253+00:00 app[web.1]: 77.66321161 12.84341208
+2018-04-29T06:21:24.911354+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:21:24.911358+00:00 app[web.1]:   File "/app/.heroku/python/bin/bottle.py", line 862, in _handle
+2018-04-29T06:21:24.911360+00:00 app[web.1]:     return route.call(**args)
+2018-04-29T06:21:24.911361+00:00 app[web.1]:   File "/app/.heroku/python/bin/bottle.py", line 1740, in wrapper
+2018-04-29T06:21:24.911362+00:00 app[web.1]:     rv = callback(*a, **ka)
+2018-04-29T06:21:24.911364+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 27, in process
+2018-04-29T06:21:24.911366+00:00 app[web.1]:     model.predictPotholes(request.json)
+2018-04-29T06:21:24.911367+00:00 app[web.1]:   File "/app/model.py", line 286, in predictPotholes
+2018-04-29T06:21:24.911369+00:00 app[web.1]:     database.insert_location(y[i])
+2018-04-29T06:21:24.911370+00:00 app[web.1]:   File "/app/database.py", line 40, in insert_location
+2018-04-29T06:21:24.911372+00:00 app[web.1]:     cur.execute("INSERT INTO public.location(latitude, longitude) VALUES (l1, l2)")
+2018-04-29T06:21:24.911374+00:00 app[web.1]: psycopg2.ProgrammingError: column "l1" does not exist
+2018-04-29T06:21:24.911375+00:00 app[web.1]: LINE 1: ...RT INTO public.location(latitude, longitude) VALUES (l1, l2)
+2018-04-29T06:21:24.911377+00:00 app[web.1]:                                                                 ^
+2018-04-29T06:21:24.911379+00:00 app[web.1]: 
+2018-04-29T06:21:24.921093+00:00 app[web.1]: 10.150.206.229 - - [29/Apr/2018:06:21:24 +0000] "POST /data HTTP/1.1" 500 765 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T06:25:12.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-04-29T06:25:59.591735+00:00 app[api]: Deploy 03e9f3e0 by user chandresh41414@gmail.com
+2018-04-29T06:25:59.591735+00:00 app[api]: Release v66 created by user chandresh41414@gmail.com
+2018-04-29T06:25:59.945437+00:00 heroku[web.1]: Restarting
+2018-04-29T06:25:59.945437+00:00 heroku[web.1]: State changed from up to starting
+2018-04-29T06:25:12.000000+00:00 app[api]: Build succeeded
+2018-04-29T06:26:01.396000+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-29T06:26:01.417772+00:00 app[web.1]: [2018-04-29 06:26:01 +0000] [4] [INFO] Handling signal: term
+2018-04-29T06:26:01.418568+00:00 app[web.1]: [2018-04-29 06:26:01 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T06:26:01.419671+00:00 app[web.1]: [2018-04-29 06:26:01 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T06:26:02.223119+00:00 app[web.1]: [2018-04-29 06:26:02 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T06:26:02.333693+00:00 heroku[web.1]: Process exited with status 0
+2018-04-29T06:26:11.011832+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T06:26:13.158289+00:00 app[web.1]: [2018-04-29 06:26:13 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T06:26:13.159265+00:00 app[web.1]: [2018-04-29 06:26:13 +0000] [4] [INFO] Listening at: http://0.0.0.0:26913 (4)
+2018-04-29T06:26:13.159527+00:00 app[web.1]: [2018-04-29 06:26:13 +0000] [4] [INFO] Using worker: sync
+2018-04-29T06:26:13.164754+00:00 app[web.1]: [2018-04-29 06:26:13 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T06:26:13.181297+00:00 app[web.1]: [2018-04-29 06:26:13 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T06:26:13.288114+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:26:13.288118+00:00 app[web.1]:   """)
+2018-04-29T06:26:13.291570+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:26:13.291573+00:00 app[web.1]:   """)
+2018-04-29T06:26:14.679379+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T06:26:26.161809+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=20079e5a-4706-4574-ab11-476d688870da fwd="157.49.190.220" dyno=web.1 connect=0ms service=30ms status=200 bytes=538 protocol=https
+2018-04-29T06:26:26.161297+00:00 app[web.1]: 10.81.225.141 - - [29/Apr/2018:06:26:26 +0000] "GET /location HTTP/1.1" 200 385 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T06:26:39.351837+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=f8ce2bc4-e317-43b6-95e5-1b8464d7f179 fwd="157.49.190.220" dyno=web.1 connect=0ms service=514ms status=200 bytes=159 protocol=https
+2018-04-29T06:26:39.279206+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-29T06:26:39.279238+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-29T06:26:39.290026+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-04-29T06:26:39.327853+00:00 app[web.1]: 77.66319141 12.84341177
+2018-04-29T06:26:39.351443+00:00 app[web.1]: 10.81.225.141 - - [29/Apr/2018:06:26:39 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T06:26:49.546024+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=35609494-693d-4213-96fe-08b59cb950c6 fwd="157.49.190.220" dyno=web.1 connect=0ms service=24ms status=200 bytes=591 protocol=https
+2018-04-29T06:26:49.545541+00:00 app[web.1]: 10.81.225.141 - - [29/Apr/2018:06:26:49 +0000] "GET /location HTTP/1.1" 200 438 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T06:30:00.478212+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=2a7e0c78-2a71-4a7e-8c5b-f4e0abf72cfd fwd="157.49.190.220" dyno=web.1 connect=0ms service=15ms status=200 bytes=591 protocol=https
+2018-04-29T06:30:00.477639+00:00 app[web.1]: 10.51.175.26 - - [29/Apr/2018:06:30:00 +0000] "GET /location HTTP/1.1" 200 438 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T06:36:21.835116+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=fe4b4174-9ddc-4091-a844-18b1ff9b3eb2 fwd="14.139.155.24" dyno=web.1 connect=0ms service=32ms status=200 bytes=591 protocol=https
+2018-04-29T06:36:21.834250+00:00 app[web.1]: 10.151.201.12 - - [29/Apr/2018:06:36:21 +0000] "GET /location HTTP/1.1" 200 438 "-" "python-requests/2.18.4"
+2018-04-29T06:56:27.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-04-29T06:57:23.607368+00:00 heroku[web.1]: Restarting
+2018-04-29T06:57:23.607854+00:00 heroku[web.1]: State changed from up to starting
+2018-04-29T06:57:24.232385+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-29T06:57:22.819512+00:00 app[api]: Deploy 011fca08 by user chandresh41414@gmail.com
+2018-04-29T06:57:24.240479+00:00 app[web.1]: [2018-04-29 06:57:24 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T06:57:24.240496+00:00 app[web.1]: [2018-04-29 06:57:24 +0000] [4] [INFO] Handling signal: term
+2018-04-29T06:57:24.240795+00:00 app[web.1]: [2018-04-29 06:57:24 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T06:57:24.441787+00:00 app[web.1]: [2018-04-29 06:57:24 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T06:57:24.504450+00:00 heroku[web.1]: Process exited with status 0
+2018-04-29T06:57:22.819512+00:00 app[api]: Release v67 created by user chandresh41414@gmail.com
+2018-04-29T06:56:27.000000+00:00 app[api]: Build succeeded
+2018-04-29T06:57:34.620717+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T06:57:36.917127+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T06:57:36.733432+00:00 app[web.1]: [2018-04-29 06:57:36 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T06:57:36.734307+00:00 app[web.1]: [2018-04-29 06:57:36 +0000] [4] [INFO] Listening at: http://0.0.0.0:49591 (4)
+2018-04-29T06:57:36.734408+00:00 app[web.1]: [2018-04-29 06:57:36 +0000] [4] [INFO] Using worker: sync
+2018-04-29T06:57:36.739357+00:00 app[web.1]: [2018-04-29 06:57:36 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T06:57:36.831576+00:00 app[web.1]: [2018-04-29 06:57:36 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T06:57:36.855882+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:57:36.855887+00:00 app[web.1]:   """)
+2018-04-29T06:57:36.860336+00:00 app[web.1]: [2018-04-29 06:57:36 +0000] [8] [ERROR] inconsistent use of tabs and spaces in indentation (model.py, line 290)
+2018-04-29T06:57:36.860340+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:36.860342+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:57:36.860344+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:57:36.860345+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:57:36.860347+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:57:36.860348+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:57:36.860350+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:57:36.860352+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:57:36.860353+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:57:36.860355+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:57:36.860356+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:57:36.860358+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:57:36.860360+00:00 app[web.1]:     import model
+2018-04-29T06:57:36.860362+00:00 app[web.1]:   File "/app/model.py", line 290
+2018-04-29T06:57:36.860363+00:00 app[web.1]:     URL = URL + str(y[i][0]) + ','
+2018-04-29T06:57:36.860365+00:00 app[web.1]:                                  ^
+2018-04-29T06:57:36.860401+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:57:36.861485+00:00 app[web.1]: [2018-04-29 06:57:36 +0000] [8] [ERROR] Exception in worker process
+2018-04-29T06:57:36.861488+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:36.861490+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:57:36.861491+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:57:36.861493+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:57:36.861495+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:57:36.861497+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:57:36.861498+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:57:36.861500+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:57:36.861502+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:57:36.861504+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:57:36.861505+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:57:36.861507+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:57:36.861509+00:00 app[web.1]:     import model
+2018-04-29T06:57:36.861510+00:00 app[web.1]:   File "/app/model.py", line 290
+2018-04-29T06:57:36.861512+00:00 app[web.1]:     URL = URL + str(y[i][0]) + ','
+2018-04-29T06:57:36.861513+00:00 app[web.1]:                                  ^
+2018-04-29T06:57:36.861515+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:57:36.861517+00:00 app[web.1]: 
+2018-04-29T06:57:36.861518+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:57:36.861520+00:00 app[web.1]: 
+2018-04-29T06:57:36.861522+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:36.861523+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:57:36.861525+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:57:36.861526+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:57:36.861528+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:57:36.861530+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:57:36.861531+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:57:36.863051+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:57:36.863890+00:00 app[web.1]: [2018-04-29 06:57:36 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T06:57:36.920737+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:57:36.920740+00:00 app[web.1]:   """)
+2018-04-29T06:57:36.926206+00:00 app[web.1]: [2018-04-29 06:57:36 +0000] [9] [ERROR] inconsistent use of tabs and spaces in indentation (model.py, line 290)
+2018-04-29T06:57:36.926210+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:36.926212+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:57:36.926213+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:57:36.926215+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:57:36.926217+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:57:36.926219+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:57:36.926220+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:57:36.926222+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:57:36.926223+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:57:36.926225+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:57:36.926227+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:57:36.926229+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:57:36.926230+00:00 app[web.1]:     import model
+2018-04-29T06:57:36.926232+00:00 app[web.1]:   File "/app/model.py", line 290
+2018-04-29T06:57:36.926233+00:00 app[web.1]:     URL = URL + str(y[i][0]) + ','
+2018-04-29T06:57:36.926235+00:00 app[web.1]:                                  ^
+2018-04-29T06:57:36.926272+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:57:36.927411+00:00 app[web.1]: [2018-04-29 06:57:36 +0000] [9] [ERROR] Exception in worker process
+2018-04-29T06:57:36.927413+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:36.927415+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:57:36.927416+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:57:36.927418+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:57:36.927420+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:57:36.927421+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:57:36.927423+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:57:36.927425+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:57:36.927426+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:57:36.927427+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:57:36.927434+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:57:36.927436+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:57:36.927438+00:00 app[web.1]:     import model
+2018-04-29T06:57:36.927439+00:00 app[web.1]:   File "/app/model.py", line 290
+2018-04-29T06:57:36.927440+00:00 app[web.1]:     URL = URL + str(y[i][0]) + ','
+2018-04-29T06:57:36.927442+00:00 app[web.1]:                                  ^
+2018-04-29T06:57:36.927443+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:57:36.927445+00:00 app[web.1]: 
+2018-04-29T06:57:36.927446+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:57:36.927447+00:00 app[web.1]: 
+2018-04-29T06:57:36.927449+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:36.927452+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:57:36.927450+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:57:36.927453+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:57:36.927454+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:57:36.927456+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:57:36.927457+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:57:36.927619+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:57:36.928442+00:00 app[web.1]: [2018-04-29 06:57:36 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T06:57:36.980537+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:36.980553+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 209, in run
+2018-04-29T06:57:36.980832+00:00 app[web.1]:     self.sleep()
+2018-04-29T06:57:36.980838+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 359, in sleep
+2018-04-29T06:57:36.981047+00:00 app[web.1]:     ready = select.select([self.PIPE[0]], [], [], 1.0)
+2018-04-29T06:57:36.981053+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 244, in handle_chld
+2018-04-29T06:57:36.981213+00:00 app[web.1]:     self.reap_workers()
+2018-04-29T06:57:36.981219+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 524, in reap_workers
+2018-04-29T06:57:36.981454+00:00 app[web.1]:     raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2018-04-29T06:57:36.981498+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2018-04-29T06:57:36.981500+00:00 app[web.1]: 
+2018-04-29T06:57:36.981502+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:57:36.981504+00:00 app[web.1]: 
+2018-04-29T06:57:36.981508+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:36.981512+00:00 app[web.1]:   File "/app/.heroku/python/bin/gunicorn", line 11, in <module>
+2018-04-29T06:57:36.981763+00:00 app[web.1]:     sys.exit(run())
+2018-04-29T06:57:36.981770+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+2018-04-29T06:57:36.981903+00:00 app[web.1]:     WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+2018-04-29T06:57:36.981909+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 203, in run
+2018-04-29T06:57:36.982107+00:00 app[web.1]:     super(Application, self).run()
+2018-04-29T06:57:36.982110+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 72, in run
+2018-04-29T06:57:36.982232+00:00 app[web.1]:     Arbiter(self).run()
+2018-04-29T06:57:36.982237+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 231, in run
+2018-04-29T06:57:36.982389+00:00 app[web.1]:     self.halt(reason=inst.reason, exit_status=inst.exit_status)
+2018-04-29T06:57:36.982394+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 344, in halt
+2018-04-29T06:57:36.982582+00:00 app[web.1]:     self.stop()
+2018-04-29T06:57:36.982588+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 393, in stop
+2018-04-29T06:57:36.982785+00:00 app[web.1]:     time.sleep(0.1)
+2018-04-29T06:57:36.982790+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 244, in handle_chld
+2018-04-29T06:57:36.982944+00:00 app[web.1]:     self.reap_workers()
+2018-04-29T06:57:36.982950+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 524, in reap_workers
+2018-04-29T06:57:36.983179+00:00 app[web.1]:     raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2018-04-29T06:57:36.983208+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2018-04-29T06:57:37.104703+00:00 heroku[web.1]: Process exited with status 1
+2018-04-29T06:57:37.240746+00:00 heroku[web.1]: State changed from up to crashed
+2018-04-29T06:57:37.243473+00:00 heroku[web.1]: State changed from crashed to starting
+2018-04-29T06:57:48.737454+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T06:57:51.494127+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T06:57:51.498079+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [4] [INFO] Reason: Worker failed to boot.
+2018-04-29T06:57:51.186598+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T06:57:51.187325+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [4] [INFO] Listening at: http://0.0.0.0:50480 (4)
+2018-04-29T06:57:51.187485+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [4] [INFO] Using worker: sync
+2018-04-29T06:57:51.192815+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T06:57:51.236416+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T06:57:51.337462+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:57:51.337467+00:00 app[web.1]:   """)
+2018-04-29T06:57:51.341599+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [8] [ERROR] inconsistent use of tabs and spaces in indentation (model.py, line 290)
+2018-04-29T06:57:51.341602+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:51.341603+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:57:51.341605+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:57:51.341611+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:57:51.341612+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:57:51.341614+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:57:51.341615+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:57:51.341617+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:57:51.341618+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:57:51.341620+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:57:51.341621+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:57:51.341623+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:57:51.341625+00:00 app[web.1]:     import model
+2018-04-29T06:57:51.341626+00:00 app[web.1]:   File "/app/model.py", line 290
+2018-04-29T06:57:51.341628+00:00 app[web.1]:     URL = URL + str(y[i][0]) + ','
+2018-04-29T06:57:51.341629+00:00 app[web.1]:                                  ^
+2018-04-29T06:57:51.341737+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:57:51.342723+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [8] [ERROR] Exception in worker process
+2018-04-29T06:57:51.342725+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:51.342727+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:57:51.342729+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:57:51.342730+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:57:51.342732+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:57:51.342733+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:57:51.342735+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:57:51.342736+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:57:51.342738+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:57:51.342739+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:57:51.342741+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:57:51.342742+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:57:51.342744+00:00 app[web.1]:     import model
+2018-04-29T06:57:51.342745+00:00 app[web.1]:   File "/app/model.py", line 290
+2018-04-29T06:57:51.342747+00:00 app[web.1]:     URL = URL + str(y[i][0]) + ','
+2018-04-29T06:57:51.342748+00:00 app[web.1]:                                  ^
+2018-04-29T06:57:51.342750+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:57:51.342752+00:00 app[web.1]: 
+2018-04-29T06:57:51.342753+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:57:51.342755+00:00 app[web.1]: 
+2018-04-29T06:57:51.342756+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:51.342758+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:57:51.342759+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:57:51.342761+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:57:51.342762+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:57:51.342764+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:57:51.342765+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:57:51.342800+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:57:51.343463+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T06:57:51.367093+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:57:51.367096+00:00 app[web.1]:   """)
+2018-04-29T06:57:51.371018+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [9] [ERROR] inconsistent use of tabs and spaces in indentation (model.py, line 290)
+2018-04-29T06:57:51.371021+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:51.371023+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:57:51.371024+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:57:51.371027+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:57:51.371028+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:57:51.371030+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:57:51.371031+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:57:51.371033+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:57:51.371034+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:57:51.371036+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:57:51.371038+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:57:51.371039+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:57:51.371041+00:00 app[web.1]:     import model
+2018-04-29T06:57:51.371042+00:00 app[web.1]:   File "/app/model.py", line 290
+2018-04-29T06:57:51.371044+00:00 app[web.1]:     URL = URL + str(y[i][0]) + ','
+2018-04-29T06:57:51.371052+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:57:51.371898+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [9] [ERROR] Exception in worker process
+2018-04-29T06:57:51.371045+00:00 app[web.1]:                                  ^
+2018-04-29T06:57:51.371901+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:51.371904+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:57:51.371902+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:57:51.371906+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:57:51.371907+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:57:51.371909+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:57:51.371910+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:57:51.371914+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:57:51.371915+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:57:51.371936+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:57:51.371912+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:57:51.371940+00:00 app[web.1]:     import model
+2018-04-29T06:57:51.371941+00:00 app[web.1]:   File "/app/model.py", line 290
+2018-04-29T06:57:51.371943+00:00 app[web.1]:     URL = URL + str(y[i][0]) + ','
+2018-04-29T06:57:51.371944+00:00 app[web.1]:                                  ^
+2018-04-29T06:57:51.371946+00:00 app[web.1]: TabError: inconsistent use of tabs and spaces in indentation
+2018-04-29T06:57:51.371938+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:57:51.371949+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:57:51.371951+00:00 app[web.1]: 
+2018-04-29T06:57:51.371952+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:57:51.371948+00:00 app[web.1]: 
+2018-04-29T06:57:51.371955+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:57:51.371957+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:57:51.371958+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:57:51.371954+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:57:51.371960+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 148, in load_wsgi
+2018-04-29T06:57:51.371961+00:00 app[web.1]:     self.reloader.add_extra_file(exc_val.filename)
+2018-04-29T06:57:51.371967+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+2018-04-29T06:57:51.372555+00:00 app[web.1]: [2018-04-29 06:57:51 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T06:57:51.600147+00:00 heroku[web.1]: State changed from starting to crashed
+2018-04-29T06:57:51.579439+00:00 heroku[web.1]: Process exited with status 3
+2018-04-29T06:58:48.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-04-29T06:59:29.360337+00:00 heroku[web.1]: State changed from crashed to starting
+2018-04-29T06:59:28.731160+00:00 app[api]: Release v68 created by user chandresh41414@gmail.com
+2018-04-29T06:59:28.731160+00:00 app[api]: Deploy 92e2858e by user chandresh41414@gmail.com
+2018-04-29T06:58:48.000000+00:00 app[api]: Build succeeded
+2018-04-29T06:59:41.285556+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T06:59:44.184094+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T06:59:43.877855+00:00 app[web.1]: [2018-04-29 06:59:43 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T06:59:43.878727+00:00 app[web.1]: [2018-04-29 06:59:43 +0000] [4] [INFO] Listening at: http://0.0.0.0:36661 (4)
+2018-04-29T06:59:43.879772+00:00 app[web.1]: [2018-04-29 06:59:43 +0000] [4] [INFO] Using worker: sync
+2018-04-29T06:59:43.885497+00:00 app[web.1]: [2018-04-29 06:59:43 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T06:59:43.932133+00:00 app[web.1]: [2018-04-29 06:59:43 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T06:59:44.019665+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:59:44.019670+00:00 app[web.1]:   """)
+2018-04-29T06:59:44.059138+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T06:59:44.059149+00:00 app[web.1]:   """)
+2018-04-29T06:59:48.874149+00:00 app[web.1]: [2018-04-29 06:59:48 +0000] [9] [ERROR] Exception in worker process
+2018-04-29T06:59:48.874172+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:59:48.874174+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:59:48.874176+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:59:48.874178+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:59:48.874179+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:59:48.874180+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:59:48.874182+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:59:48.874185+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:59:48.874184+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:59:48.874187+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:59:48.874188+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:59:48.874190+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:59:48.874193+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:59:48.874191+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:59:48.874194+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:59:48.874196+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:59:48.874198+00:00 app[web.1]:     import model
+2018-04-29T06:59:48.874199+00:00 app[web.1]:   File "/app/model.py", line 16, in <module>
+2018-04-29T06:59:48.874201+00:00 app[web.1]:     import requests
+2018-04-29T06:59:48.874208+00:00 app[web.1]: ModuleNotFoundError: No module named 'requests'
+2018-04-29T06:59:48.874940+00:00 app[web.1]: [2018-04-29 06:59:48 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T06:59:48.881981+00:00 app[web.1]: [2018-04-29 06:59:48 +0000] [8] [ERROR] Exception in worker process
+2018-04-29T06:59:48.881985+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:59:48.881987+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+2018-04-29T06:59:48.881989+00:00 app[web.1]:     worker.init_process()
+2018-04-29T06:59:48.881990+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+2018-04-29T06:59:48.881992+00:00 app[web.1]:     self.load_wsgi()
+2018-04-29T06:59:48.881993+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+2018-04-29T06:59:48.881995+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
+2018-04-29T06:59:48.881997+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2018-04-29T06:59:48.881998+00:00 app[web.1]:     self.callable = self.load()
+2018-04-29T06:59:48.882000+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+2018-04-29T06:59:48.882001+00:00 app[web.1]:     return self.load_wsgiapp()
+2018-04-29T06:59:48.882003+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+2018-04-29T06:59:48.882005+00:00 app[web.1]:     return util.import_app(self.app_uri)
+2018-04-29T06:59:48.882006+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/util.py", line 352, in import_app
+2018-04-29T06:59:48.882008+00:00 app[web.1]:     __import__(module)
+2018-04-29T06:59:48.882009+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 4, in <module>
+2018-04-29T06:59:48.882011+00:00 app[web.1]:     import model
+2018-04-29T06:59:48.882012+00:00 app[web.1]:   File "/app/model.py", line 16, in <module>
+2018-04-29T06:59:48.882014+00:00 app[web.1]:     import requests
+2018-04-29T06:59:48.882055+00:00 app[web.1]: ModuleNotFoundError: No module named 'requests'
+2018-04-29T06:59:48.882894+00:00 app[web.1]: [2018-04-29 06:59:48 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T06:59:49.060133+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:59:49.060146+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 209, in run
+2018-04-29T06:59:49.060501+00:00 app[web.1]:     self.sleep()
+2018-04-29T06:59:49.060506+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 359, in sleep
+2018-04-29T06:59:49.060813+00:00 app[web.1]:     ready = select.select([self.PIPE[0]], [], [], 1.0)
+2018-04-29T06:59:49.060817+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 244, in handle_chld
+2018-04-29T06:59:49.061128+00:00 app[web.1]:     self.reap_workers()
+2018-04-29T06:59:49.061133+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 524, in reap_workers
+2018-04-29T06:59:49.061503+00:00 app[web.1]:     raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2018-04-29T06:59:49.061558+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2018-04-29T06:59:49.061564+00:00 app[web.1]: 
+2018-04-29T06:59:49.061565+00:00 app[web.1]: During handling of the above exception, another exception occurred:
+2018-04-29T06:59:49.061567+00:00 app[web.1]: 
+2018-04-29T06:59:49.061570+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T06:59:49.061576+00:00 app[web.1]:   File "/app/.heroku/python/bin/gunicorn", line 11, in <module>
+2018-04-29T06:59:49.061717+00:00 app[web.1]:     sys.exit(run())
+2018-04-29T06:59:49.061721+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+2018-04-29T06:59:49.061888+00:00 app[web.1]:     WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+2018-04-29T06:59:49.061892+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 203, in run
+2018-04-29T06:59:49.062105+00:00 app[web.1]:     super(Application, self).run()
+2018-04-29T06:59:49.062109+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 72, in run
+2018-04-29T06:59:49.062266+00:00 app[web.1]:     Arbiter(self).run()
+2018-04-29T06:59:49.062270+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 231, in run
+2018-04-29T06:59:49.062485+00:00 app[web.1]:     self.halt(reason=inst.reason, exit_status=inst.exit_status)
+2018-04-29T06:59:49.062489+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 344, in halt
+2018-04-29T06:59:49.064799+00:00 app[web.1]:     self.stop()
+2018-04-29T06:59:49.064803+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 393, in stop
+2018-04-29T06:59:49.065163+00:00 app[web.1]:     time.sleep(0.1)
+2018-04-29T06:59:49.065169+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 244, in handle_chld
+2018-04-29T06:59:49.065394+00:00 app[web.1]:     self.reap_workers()
+2018-04-29T06:59:49.065399+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 524, in reap_workers
+2018-04-29T06:59:49.065758+00:00 app[web.1]:     raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+2018-04-29T06:59:49.065784+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+2018-04-29T06:59:49.156215+00:00 heroku[web.1]: Process exited with status 1
+2018-04-29T06:59:49.174728+00:00 heroku[web.1]: State changed from up to crashed
+2018-04-29T07:01:24.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-04-29T07:02:11.734270+00:00 app[api]: Deploy f429b5c0 by user chandresh41414@gmail.com
+2018-04-29T07:02:11.734270+00:00 app[api]: Release v69 created by user chandresh41414@gmail.com
+2018-04-29T07:02:12.168337+00:00 heroku[web.1]: State changed from crashed to starting
+2018-04-29T07:01:24.000000+00:00 app[api]: Build succeeded
+2018-04-29T07:02:24.308787+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T07:02:26.995217+00:00 app[web.1]: [2018-04-29 07:02:26 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T07:02:26.995942+00:00 app[web.1]: [2018-04-29 07:02:26 +0000] [4] [INFO] Listening at: http://0.0.0.0:47137 (4)
+2018-04-29T07:02:26.998637+00:00 app[web.1]: [2018-04-29 07:02:26 +0000] [4] [INFO] Using worker: sync
+2018-04-29T07:02:27.007002+00:00 app[web.1]: [2018-04-29 07:02:27 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T07:02:27.019016+00:00 app[web.1]: [2018-04-29 07:02:27 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T07:02:27.471777+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T07:02:27.471818+00:00 app[web.1]:   """)
+2018-04-29T07:02:27.548333+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T07:02:27.548338+00:00 app[web.1]:   """)
+2018-04-29T07:02:28.078573+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T07:03:14.933444+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b2fba689-656e-43f3-ba3d-545ef1d68340 fwd="157.49.190.220" dyno=web.1 connect=0ms service=38ms status=200 bytes=591 protocol=https
+2018-04-29T07:03:14.934609+00:00 app[web.1]: 10.65.65.211 - - [29/Apr/2018:07:03:14 +0000] "GET /location HTTP/1.1" 200 438 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T07:03:16.307486+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=84cba760-b163-48a7-9519-328785eedb40 fwd="157.49.190.220" dyno=web.1 connect=0ms service=47ms status=200 bytes=591 protocol=https
+2018-04-29T07:03:16.308889+00:00 app[web.1]: 10.65.65.211 - - [29/Apr/2018:07:03:16 +0000] "GET /location HTTP/1.1" 200 438 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T07:03:31.467056+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-29T07:03:31.467069+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-29T07:03:31.616170+00:00 app[web.1]: Traceback (most recent call last):
+2018-04-29T07:03:31.616175+00:00 app[web.1]:   File "/app/.heroku/python/bin/bottle.py", line 862, in _handle
+2018-04-29T07:03:31.616177+00:00 app[web.1]:     return route.call(**args)
+2018-04-29T07:03:31.484534+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T07:03:31.616178+00:00 app[web.1]:   File "/app/.heroku/python/bin/bottle.py", line 1740, in wrapper
+2018-04-29T07:03:31.616184+00:00 app[web.1]:     rv = callback(*a, **ka)
+2018-04-29T07:03:31.616186+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 27, in process
+2018-04-29T07:03:31.616189+00:00 app[web.1]:   File "/app/model.py", line 298, in predictPotholes
+2018-04-29T07:03:31.616190+00:00 app[web.1]:     for j in r.json().get('snappedPoints'):
+2018-04-29T07:03:31.616187+00:00 app[web.1]:     model.predictPotholes(request.json)
+2018-04-29T07:03:31.616192+00:00 app[web.1]: TypeError: 'NoneType' object is not iterable
+2018-04-29T07:03:31.623841+00:00 app[web.1]: 10.65.65.211 - - [29/Apr/2018:07:03:31 +0000] "POST /data HTTP/1.1" 500 765 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T07:03:31.622774+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=e3996d18-37b1-49e2-a85f-ea332f112c6e fwd="157.49.190.220" dyno=web.1 connect=0ms service=907ms status=500 bytes=945 protocol=https
+2018-04-29T07:05:42.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-04-29T07:05:42.000000+00:00 app[api]: Build succeeded
+2018-04-29T07:06:32.068805+00:00 heroku[web.1]: Restarting
+2018-04-29T07:06:32.069402+00:00 heroku[web.1]: State changed from up to starting
+2018-04-29T07:06:30.866045+00:00 app[api]: Release v70 created by user chandresh41414@gmail.com
+2018-04-29T07:06:30.866045+00:00 app[api]: Deploy 7db3d08a by user chandresh41414@gmail.com
+2018-04-29T07:06:33.298888+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-29T07:06:33.314932+00:00 app[web.1]: [2018-04-29 07:06:33 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T07:06:33.319387+00:00 app[web.1]: [2018-04-29 07:06:33 +0000] [4] [INFO] Handling signal: term
+2018-04-29T07:06:33.366626+00:00 app[web.1]: [2018-04-29 07:06:33 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T07:06:33.872831+00:00 app[web.1]: [2018-04-29 07:06:33 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T07:06:33.999824+00:00 heroku[web.1]: Process exited with status 0
+2018-04-29T07:06:41.537143+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T07:06:43.284395+00:00 app[web.1]: [2018-04-29 07:06:43 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T07:06:43.285156+00:00 app[web.1]: [2018-04-29 07:06:43 +0000] [4] [INFO] Listening at: http://0.0.0.0:13804 (4)
+2018-04-29T07:06:43.285296+00:00 app[web.1]: [2018-04-29 07:06:43 +0000] [4] [INFO] Using worker: sync
+2018-04-29T07:06:43.289851+00:00 app[web.1]: [2018-04-29 07:06:43 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T07:06:43.332693+00:00 app[web.1]: [2018-04-29 07:06:43 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T07:06:43.391890+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T07:06:43.391895+00:00 app[web.1]:   """)
+2018-04-29T07:06:43.407628+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T07:06:43.407631+00:00 app[web.1]:   """)
+2018-04-29T07:06:43.832720+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T07:06:46.370682+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=edbd3705-e94d-4c09-b672-dd13a174d854 fwd="157.49.190.220" dyno=web.1 connect=0ms service=1132ms status=200 bytes=591 protocol=https
+2018-04-29T07:06:46.369187+00:00 app[web.1]: 10.151.195.140 - - [29/Apr/2018:07:06:46 +0000] "GET /location HTTP/1.1" 200 438 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T07:06:46.369484+00:00 app[web.1]: 10.43.138.228 - - [29/Apr/2018:07:06:46 +0000] "GET /location HTTP/1.1" 200 438 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T07:06:46.371451+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=ccf25d69-d694-4a9c-adf2-7b6b4c34d6d9 fwd="157.49.190.220" dyno=web.1 connect=0ms service=1617ms status=200 bytes=591 protocol=https
+2018-04-29T07:06:53.661270+00:00 app[web.1]: 10.142.180.61 - - [29/Apr/2018:07:06:53 +0000] "GET /location HTTP/1.1" 200 438 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T07:06:53.661923+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=64f86942-c8a0-4703-a13c-b5e28ac0eea5 fwd="157.49.190.220" dyno=web.1 connect=1ms service=13ms status=200 bytes=591 protocol=https
+2018-04-29T07:07:12.129738+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=ef9c6ded-b779-4d37-b257-91ec5040c1ab fwd="157.49.190.220" dyno=web.1 connect=0ms service=237ms status=200 bytes=159 protocol=https
+2018-04-29T07:07:12.124122+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-29T07:07:12.128479+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T07:07:12.124143+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-29T07:07:12.129125+00:00 app[web.1]: 10.30.63.106 - - [29/Apr/2018:07:07:12 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T07:07:26.785162+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=92fac7b1-eeb7-434b-9745-382b9a8ab29f fwd="157.49.190.220" dyno=web.1 connect=0ms service=220ms status=200 bytes=159 protocol=https
+2018-04-29T07:07:26.780806+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-29T07:07:26.780816+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-29T07:07:26.783962+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T07:07:26.784514+00:00 app[web.1]: 10.30.63.106 - - [29/Apr/2018:07:07:26 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T07:07:44.666887+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=b4e1d035-94d3-440e-8a71-883ce16762dc fwd="157.49.190.220" dyno=web.1 connect=1ms service=310ms status=200 bytes=159 protocol=https
+2018-04-29T07:07:44.565274+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-04-29T07:07:44.662215+00:00 app[web.1]: 77.66317555502758 12.843316895833544
+2018-04-29T07:07:44.666003+00:00 app[web.1]: 10.30.63.106 - - [29/Apr/2018:07:07:44 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T07:07:51.446378+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=55849077-ab70-4926-9818-c34f68f66cdf fwd="157.49.190.220" dyno=web.1 connect=0ms service=14ms status=200 bytes=654 protocol=https
+2018-04-29T07:07:51.445764+00:00 app[web.1]: 10.30.63.106 - - [29/Apr/2018:07:07:51 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T07:07:53.609717+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=63cbf2da-f9a8-49cb-b5f0-5c9c780a981e fwd="157.49.190.220" dyno=web.1 connect=0ms service=29ms status=200 bytes=654 protocol=https
+2018-04-29T07:07:53.609255+00:00 app[web.1]: 10.30.63.106 - - [29/Apr/2018:07:07:53 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T07:43:33.851275+00:00 heroku[web.1]: Idling
+2018-04-29T07:43:33.852045+00:00 heroku[web.1]: State changed from up to down
+2018-04-29T07:43:34.653067+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-29T07:43:34.667310+00:00 app[web.1]: [2018-04-29 07:43:34 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T07:43:34.665898+00:00 app[web.1]: [2018-04-29 07:43:34 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T07:43:34.782482+00:00 app[web.1]: [2018-04-29 07:43:34 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T07:43:34.679739+00:00 app[web.1]: [2018-04-29 07:43:34 +0000] [4] [INFO] Handling signal: term
+2018-04-29T07:43:34.884915+00:00 heroku[web.1]: Process exited with status 0
+2018-04-29T09:49:07.919402+00:00 heroku[web.1]: Unidling
+2018-04-29T09:49:07.919916+00:00 heroku[web.1]: State changed from down to starting
+2018-04-29T09:49:19.104967+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T09:49:21.250820+00:00 app[web.1]: [2018-04-29 09:49:21 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T09:49:21.251533+00:00 app[web.1]: [2018-04-29 09:49:21 +0000] [4] [INFO] Listening at: http://0.0.0.0:20342 (4)
+2018-04-29T09:49:21.251733+00:00 app[web.1]: [2018-04-29 09:49:21 +0000] [4] [INFO] Using worker: sync
+2018-04-29T09:49:21.256320+00:00 app[web.1]: [2018-04-29 09:49:21 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T09:49:21.335166+00:00 app[web.1]: [2018-04-29 09:49:21 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T09:49:21.380386+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T09:49:21.380389+00:00 app[web.1]:   """)
+2018-04-29T09:49:21.403448+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T09:49:21.403453+00:00 app[web.1]:   """)
+2018-04-29T09:49:21.790184+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T09:49:26.144944+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=724684c9-90b6-4f30-b959-436b57c2e729 fwd="157.49.157.153" dyno=web.1 connect=0ms service=2395ms status=200 bytes=654 protocol=https
+2018-04-29T09:49:26.127297+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8ad4aa69-8cfc-4e35-9813-4683cf29170e fwd="157.49.157.153" dyno=web.1 connect=0ms service=2692ms status=200 bytes=654 protocol=https
+2018-04-29T09:49:26.127973+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=47e3b521-727d-4801-a819-74e85181b83b fwd="157.49.157.153" dyno=web.1 connect=0ms service=3194ms status=200 bytes=654 protocol=https
+2018-04-29T09:49:26.145799+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=0043e013-30a3-42dd-a74a-d8b94b3c3f98 fwd="157.49.157.153" dyno=web.1 connect=0ms service=2133ms status=200 bytes=654 protocol=https
+2018-04-29T09:49:26.128225+00:00 app[web.1]: 10.67.237.54 - - [29/Apr/2018:09:49:26 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T09:49:26.129033+00:00 app[web.1]: 10.30.49.67 - - [29/Apr/2018:09:49:26 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T09:49:26.145147+00:00 app[web.1]: 10.65.204.162 - - [29/Apr/2018:09:49:26 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T09:49:26.146265+00:00 app[web.1]: 10.180.49.12 - - [29/Apr/2018:09:49:26 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T09:49:28.668048+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=897d66a6-a0ad-420f-b5d2-daaba8e67e82 fwd="157.49.157.153" dyno=web.1 connect=0ms service=15ms status=200 bytes=654 protocol=https
+2018-04-29T09:49:28.669464+00:00 app[web.1]: 10.30.49.67 - - [29/Apr/2018:09:49:28 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T09:49:54.559635+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f80b690d-82f9-4140-9409-083cf2db01ab fwd="157.49.157.153" dyno=web.1 connect=0ms service=15ms status=200 bytes=654 protocol=https
+2018-04-29T09:49:54.560694+00:00 app[web.1]: 10.30.49.67 - - [29/Apr/2018:09:49:54 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:00:58.524171+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=6fb39f9e-5e11-47d6-a5cd-30ef773b9c01 fwd="157.49.157.153" dyno=web.1 connect=1ms service=44ms status=200 bytes=654 protocol=https
+2018-04-29T10:00:58.525522+00:00 app[web.1]: 10.41.195.2 - - [29/Apr/2018:10:00:58 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:04:44.701152+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=01cbc26b-ef82-4c44-bd9a-f789c8b4758d fwd="157.49.157.153" dyno=web.1 connect=1ms service=23ms status=200 bytes=654 protocol=https
+2018-04-29T10:04:44.702101+00:00 app[web.1]: 10.101.219.132 - - [29/Apr/2018:10:04:44 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:07:30.443755+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=7153ff82-0f9b-4a3e-9d5f-d7cde1ba4c91 fwd="157.49.157.153" dyno=web.1 connect=0ms service=44ms status=200 bytes=654 protocol=https
+2018-04-29T10:07:30.444633+00:00 app[web.1]: 10.79.228.240 - - [29/Apr/2018:10:07:30 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:08:07.768634+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=6dedd22a-4ff8-4864-b180-d19aaf7c0a83 fwd="157.49.157.153" dyno=web.1 connect=1ms service=44ms status=200 bytes=654 protocol=https
+2018-04-29T10:08:07.769269+00:00 app[web.1]: 10.180.145.46 - - [29/Apr/2018:10:08:07 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:08:38.987991+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=0c698975-649b-48fd-9e01-76a09f6eb855 fwd="157.49.157.153" dyno=web.1 connect=0ms service=34ms status=200 bytes=654 protocol=https
+2018-04-29T10:08:38.989011+00:00 app[web.1]: 10.141.244.173 - - [29/Apr/2018:10:08:38 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:16:53.795109+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=affd6c7f-cabf-4a00-9f43-799df25cdb77 fwd="157.49.157.153" dyno=web.1 connect=1ms service=18ms status=200 bytes=654 protocol=https
+2018-04-29T10:16:53.796576+00:00 app[web.1]: 10.99.211.45 - - [29/Apr/2018:10:16:53 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:18:34.402561+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f6173e22-8fc6-459b-b373-7af88cfe75f4 fwd="157.49.157.153" dyno=web.1 connect=0ms service=15ms status=200 bytes=654 protocol=https
+2018-04-29T10:18:34.404086+00:00 app[web.1]: 10.30.49.67 - - [29/Apr/2018:10:18:34 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:22:10.580179+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=80cc95dd-e30d-495b-a864-a79370fea73b fwd="157.49.157.153" dyno=web.1 connect=1ms service=15ms status=200 bytes=654 protocol=https
+2018-04-29T10:22:10.580754+00:00 app[web.1]: 10.35.228.180 - - [29/Apr/2018:10:22:10 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:25:10.740881+00:00 app[web.1]: 10.102.148.117 - - [29/Apr/2018:10:25:10 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:25:10.740801+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f041b9c6-6a09-4e5f-88e8-a65094865382 fwd="157.49.157.153" dyno=web.1 connect=0ms service=17ms status=200 bytes=654 protocol=https
+2018-04-29T10:27:27.036368+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=26904337-ed7d-4360-b654-439e738f20e1 fwd="157.49.157.153" dyno=web.1 connect=1ms service=18ms status=200 bytes=654 protocol=https
+2018-04-29T10:27:27.037201+00:00 app[web.1]: 10.99.211.45 - - [29/Apr/2018:10:27:27 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:35:00.484891+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f748e5bd-53db-4afa-90b3-a291cbf88096 fwd="157.49.157.153" dyno=web.1 connect=0ms service=39ms status=200 bytes=654 protocol=https
+2018-04-29T10:35:00.485404+00:00 app[web.1]: 10.81.225.141 - - [29/Apr/2018:10:35:00 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:44:41.252662+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b02f6dc1-9384-49a7-a765-a6ae4ad5f94d fwd="157.49.157.153" dyno=web.1 connect=0ms service=16ms status=200 bytes=654 protocol=https
+2018-04-29T10:44:41.253109+00:00 app[web.1]: 10.9.237.87 - - [29/Apr/2018:10:44:41 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:50:55.017313+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=cb98d00b-141f-4d13-ad50-fc1ed622aa17 fwd="157.49.157.153" dyno=web.1 connect=1ms service=20ms status=200 bytes=654 protocol=https
+2018-04-29T10:50:55.018153+00:00 app[web.1]: 10.5.209.209 - - [29/Apr/2018:10:50:55 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:52:46.548413+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=d593f8cb-f9fe-4ee0-a603-16a72677fd05 fwd="14.139.155.24" dyno=web.1 connect=2ms service=27ms status=200 bytes=654 protocol=https
+2018-04-29T10:52:46.549352+00:00 app[web.1]: 10.158.185.56 - - [29/Apr/2018:10:52:46 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T10:54:03.337255+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1446338c-7383-4cd2-b9da-f70873ccb539 fwd="14.139.155.24" dyno=web.1 connect=1ms service=31ms status=200 bytes=654 protocol=https
+2018-04-29T10:54:03.338278+00:00 app[web.1]: 10.43.181.164 - - [29/Apr/2018:10:54:03 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T11:12:39.861772+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1b7ac033-4154-4932-8ff0-c956b2f2af85 fwd="157.49.157.32" dyno=web.1 connect=0ms service=21ms status=200 bytes=654 protocol=https
+2018-04-29T11:12:39.862507+00:00 app[web.1]: 10.9.237.87 - - [29/Apr/2018:11:12:39 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T11:12:52.679139+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=7fa177c5-fc8a-4660-a4b9-915e44e6dd92 fwd="157.49.157.32" dyno=web.1 connect=1ms service=16ms status=200 bytes=654 protocol=https
+2018-04-29T11:12:52.679990+00:00 app[web.1]: 10.9.237.87 - - [29/Apr/2018:11:12:52 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T11:19:43.068438+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=789326c9-57cf-4f61-8e94-dbff2fb3be06 fwd="157.49.157.32" dyno=web.1 connect=1ms service=86ms status=200 bytes=654 protocol=https
+2018-04-29T11:19:43.069231+00:00 app[web.1]: 10.113.180.10 - - [29/Apr/2018:11:19:43 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T11:19:45.146181+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=852b5b71-d161-4a64-8c33-d4799f27c04f fwd="157.49.157.32" dyno=web.1 connect=0ms service=39ms status=200 bytes=654 protocol=https
+2018-04-29T11:19:45.147681+00:00 app[web.1]: 10.113.180.10 - - [29/Apr/2018:11:19:45 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T11:20:19.254181+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=7886f993-7978-405a-9f04-5904d64f0e89 fwd="157.49.157.32" dyno=web.1 connect=1ms service=19ms status=200 bytes=654 protocol=https
+2018-04-29T11:20:19.253595+00:00 app[web.1]: 10.47.231.89 - - [29/Apr/2018:11:20:19 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T11:21:06.189017+00:00 app[web.1]: 10.47.231.89 - - [29/Apr/2018:11:21:06 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T11:21:06.188929+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8720484f-8515-4adb-ae23-3ed0bc5c9d25 fwd="157.49.157.32" dyno=web.1 connect=0ms service=25ms status=200 bytes=654 protocol=https
+2018-04-29T11:30:53.080798+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:11:30:53 +0000] "GET /favicon.ico HTTP/1.1" 404 762 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon"
+2018-04-29T11:30:53.080908+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fierce-hamlet-74882.herokuapp.com request_id=6c94230e-64cb-4cc6-ae8a-4521adec839a fwd="14.139.155.24,64.233.172.181" dyno=web.1 connect=1ms service=9ms status=404 bytes=930 protocol=https
+2018-04-29T11:39:34.186431+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=0026ec4a-26dc-435a-aa8a-b5421d2e3860 fwd="157.49.149.225" dyno=web.1 connect=0ms service=23ms status=200 bytes=654 protocol=https
+2018-04-29T11:39:34.188499+00:00 app[web.1]: 10.37.194.195 - - [29/Apr/2018:11:39:34 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T11:46:22.214405+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=4df66f36-ff82-46ac-8ca6-de1365ae3dc0 fwd="14.139.155.24" dyno=web.1 connect=0ms service=32ms status=200 bytes=654 protocol=https
+2018-04-29T11:46:22.217734+00:00 app[web.1]: 10.41.195.2 - - [29/Apr/2018:11:46:22 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T11:47:19.069726+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=5b30df08-ac40-4995-977b-491b95296c6d fwd="14.139.155.24" dyno=web.1 connect=0ms service=16ms status=200 bytes=654 protocol=https
+2018-04-29T11:47:19.069775+00:00 app[web.1]: 10.150.100.71 - - [29/Apr/2018:11:47:19 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.19)"
+2018-04-29T12:05:32.350413+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f4e452e4-cf1b-4aa4-adb8-99f632d4bf7f fwd="157.49.171.105" dyno=web.1 connect=0ms service=41ms status=200 bytes=654 protocol=https
+2018-04-29T12:05:32.353332+00:00 app[web.1]: 10.51.225.173 - - [29/Apr/2018:12:05:32 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T12:07:15.111597+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f0df4207-6201-41c3-a036-27f90deb4b70 fwd="157.49.171.105" dyno=web.1 connect=6ms service=30ms status=200 bytes=654 protocol=https
+2018-04-29T12:07:15.111635+00:00 app[web.1]: 10.111.216.133 - - [29/Apr/2018:12:07:15 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T12:42:35.292921+00:00 heroku[web.1]: Idling
+2018-04-29T12:42:35.293567+00:00 heroku[web.1]: State changed from up to down
+2018-04-29T12:42:36.371029+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-29T12:42:36.388141+00:00 app[web.1]: [2018-04-29 12:42:36 +0000] [4] [INFO] Handling signal: term
+2018-04-29T12:42:36.388155+00:00 app[web.1]: [2018-04-29 12:42:36 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T12:42:36.388156+00:00 app[web.1]: [2018-04-29 12:42:36 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T12:42:36.711725+00:00 app[web.1]: [2018-04-29 12:42:36 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T12:42:36.829798+00:00 heroku[web.1]: Process exited with status 0
+2018-04-29T13:32:34.032430+00:00 heroku[web.1]: Unidling
+2018-04-29T13:32:34.032872+00:00 heroku[web.1]: State changed from down to starting
+2018-04-29T13:32:46.669020+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T13:32:49.488547+00:00 app[web.1]: [2018-04-29 13:32:49 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T13:32:49.489304+00:00 app[web.1]: [2018-04-29 13:32:49 +0000] [4] [INFO] Listening at: http://0.0.0.0:28465 (4)
+2018-04-29T13:32:49.489458+00:00 app[web.1]: [2018-04-29 13:32:49 +0000] [4] [INFO] Using worker: sync
+2018-04-29T13:32:49.496396+00:00 app[web.1]: [2018-04-29 13:32:49 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T13:32:49.518426+00:00 app[web.1]: [2018-04-29 13:32:49 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T13:32:49.665880+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T13:32:49.665883+00:00 app[web.1]:   """)
+2018-04-29T13:32:49.839912+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T13:32:49.839949+00:00 app[web.1]:   """)
+2018-04-29T13:32:50.918297+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T13:32:56.828688+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=73b87629-2c01-4652-8b5a-856a44e84ce2 fwd="157.49.169.243" dyno=web.1 connect=0ms service=5508ms status=200 bytes=654 protocol=https
+2018-04-29T13:32:56.832886+00:00 app[web.1]: 10.189.169.232 - - [29/Apr/2018:13:32:56 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:32:56.839222+00:00 app[web.1]: 10.180.135.155 - - [29/Apr/2018:13:32:56 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:32:56.884887+00:00 app[web.1]: 10.51.202.214 - - [29/Apr/2018:13:32:56 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:32:56.906190+00:00 app[web.1]: 10.51.175.26 - - [29/Apr/2018:13:32:56 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:32:56.927915+00:00 app[web.1]: 10.11.176.95 - - [29/Apr/2018:13:32:56 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:32:56.931435+00:00 app[web.1]: 10.65.99.67 - - [29/Apr/2018:13:32:56 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:32:56.833659+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=460fcc19-1c55-47b7-a95c-bfdc8c318cf1 fwd="157.49.169.243" dyno=web.1 connect=1ms service=4698ms status=200 bytes=654 protocol=https
+2018-04-29T13:32:56.906175+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=59b1d71d-ea71-4e39-8e64-b24e986da13f fwd="157.49.169.243" dyno=web.1 connect=0ms service=4446ms status=200 bytes=654 protocol=https
+2018-04-29T13:32:56.928852+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9d2e377a-aa20-4bde-8ca8-1652fc27ed3f fwd="157.49.169.243" dyno=web.1 connect=1ms service=3924ms status=200 bytes=654 protocol=https
+2018-04-29T13:32:56.885369+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=e110948d-bdd2-4f2b-b85f-957941e89d31 fwd="157.49.169.243" dyno=web.1 connect=0ms service=4188ms status=200 bytes=654 protocol=https
+2018-04-29T13:32:56.930888+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=2b5a2a90-3a4d-4c50-9586-65b8c9c633a2 fwd="157.49.169.243" dyno=web.1 connect=0ms service=1677ms status=200 bytes=654 protocol=https
+2018-04-29T13:33:30.190474+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=c284da1b-cf8c-414d-8c8b-a76759c1d567 fwd="157.49.169.243" dyno=web.1 connect=0ms service=29ms status=200 bytes=654 protocol=https
+2018-04-29T13:33:30.193837+00:00 app[web.1]: 10.65.99.67 - - [29/Apr/2018:13:33:30 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:33:45.768696+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=13d41665-08b0-4782-89c5-9e3a40bfb43c fwd="157.49.169.243" dyno=web.1 connect=0ms service=30ms status=200 bytes=654 protocol=https
+2018-04-29T13:33:45.765609+00:00 app[web.1]: 10.5.221.41 - - [29/Apr/2018:13:33:45 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:33:52.290525+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=e37309f1-6d06-44d7-8ffa-98f1f6841c80 fwd="157.49.169.243" dyno=web.1 connect=0ms service=37ms status=200 bytes=654 protocol=https
+2018-04-29T13:33:52.287380+00:00 app[web.1]: 10.5.221.41 - - [29/Apr/2018:13:33:52 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:34:03.047045+00:00 app[web.1]: 10.5.221.41 - - [29/Apr/2018:13:34:03 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:34:03.050147+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=27794330-c74f-4524-91fc-a4e790d80866 fwd="157.49.169.243" dyno=web.1 connect=0ms service=29ms status=200 bytes=654 protocol=https
+2018-04-29T13:34:05.233142+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=a19f6df1-f3ef-412a-b90b-361bf68f4230 fwd="157.49.169.243" dyno=web.1 connect=1ms service=56ms status=200 bytes=654 protocol=https
+2018-04-29T13:34:05.230130+00:00 app[web.1]: 10.5.221.41 - - [29/Apr/2018:13:34:05 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:34:07.016068+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8f897040-88be-48c6-bd2e-f126e29575c3 fwd="157.49.169.243" dyno=web.1 connect=0ms service=37ms status=200 bytes=654 protocol=https
+2018-04-29T13:34:07.012989+00:00 app[web.1]: 10.5.221.41 - - [29/Apr/2018:13:34:07 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:34:10.309253+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=db902350-f0c8-4eaa-b06d-192c5c8455d4 fwd="157.49.169.243" dyno=web.1 connect=1ms service=38ms status=200 bytes=654 protocol=https
+2018-04-29T13:34:10.308711+00:00 app[web.1]: 10.5.207.142 - - [29/Apr/2018:13:34:10 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T13:45:57.210567+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=080f83fb-ae8f-47e8-bb45-3beda597f54c fwd="157.49.171.105" dyno=web.1 connect=1ms service=27ms status=200 bytes=654 protocol=https
+2018-04-29T13:45:57.208918+00:00 app[web.1]: 10.9.212.204 - - [29/Apr/2018:13:45:57 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T13:45:59.788809+00:00 app[web.1]: 10.9.212.204 - - [29/Apr/2018:13:45:59 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T13:45:59.787785+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=ba35a983-fe9f-40e1-9b3c-94d4b2ebb468 fwd="157.49.171.105" dyno=web.1 connect=1ms service=47ms status=200 bytes=654 protocol=https
+2018-04-29T14:19:54.452150+00:00 heroku[web.1]: Idling
+2018-04-29T14:19:54.452150+00:00 heroku[web.1]: State changed from up to down
+2018-04-29T14:19:55.447244+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-29T14:19:55.468364+00:00 app[web.1]: [2018-04-29 14:19:55 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T14:19:55.471323+00:00 app[web.1]: [2018-04-29 14:19:55 +0000] [4] [INFO] Handling signal: term
+2018-04-29T14:19:55.473544+00:00 app[web.1]: [2018-04-29 14:19:55 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T14:19:55.774956+00:00 app[web.1]: [2018-04-29 14:19:55 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T14:19:55.881737+00:00 heroku[web.1]: Process exited with status 0
+2018-04-29T14:35:32.000291+00:00 heroku[web.1]: Unidling
+2018-04-29T14:35:32.000535+00:00 heroku[web.1]: State changed from down to starting
+2018-04-29T14:35:44.449884+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T14:35:47.726701+00:00 app[web.1]: [2018-04-29 14:35:47 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T14:35:47.727440+00:00 app[web.1]: [2018-04-29 14:35:47 +0000] [4] [INFO] Listening at: http://0.0.0.0:23286 (4)
+2018-04-29T14:35:47.727589+00:00 app[web.1]: [2018-04-29 14:35:47 +0000] [4] [INFO] Using worker: sync
+2018-04-29T14:35:47.736793+00:00 app[web.1]: [2018-04-29 14:35:47 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T14:35:47.773752+00:00 app[web.1]: [2018-04-29 14:35:47 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T14:35:48.104491+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T14:35:48.104530+00:00 app[web.1]:   """)
+2018-04-29T14:35:48.122695+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T14:35:48.122698+00:00 app[web.1]:   """)
+2018-04-29T14:35:48.356586+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T14:35:58.310760+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=fdc88857-fc9f-44f6-8e78-aaa75fb61012 fwd="157.49.158.200" dyno=web.1 connect=2ms service=5259ms status=200 bytes=654 protocol=https
+2018-04-29T14:35:58.255919+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=c0782091-f322-4d54-a363-dee0401206e1 fwd="157.49.171.105" dyno=web.1 connect=1ms service=8169ms status=200 bytes=654 protocol=https
+2018-04-29T14:35:58.256382+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=ec4a833a-9d2f-47ee-af4d-c2cf3efed004 fwd="157.49.171.105" dyno=web.1 connect=1ms service=8580ms status=200 bytes=654 protocol=https
+2018-04-29T14:35:58.305796+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b4c281b0-38fb-4e05-9aae-ee0b5a223903 fwd="157.49.171.105" dyno=web.1 connect=0ms service=1864ms status=200 bytes=654 protocol=https
+2018-04-29T14:35:58.199722+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=33a9a732-b0be-43a3-b0bb-7b19643ac55c fwd="157.49.171.105" dyno=web.1 connect=0ms service=9068ms status=200 bytes=654 protocol=https
+2018-04-29T14:35:58.199243+00:00 app[web.1]: 10.81.225.141 - - [29/Apr/2018:14:35:58 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:35:58.210837+00:00 app[web.1]: 10.33.239.90 - - [29/Apr/2018:14:35:58 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:35:58.256226+00:00 app[web.1]: 10.171.115.37 - - [29/Apr/2018:14:35:58 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:35:58.256416+00:00 app[web.1]: 10.142.224.246 - - [29/Apr/2018:14:35:58 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:35:58.304602+00:00 app[web.1]: 10.13.210.115 - - [29/Apr/2018:14:35:58 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:35:58.311001+00:00 app[web.1]: 10.189.169.232 - - [29/Apr/2018:14:35:58 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T14:35:58.362169+00:00 app[web.1]: 10.65.99.67 - - [29/Apr/2018:14:35:58 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T14:35:58.211728+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=10e629b2-b6d3-4d9e-8167-6a632beb0711 fwd="157.49.171.105" dyno=web.1 connect=0ms service=8649ms status=200 bytes=654 protocol=https
+2018-04-29T14:35:58.362854+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f693fd1d-5a43-4708-af86-a5fe23043332 fwd="157.49.158.200" dyno=web.1 connect=1ms service=1492ms status=200 bytes=654 protocol=https
+2018-04-29T14:36:01.062682+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=0a58c7c5-8354-442c-a996-818448dc62ea fwd="157.49.158.200" dyno=web.1 connect=1ms service=47ms status=200 bytes=654 protocol=https
+2018-04-29T14:36:01.062124+00:00 app[web.1]: 10.65.99.67 - - [29/Apr/2018:14:36:01 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T14:37:08.733055+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=d36f1e13-fb82-4ff8-9e45-f402f9bb3e1d fwd="157.49.171.105" dyno=web.1 connect=1ms service=38ms status=200 bytes=654 protocol=https
+2018-04-29T14:37:08.731298+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:37:08 +0000] "GET /location HTTP/1.1" 200 501 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:38:00.709439+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=4847849e-11ff-498f-ba0f-9c2f5153cccd fwd="157.49.171.105" dyno=web.1 connect=1ms service=544ms status=200 bytes=159 protocol=https
+2018-04-29T14:38:00.700902+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-29T14:38:00.700934+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-29T14:38:00.706662+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:38:00.707476+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:38:00 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:38:11.691384+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=b716ed1d-7ba3-4b61-b35f-d85c5c983a70 fwd="157.49.171.105" dyno=web.1 connect=1ms service=651ms status=200 bytes=159 protocol=https
+2018-04-29T14:38:11.684547+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:38:11.689495+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:38:11 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:38:28.819515+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=4fa404c1-99ca-4fba-8e7a-1de1cbbbc58e fwd="157.49.171.105" dyno=web.1 connect=1ms service=907ms status=200 bytes=159 protocol=https
+2018-04-29T14:38:28.816804+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:38:28.817695+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:38:28 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:38:44.962062+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-29T14:38:44.962074+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-29T14:38:44.974541+00:00 app[web.1]: predictions:  [2 0 0 0]
+2018-04-29T14:38:45.073070+00:00 app[web.1]: 77.66019205468938 12.844428980119083
+2018-04-29T14:38:45.090483+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:38:45 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:38:45.092032+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=d6d1d281-8d14-4df6-9c1a-0e46adfe4e89 fwd="157.49.171.105" dyno=web.1 connect=1ms service=1097ms status=200 bytes=159 protocol=https
+2018-04-29T14:38:55.312699+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-04-29T14:38:55.492280+00:00 app[web.1]: 77.66032651128295 12.843142205340662
+2018-04-29T14:38:55.513730+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:38:55 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:38:55.510408+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=dab9ae92-374a-4d5e-8287-6a39f29c56d6 fwd="157.49.171.105" dyno=web.1 connect=1ms service=745ms status=200 bytes=159 protocol=https
+2018-04-29T14:39:06.275180+00:00 app[web.1]: predictions:  [2 0 0 0]
+2018-04-29T14:39:06.375197+00:00 app[web.1]: 77.66038588881965 12.842681352926533
+2018-04-29T14:39:06.381484+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:39:06 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:39:06.382855+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=69cea6b4-2126-4026-9451-a689f850e579 fwd="157.49.171.105" dyno=web.1 connect=1ms service=1018ms status=200 bytes=159 protocol=https
+2018-04-29T14:39:17.061203+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=6beb604c-34e2-4f52-a18d-7e0cef0ec23c fwd="157.49.171.105" dyno=web.1 connect=1ms service=501ms status=200 bytes=159 protocol=https
+2018-04-29T14:39:17.058069+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:39:17.059053+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:39:17 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:39:27.562763+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=364f0fb1-084e-4ec2-a50c-7adefbbf3ee3 fwd="157.49.171.105" dyno=web.1 connect=3ms service=602ms status=200 bytes=159 protocol=https
+2018-04-29T14:39:27.559983+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:39:27.560870+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:39:27 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:39:38.553096+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=6917c442-433c-4f69-a537-18af98a007e4 fwd="157.49.171.105" dyno=web.1 connect=1ms service=735ms status=200 bytes=159 protocol=https
+2018-04-29T14:39:38.400942+00:00 app[web.1]: predictions:  [0 1 0 0]
+2018-04-29T14:39:38.537922+00:00 app[web.1]: 77.65986926543583 12.84031586743741
+2018-04-29T14:39:38.551231+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:39:38 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:39:39.568435+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=7264345b-45e6-4240-87d3-96874128eb21 fwd="157.49.171.105" dyno=web.1 connect=1ms service=40ms status=200 bytes=906 protocol=https
+2018-04-29T14:39:39.566569+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:39:39 +0000] "GET /location HTTP/1.1" 200 753 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:39:49.155173+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=9409ec02-2e0c-400e-897a-679e564fe4ef fwd="157.49.171.105" dyno=web.1 connect=2ms service=500ms status=200 bytes=159 protocol=https
+2018-04-29T14:39:49.149834+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:39:49.153320+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:39:49 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:40:00.085097+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=9832e4a0-86f2-4619-aea9-848539c391b8 fwd="157.49.171.105" dyno=web.1 connect=2ms service=626ms status=200 bytes=159 protocol=https
+2018-04-29T14:40:00.082983+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:40:00 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:40:00.064288+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:40:11.134446+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=7ac8f0d4-918e-4814-bbd2-a7f8e9fdf800 fwd="157.49.171.105" dyno=web.1 connect=1ms service=816ms status=200 bytes=159 protocol=https
+2018-04-29T14:40:11.131477+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:40:11.132907+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:40:11 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:40:14.123811+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=15f26517-05e0-49a2-af74-0e875443ef86 fwd="157.49.171.105" dyno=web.1 connect=1ms service=35ms status=200 bytes=906 protocol=https
+2018-04-29T14:40:14.121991+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:40:14 +0000] "GET /location HTTP/1.1" 200 753 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:40:21.975903+00:00 app[web.1]: predictions:  [0 0 0 2]
+2018-04-29T14:40:22.085044+00:00 app[web.1]: 77.65797177325544 12.83903119627905
+2018-04-29T14:40:22.093041+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:40:22 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:40:22.093832+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=8627ec56-d143-4678-b6ee-ac084437a624 fwd="157.49.171.105" dyno=web.1 connect=1ms service=820ms status=200 bytes=159 protocol=https
+2018-04-29T14:40:22.595627+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=e0692ac5-4af1-4fea-8dbe-9a30ab50347d fwd="157.49.171.105" dyno=web.1 connect=1ms service=34ms status=200 bytes=969 protocol=https
+2018-04-29T14:40:22.594676+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:40:22 +0000] "GET /location HTTP/1.1" 200 816 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:40:32.704107+00:00 app[web.1]: predictions:  [1 0 0 0]
+2018-04-29T14:40:32.815582+00:00 app[web.1]: 77.65752600696533 12.839027561810981
+2018-04-29T14:40:32.822880+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:40:32 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:40:32.824002+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=c7be9a3d-774a-4af0-a0f5-9d5b76823c1f fwd="157.49.171.105" dyno=web.1 connect=1ms service=580ms status=200 bytes=159 protocol=https
+2018-04-29T14:40:42.427924+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=696fca5f-8a23-49ba-b877-b4449bb28578 fwd="157.49.171.105" dyno=web.1 connect=1ms service=58ms status=200 bytes=1031 protocol=https
+2018-04-29T14:40:42.427377+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:40:42 +0000] "GET /location HTTP/1.1" 200 878 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:40:43.758659+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=ed567f70-dca3-4dba-a5fc-9d1f97478083 fwd="157.49.171.105" dyno=web.1 connect=1ms service=589ms status=200 bytes=159 protocol=https
+2018-04-29T14:40:43.755531+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:40:43.756732+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:40:43 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:40:45.624284+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:40:45 +0000] "GET /location HTTP/1.1" 200 878 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:40:45.625250+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=92c1b998-eb76-479d-9e2d-e21f18fe3959 fwd="157.49.171.105" dyno=web.1 connect=0ms service=55ms status=200 bytes=1031 protocol=https
+2018-04-29T14:40:50.134687+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:40:50 +0000] "GET /location HTTP/1.1" 200 878 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:40:50.136363+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9d47ef89-dfae-4994-99bb-750211636d02 fwd="157.49.171.105" dyno=web.1 connect=1ms service=42ms status=200 bytes=1031 protocol=https
+2018-04-29T14:40:54.636722+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=a913756d-47b8-464c-af0d-3f7fc3b20b0d fwd="157.49.171.105" dyno=web.1 connect=0ms service=812ms status=200 bytes=159 protocol=https
+2018-04-29T14:40:54.535154+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-04-29T14:40:54.623510+00:00 app[web.1]: 77.65567078281947 12.83914923289134
+2018-04-29T14:40:54.636227+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:40:54 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:41:00.476663+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9c353ea7-ec79-40fe-bd8f-c7e8f9dd6496 fwd="157.49.171.105" dyno=web.1 connect=2ms service=77ms status=200 bytes=1094 protocol=https
+2018-04-29T14:41:00.474900+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:41:00 +0000] "GET /location HTTP/1.1" 200 941 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:41:05.211098+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=0a72f00f-d6f6-4196-b131-dd13d1b4eaa0 fwd="157.49.171.105" dyno=web.1 connect=1ms service=616ms status=200 bytes=159 protocol=https
+2018-04-29T14:41:05.072005+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-04-29T14:41:05.188950+00:00 app[web.1]: 77.65490151072109 12.83931284322268
+2018-04-29T14:41:05.210058+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:41:05 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:41:15.904476+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-04-29T14:41:16.029674+00:00 app[web.1]: 77.65416426293814 12.839513130005894
+2018-04-29T14:41:16.051583+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:41:16 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:41:16.052774+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=762ba30e-77ae-4e61-a3bb-c215020ff6fd fwd="157.49.171.105" dyno=web.1 connect=1ms service=567ms status=200 bytes=159 protocol=https
+2018-04-29T14:41:27.195595+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-04-29T14:41:27.361488+00:00 app[web.1]: 77.65383163000091 12.839682524743608
+2018-04-29T14:41:27.384590+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:41:27 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:41:27.386064+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=9b37d468-5dd1-41ca-b886-d7f2fd4a9c01 fwd="157.49.171.105" dyno=web.1 connect=1ms service=624ms status=200 bytes=159 protocol=https
+2018-04-29T14:41:28.100307+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=57b54a3a-7f70-45ee-bdd6-d9ec8f41e36b fwd="157.49.171.105" dyno=web.1 connect=1ms service=70ms status=200 bytes=1284 protocol=https
+2018-04-29T14:41:28.099794+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:41:28 +0000] "GET /location HTTP/1.1" 200 1130 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:41:38.047017+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=3322f642-e92d-4baa-a2b5-6e3669edfd05 fwd="157.49.171.105" dyno=web.1 connect=0ms service=446ms status=200 bytes=159 protocol=https
+2018-04-29T14:41:38.044442+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:41:38.045637+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:41:38 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:41:48.959748+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=7e40ff26-13bf-47d7-9977-c5b79a9ff704 fwd="157.49.171.105" dyno=web.1 connect=1ms service=574ms status=200 bytes=159 protocol=https
+2018-04-29T14:41:48.862878+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-04-29T14:41:48.949704+00:00 app[web.1]: 77.65259363074856 12.840322937878604
+2018-04-29T14:41:48.957738+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:41:48 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:41:59.458289+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=b09ad81a-197b-49f1-9fd8-866c6d28f268 fwd="157.49.171.105" dyno=web.1 connect=1ms service=372ms status=200 bytes=159 protocol=https
+2018-04-29T14:41:59.456169+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:41:59.457011+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:41:59 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:42:10.234146+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=114de1ba-3635-469b-9d65-9dfc78dfe10d fwd="157.49.171.105" dyno=web.1 connect=1ms service=574ms status=200 bytes=159 protocol=https
+2018-04-29T14:42:10.113848+00:00 app[web.1]: predictions:  [0 1 0 0]
+2018-04-29T14:42:10.219547+00:00 app[web.1]: 77.65169565593534 12.84059688719616
+2018-04-29T14:42:10.232169+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:42:10 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:42:21.047128+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=1ab8fa07-4628-4891-b993-f91b945219cd fwd="157.49.171.105" dyno=web.1 connect=0ms service=671ms status=200 bytes=159 protocol=https
+2018-04-29T14:42:20.946197+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-04-29T14:42:21.034033+00:00 app[web.1]: 77.65104224967561 12.840743809143012
+2018-04-29T14:42:21.045758+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:42:21 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:42:31.760512+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=0f4d62a5-4aae-4747-bef5-cd524852062b fwd="157.49.171.105" dyno=web.1 connect=1ms service=560ms status=200 bytes=159 protocol=https
+2018-04-29T14:42:31.604834+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-04-29T14:42:31.748863+00:00 app[web.1]: 77.65051446268464 12.84085273011903
+2018-04-29T14:42:31.758527+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:42:31 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:42:42.420389+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=25afb839-e1dc-4146-9945-8f67af7bf969 fwd="157.49.171.105" dyno=web.1 connect=0ms service=394ms status=200 bytes=159 protocol=https
+2018-04-29T14:42:42.418156+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:42:42.419290+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:42:42 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:42:50.271062+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:42:50 +0000] "GET /location HTTP/1.1" 200 1380 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:42:50.273147+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=73571508-d2d1-46d0-82fe-14eda006b79e fwd="157.49.171.105" dyno=web.1 connect=1ms service=47ms status=200 bytes=1534 protocol=https
+2018-04-29T14:42:53.885942+00:00 app[web.1]: predictions:  [2 0 0 0]
+2018-04-29T14:42:54.024072+00:00 app[web.1]: 77.64995521010651 12.841002292209962
+2018-04-29T14:42:54.045622+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:42:54 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:42:54.046354+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=2bb41ecd-3e76-49e6-9597-c6e19399d4f3 fwd="157.49.171.105" dyno=web.1 connect=0ms service=1130ms status=200 bytes=159 protocol=https
+2018-04-29T14:43:04.518380+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=c4cc04de-5582-443d-9bd9-01b68cd0369a fwd="157.49.171.105" dyno=web.1 connect=2ms service=722ms status=200 bytes=159 protocol=https
+2018-04-29T14:43:04.515238+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:43:04.516317+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:43:04 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:43:07.386643+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:43:07 +0000] "GET /location HTTP/1.1" 200 1441 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:43:07.387799+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=99161579-6594-4720-ba3e-c7f7397ff17a fwd="157.49.171.105" dyno=web.1 connect=0ms service=31ms status=200 bytes=1595 protocol=https
+2018-04-29T14:43:15.267781+00:00 app[web.1]: predictions:  [2 0 0 0]
+2018-04-29T14:43:15.391426+00:00 app[web.1]: 77.64864898603894 12.84133242327792
+2018-04-29T14:43:15.402387+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:43:15 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:43:15.400167+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=4c3c8009-9762-4bbc-817c-a9c3bfa43ba3 fwd="157.49.171.105" dyno=web.1 connect=1ms service=720ms status=200 bytes=159 protocol=https
+2018-04-29T14:43:26.385462+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=9588c59e-6bce-4ac2-92cd-0d06a3898ede fwd="157.49.171.105" dyno=web.1 connect=1ms service=953ms status=200 bytes=159 protocol=https
+2018-04-29T14:43:26.383065+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:43:26.384239+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:43:26 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:43:37.495137+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=bbeeeb4c-ad9a-4544-81dc-9c1721204826 fwd="157.49.171.105" dyno=web.1 connect=2ms service=744ms status=200 bytes=159 protocol=https
+2018-04-29T14:43:37.492167+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:43:37.493034+00:00 app[web.1]: 10.33.186.234 - - [29/Apr/2018:14:43:37 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:43:56.791878+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=617ed119-3526-47fa-bb8d-4e99e48819fe fwd="157.49.171.105" dyno=web.1 connect=1ms service=52ms status=200 bytes=1658 protocol=https
+2018-04-29T14:43:56.791368+00:00 app[web.1]: 10.43.181.164 - - [29/Apr/2018:14:43:56 +0000] "GET /location HTTP/1.1" 200 1504 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:44:02.871592+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1e9bc716-63c1-4865-9b3f-63215d44904d fwd="157.49.171.105" dyno=web.1 connect=1ms service=58ms status=200 bytes=1658 protocol=https
+2018-04-29T14:44:02.870636+00:00 app[web.1]: 10.91.166.137 - - [29/Apr/2018:14:44:02 +0000] "GET /location HTTP/1.1" 200 1504 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:44:04.525686+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-04-29T14:44:04.751243+00:00 app[web.1]: 77.64662852331212 12.841841353896413
+2018-04-29T14:44:04.771785+00:00 app[web.1]: 10.93.210.26 - - [29/Apr/2018:14:44:04 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:44:04.772671+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=da81679d-cb13-4343-8798-5cf336a12b1d fwd="157.49.171.105" dyno=web.1 connect=0ms service=673ms status=200 bytes=159 protocol=https
+2018-04-29T14:44:05.181477+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=22e24b2b-d6ce-4019-9838-c7757921a6da fwd="157.49.171.105" dyno=web.1 connect=0ms service=616ms status=200 bytes=159 protocol=https
+2018-04-29T14:44:05.175178+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-29T14:44:05.181483+00:00 app[web.1]: 10.101.153.165 - - [29/Apr/2018:14:44:05 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:44:05.783627+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=3b23c193-6348-402b-a852-da6f564ba336 fwd="157.49.171.105" dyno=web.1 connect=0ms service=71ms status=200 bytes=1721 protocol=https
+2018-04-29T14:44:05.783670+00:00 app[web.1]: 10.97.231.53 - - [29/Apr/2018:14:44:05 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:44:14.008085+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=994f14be-b5ae-4ea6-ae63-c32c93bfd352 fwd="157.49.171.105" dyno=web.1 connect=1ms service=138ms status=200 bytes=1721 protocol=https
+2018-04-29T14:44:14.020942+00:00 app[web.1]: 10.91.166.137 - - [29/Apr/2018:14:44:14 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:44:48.200910+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=78f86ecc-bb5f-4340-bfa1-34154266e550 fwd="157.49.171.105" dyno=web.1 connect=0ms service=41ms status=200 bytes=1721 protocol=https
+2018-04-29T14:44:48.200354+00:00 app[web.1]: 10.93.210.26 - - [29/Apr/2018:14:44:48 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:44:58.259836+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b14e2e08-68c3-4c76-a975-a901a0dd9805 fwd="157.49.171.105" dyno=web.1 connect=0ms service=33ms status=200 bytes=1721 protocol=https
+2018-04-29T14:44:58.259230+00:00 app[web.1]: 10.97.231.53 - - [29/Apr/2018:14:44:58 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:44:59.971201+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=fa2b0739-6744-479b-adaa-4d1762ff9cc3 fwd="157.49.171.105" dyno=web.1 connect=1ms service=39ms status=200 bytes=1721 protocol=https
+2018-04-29T14:44:59.970218+00:00 app[web.1]: 10.91.166.137 - - [29/Apr/2018:14:44:59 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:45:01.111673+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b40bae4c-17e0-4e65-b9c1-d25a065db28f fwd="157.49.171.105" dyno=web.1 connect=0ms service=56ms status=200 bytes=1721 protocol=https
+2018-04-29T14:45:01.111014+00:00 app[web.1]: 10.93.210.26 - - [29/Apr/2018:14:45:01 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:45:10.067283+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=354d51d1-0aaa-4cc3-a0ba-d2a8d807f5a4 fwd="157.49.171.105" dyno=web.1 connect=0ms service=39ms status=200 bytes=1721 protocol=https
+2018-04-29T14:45:10.066754+00:00 app[web.1]: 10.97.231.53 - - [29/Apr/2018:14:45:10 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:45:12.319670+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9eeac614-9f33-4a7f-88a2-a1f99ac38439 fwd="157.49.171.105" dyno=web.1 connect=1ms service=70ms status=200 bytes=1721 protocol=https
+2018-04-29T14:45:12.319015+00:00 app[web.1]: 10.91.166.137 - - [29/Apr/2018:14:45:12 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:45:13.672812+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=7f6eb950-838f-4d2a-93d8-23979ffccde6 fwd="157.49.171.105" dyno=web.1 connect=0ms service=43ms status=200 bytes=1721 protocol=https
+2018-04-29T14:45:13.671255+00:00 app[web.1]: 10.93.210.26 - - [29/Apr/2018:14:45:13 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:45:15.326939+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=12b6fa26-d5e4-4007-b8f7-2d5fc7f58445 fwd="157.49.171.105" dyno=web.1 connect=0ms service=39ms status=200 bytes=1721 protocol=https
+2018-04-29T14:45:15.326571+00:00 app[web.1]: 10.97.231.53 - - [29/Apr/2018:14:45:15 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:45:16.893793+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f49b8107-6337-49ed-afa2-74d5de78d2b8 fwd="157.49.171.105" dyno=web.1 connect=1ms service=44ms status=200 bytes=1721 protocol=https
+2018-04-29T14:45:16.892636+00:00 app[web.1]: 10.91.166.137 - - [29/Apr/2018:14:45:16 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:45:35.667650+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=cf74c918-c48b-434c-8385-4bf3753ed317 fwd="157.49.171.105" dyno=web.1 connect=0ms service=53ms status=200 bytes=1721 protocol=https
+2018-04-29T14:45:35.667305+00:00 app[web.1]: 10.93.210.26 - - [29/Apr/2018:14:45:35 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:45:45.407681+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8f91b605-b2ce-4ad7-bb36-26c153579f93 fwd="157.49.171.105" dyno=web.1 connect=0ms service=70ms status=200 bytes=1721 protocol=https
+2018-04-29T14:45:45.410588+00:00 app[web.1]: 10.35.228.180 - - [29/Apr/2018:14:45:45 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T14:45:48.316701+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=6b71e094-bad0-47ab-874f-223095383b65 fwd="157.49.158.200" dyno=web.1 connect=0ms service=53ms status=200 bytes=1721 protocol=https
+2018-04-29T14:45:48.316368+00:00 app[web.1]: 10.33.225.156 - - [29/Apr/2018:14:45:48 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T14:45:56.616018+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b177f0fe-956e-483b-8a4f-8de2bc1f12ec fwd="157.49.158.200" dyno=web.1 connect=1ms service=33ms status=200 bytes=1721 protocol=https
+2018-04-29T14:45:56.619879+00:00 app[web.1]: 10.33.225.156 - - [29/Apr/2018:14:45:56 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-29T15:18:26.447032+00:00 heroku[web.1]: Idling
+2018-04-29T15:18:26.447948+00:00 heroku[web.1]: State changed from up to down
+2018-04-29T15:18:27.413188+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-29T15:18:27.435631+00:00 app[web.1]: [2018-04-29 15:18:27 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T15:18:27.445143+00:00 app[web.1]: [2018-04-29 15:18:27 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T15:18:27.463619+00:00 app[web.1]: [2018-04-29 15:18:27 +0000] [4] [INFO] Handling signal: term
+2018-04-29T15:18:27.565585+00:00 app[web.1]: [2018-04-29 15:18:27 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T15:18:27.728210+00:00 heroku[web.1]: Process exited with status 0
+2018-04-29T16:34:58.484467+00:00 heroku[web.1]: Unidling
+2018-04-29T16:34:58.484733+00:00 heroku[web.1]: State changed from down to starting
+2018-04-29T16:35:07.927599+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T16:35:09.856012+00:00 app[web.1]: [2018-04-29 16:35:09 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T16:35:09.856778+00:00 app[web.1]: [2018-04-29 16:35:09 +0000] [4] [INFO] Listening at: http://0.0.0.0:47319 (4)
+2018-04-29T16:35:09.856911+00:00 app[web.1]: [2018-04-29 16:35:09 +0000] [4] [INFO] Using worker: sync
+2018-04-29T16:35:09.861999+00:00 app[web.1]: [2018-04-29 16:35:09 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T16:35:09.943967+00:00 app[web.1]: [2018-04-29 16:35:09 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T16:35:09.968877+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T16:35:09.968881+00:00 app[web.1]:   """)
+2018-04-29T16:35:10.021069+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T16:35:10.021103+00:00 app[web.1]:   """)
+2018-04-29T16:35:10.511049+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T16:35:13.786055+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=7e021109-61ae-40f0-8688-61ef8a01c7ea fwd="14.139.155.24" dyno=web.1 connect=0ms service=1204ms status=200 bytes=1721 protocol=https
+2018-04-29T16:35:13.786501+00:00 app[web.1]: 10.16.206.216 - - [29/Apr/2018:16:35:13 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-04-29T16:35:21.727511+00:00 app[web.1]: 10.67.162.211 - - [29/Apr/2018:16:35:21 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-04-29T16:35:21.726155+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=af4e03a8-903e-45a6-860e-4b79ad4e7081 fwd="14.139.155.24" dyno=web.1 connect=0ms service=18ms status=200 bytes=1721 protocol=https
+2018-04-29T16:35:22.651963+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fierce-hamlet-74882.herokuapp.com request_id=f7643d62-d58f-4833-8260-782b5a778d64 fwd="14.139.155.24" dyno=web.1 connect=1ms service=9ms status=404 bytes=930 protocol=https
+2018-04-29T16:35:22.652477+00:00 app[web.1]: 10.67.162.211 - - [29/Apr/2018:16:35:22 +0000] "GET /favicon.ico HTTP/1.1" 404 762 "https://fierce-hamlet-74882.herokuapp.com/location" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-04-29T17:09:31.144327+00:00 heroku[web.1]: Idling
+2018-04-29T17:09:31.144964+00:00 heroku[web.1]: State changed from up to down
+2018-04-29T17:09:32.132077+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-29T17:09:32.146290+00:00 app[web.1]: [2018-04-29 17:09:32 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T17:09:32.144382+00:00 app[web.1]: [2018-04-29 17:09:32 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T17:09:32.143875+00:00 app[web.1]: [2018-04-29 17:09:32 +0000] [4] [INFO] Handling signal: term
+2018-04-29T17:09:32.445011+00:00 app[web.1]: [2018-04-29 17:09:32 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T17:09:32.549137+00:00 heroku[web.1]: Process exited with status 0
+2018-04-29T18:09:07.653796+00:00 heroku[web.1]: Unidling
+2018-04-29T18:09:07.655339+00:00 heroku[web.1]: State changed from down to starting
+2018-04-29T18:09:16.685127+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-29T18:09:19.061788+00:00 heroku[web.1]: State changed from starting to up
+2018-04-29T18:09:18.617390+00:00 app[web.1]: [2018-04-29 18:09:18 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-29T18:09:18.617987+00:00 app[web.1]: [2018-04-29 18:09:18 +0000] [4] [INFO] Listening at: http://0.0.0.0:41348 (4)
+2018-04-29T18:09:18.618094+00:00 app[web.1]: [2018-04-29 18:09:18 +0000] [4] [INFO] Using worker: sync
+2018-04-29T18:09:18.622174+00:00 app[web.1]: [2018-04-29 18:09:18 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-29T18:09:18.626030+00:00 app[web.1]: [2018-04-29 18:09:18 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-29T18:09:18.743494+00:00 app[web.1]:   """)
+2018-04-29T18:09:18.743485+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T18:09:18.744909+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-29T18:09:18.744915+00:00 app[web.1]:   """)
+2018-04-29T18:09:22.070782+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=996640ae-b654-42e9-af51-af748996262a fwd="157.49.171.105" dyno=web.1 connect=1ms service=2324ms status=200 bytes=1721 protocol=https
+2018-04-29T18:09:22.084429+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=dd84f0fb-baff-40bb-a122-a281c90addb7 fwd="157.49.171.105" dyno=web.1 connect=3ms service=1895ms status=200 bytes=1721 protocol=https
+2018-04-29T18:09:21.903135+00:00 app[web.1]: 10.111.216.133 - - [29/Apr/2018:18:09:21 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T18:09:21.910440+00:00 app[web.1]: 10.31.61.102 - - [29/Apr/2018:18:09:21 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T18:09:21.924865+00:00 app[web.1]: 10.41.199.176 - - [29/Apr/2018:18:09:21 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T18:09:22.064186+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=cf2602f3-72f9-4380-95e9-646ac129e59f fwd="157.49.171.105" dyno=web.1 connect=0ms service=1883ms status=200 bytes=1721 protocol=https
+2018-04-29T18:09:22.719725+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=80c476b1-dc84-4e3a-8b20-b695f741b124 fwd="157.49.171.105" dyno=web.1 connect=1ms service=17ms status=200 bytes=1721 protocol=https
+2018-04-29T18:09:22.559675+00:00 app[web.1]: 10.142.195.245 - - [29/Apr/2018:18:09:22 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-29T18:46:15.381907+00:00 heroku[web.1]: Idling
+2018-04-29T18:46:15.381907+00:00 heroku[web.1]: State changed from up to down
+2018-04-29T18:46:16.007704+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-29T18:46:16.015086+00:00 app[web.1]: [2018-04-29 18:46:16 +0000] [4] [INFO] Handling signal: term
+2018-04-29T18:46:16.015109+00:00 app[web.1]: [2018-04-29 18:46:16 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-29T18:46:16.015914+00:00 app[web.1]: [2018-04-29 18:46:16 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-29T18:46:16.215691+00:00 app[web.1]: [2018-04-29 18:46:16 +0000] [4] [INFO] Shutting down: Master
+2018-04-29T18:46:16.293461+00:00 heroku[web.1]: Process exited with status 0
+2018-04-30T03:04:45.914444+00:00 heroku[web.1]: Unidling
+2018-04-30T03:04:45.914444+00:00 heroku[web.1]: State changed from down to starting
+2018-04-30T03:04:59.988229+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-30T03:05:02.071717+00:00 app[web.1]: [2018-04-30 03:05:02 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-30T03:05:02.072565+00:00 app[web.1]: [2018-04-30 03:05:02 +0000] [4] [INFO] Listening at: http://0.0.0.0:47937 (4)
+2018-04-30T03:05:02.072734+00:00 app[web.1]: [2018-04-30 03:05:02 +0000] [4] [INFO] Using worker: sync
+2018-04-30T03:05:02.078163+00:00 app[web.1]: [2018-04-30 03:05:02 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-30T03:05:02.171049+00:00 app[web.1]: [2018-04-30 03:05:02 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-30T03:05:02.184780+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T03:05:02.184784+00:00 app[web.1]:   """)
+2018-04-30T03:05:02.219875+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T03:05:02.219878+00:00 app[web.1]:   """)
+2018-04-30T03:05:02.430704+00:00 heroku[web.1]: State changed from starting to up
+2018-04-30T03:05:05.848171+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=c46c5f63-9fc5-470e-9b05-78e2cabdbab1 fwd="14.139.155.24" dyno=web.1 connect=1ms service=1841ms status=200 bytes=1721 protocol=https
+2018-04-30T03:05:05.848155+00:00 app[web.1]: 10.65.65.211 - - [30/Apr/2018:03:05:05 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T03:05:14.532861+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=4d26df85-28bf-49ec-bac8-02056c9159f8 fwd="157.49.134.226" dyno=web.1 connect=1ms service=24ms status=200 bytes=1721 protocol=https
+2018-04-30T03:05:14.527451+00:00 app[web.1]: 10.67.233.21 - - [30/Apr/2018:03:05:14 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T03:06:46.288562+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=50ba8ef3-28c5-4fdd-911b-b95e039db379 fwd="157.49.134.226" dyno=web.1 connect=1ms service=29ms status=200 bytes=1721 protocol=https
+2018-04-30T03:06:46.288125+00:00 app[web.1]: 10.180.145.46 - - [30/Apr/2018:03:06:46 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T03:07:09.002132+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=c04f840f-02c2-48d6-a189-ffefb714369b fwd="157.49.134.226" dyno=web.1 connect=0ms service=38ms status=200 bytes=1721 protocol=https
+2018-04-30T03:07:09.002417+00:00 app[web.1]: 10.147.74.135 - - [30/Apr/2018:03:07:08 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T03:33:16.454758+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9350d3b2-5e86-4c3e-959c-090eaa43755a fwd="14.139.155.24,64.233.172.165" dyno=web.1 connect=1ms service=40ms status=200 bytes=1721 protocol=https
+2018-04-30T03:33:16.454237+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:03:33:16 +0000] "GET /location HTTP/1.1" 200 1567 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon"
