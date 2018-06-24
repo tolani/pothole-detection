@@ -1,0 +1,1000 @@
+2018-04-30T04:41:53.875046+00:00 app[web.1]: 77.6631367926918 12.84333552219214
+2018-04-30T04:41:53.887718+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:41:53 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:41:53.888092+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=cba2458b-b79d-47ef-9c4d-e14fdfd8fd14 fwd="157.49.178.74" dyno=web.1 connect=1ms service=406ms status=200 bytes=159 protocol=https
+2018-04-30T04:41:58.777631+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=97e7ec05-04d1-48ac-a15c-76f7a7ac426a fwd="157.49.178.74" dyno=web.1 connect=1ms service=29ms status=200 bytes=1910 protocol=https
+2018-04-30T04:41:58.777466+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:41:58 +0000] "GET /location HTTP/1.1" 200 1756 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:42:05.066341+00:00 app[web.1]: predictions:  [1 0 0 0]
+2018-04-30T04:42:05.133797+00:00 app[web.1]: 77.6631366534198 12.84333558911612
+2018-04-30T04:42:05.142565+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:42:05 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:42:05.142668+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=ff7b1327-3299-4109-879e-6f408526839d fwd="157.49.178.74" dyno=web.1 connect=1ms service=406ms status=200 bytes=159 protocol=https
+2018-04-30T04:42:16.407885+00:00 app[web.1]: predictions:  [0 2 1 0]
+2018-04-30T04:42:16.563030+00:00 app[web.1]: 77.66313691550812 12.843335463175567
+2018-04-30T04:42:16.570900+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:42:16 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:42:16.570836+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=29eae7a0-2afd-4c1c-8d7d-cc0b83eee96c fwd="157.49.178.74" dyno=web.1 connect=1ms service=603ms status=200 bytes=159 protocol=https
+2018-04-30T04:42:27.659411+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=68e496b8-8183-4b61-a8b4-d2d2609fda14 fwd="157.49.178.74" dyno=web.1 connect=1ms service=416ms status=200 bytes=159 protocol=https
+2018-04-30T04:42:27.658396+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T04:42:27.659217+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:42:27 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:42:32.298252+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b2d05260-3a83-420a-b039-daeec2b8273d fwd="157.49.178.74" dyno=web.1 connect=1ms service=29ms status=200 bytes=2036 protocol=https
+2018-04-30T04:42:32.300028+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:42:32 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:42:39.020920+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=443ba228-3dbc-4b1f-8283-e82035a4fbf0 fwd="157.49.178.74" dyno=web.1 connect=1ms service=558ms status=200 bytes=159 protocol=https
+2018-04-30T04:42:39.019921+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T04:42:39.020794+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:42:39 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:42:44.312364+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=89ea6de8-dd4c-4418-ad31-80d12f8308ff fwd="157.49.178.74" dyno=web.1 connect=1ms service=81ms status=200 bytes=2036 protocol=https
+2018-04-30T04:42:44.312189+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:42:44 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:42:50.262195+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=f3d8b211-2cbc-4f41-874b-1ffbe2bf3ec6 fwd="157.49.178.74" dyno=web.1 connect=1ms service=603ms status=200 bytes=159 protocol=https
+2018-04-30T04:42:50.261212+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T04:42:50.262073+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:42:50 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:42:52.794321+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=92a56178-75e2-4118-aeaf-72bf0d32e998 fwd="157.49.178.74" dyno=web.1 connect=1ms service=47ms status=200 bytes=2036 protocol=https
+2018-04-30T04:42:52.794156+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:42:52 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:43:01.391859+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T04:43:01.392809+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:43:01 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:43:01.392791+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=1070a1ae-24b1-4dfe-8c4a-fe803186393b fwd="157.49.178.74" dyno=web.1 connect=2ms service=472ms status=200 bytes=159 protocol=https
+2018-04-30T04:43:03.311882+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=7a61aafc-1dbf-45ee-9e75-452cd9cab686 fwd="157.49.178.74" dyno=web.1 connect=1ms service=28ms status=200 bytes=2036 protocol=https
+2018-04-30T04:43:03.311877+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:43:03 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:43:12.860618+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=3b2ced8e-2ddc-4361-b305-7deec7f387da fwd="157.49.178.74" dyno=web.1 connect=1ms service=652ms status=200 bytes=159 protocol=https
+2018-04-30T04:43:12.859286+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T04:43:12.860499+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:43:12 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:43:18.794521+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=2ecf2cf3-73c4-48a9-bb7d-91a5dc19a79c fwd="157.49.178.74" dyno=web.1 connect=1ms service=36ms status=200 bytes=2036 protocol=https
+2018-04-30T04:43:18.794461+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:43:18 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:43:24.490127+00:00 app[web.1]: predictions:  [0 0 0 2]
+2018-04-30T04:43:24.494844+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:43:24 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:43:24.492794+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=9c07fa2f-0800-477b-9e20-f9881306781d fwd="157.49.178.74" dyno=web.1 connect=1ms service=1094ms status=200 bytes=159 protocol=https
+2018-04-30T04:43:25.810023+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=64104209-2588-4dee-87fc-3d8aa86902fa fwd="157.49.178.74" dyno=web.1 connect=1ms service=103ms status=200 bytes=2036 protocol=https
+2018-04-30T04:43:25.809980+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:43:25 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:43:36.671712+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=07fb98b5-b0a5-4942-b0fb-8475d31a03ff fwd="157.49.178.74" dyno=web.1 connect=1ms service=2032ms status=200 bytes=159 protocol=https
+2018-04-30T04:43:36.659480+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T04:43:36.674468+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:43:36 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:43:46.261585+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=4b4783a1-af08-4e0a-aa4a-905beecef627 fwd="157.49.178.74" dyno=web.1 connect=1ms service=390ms status=200 bytes=159 protocol=https
+2018-04-30T04:43:46.260459+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T04:43:46.261596+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:04:43:46 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:44:12.332774+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=697b0ecf-9371-4132-986e-eea731dd8dbb fwd="157.49.178.74" dyno=web.1 connect=1ms service=48ms status=200 bytes=2036 protocol=https
+2018-04-30T04:44:12.332438+00:00 app[web.1]: 10.9.212.204 - - [30/Apr/2018:04:44:12 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:44:13.756160+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=4b7f0827-2983-4bee-b989-1f546b5bf213 fwd="157.49.178.74" dyno=web.1 connect=1ms service=38ms status=200 bytes=2036 protocol=https
+2018-04-30T04:44:13.757648+00:00 app[web.1]: 10.9.212.204 - - [30/Apr/2018:04:44:13 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:44:14.719048+00:00 app[web.1]: 10.9.212.204 - - [30/Apr/2018:04:44:14 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:44:14.718111+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=aca7ae8b-0646-476b-963a-3cb981e0baff fwd="157.49.178.74" dyno=web.1 connect=1ms service=29ms status=200 bytes=2036 protocol=https
+2018-04-30T04:44:18.133967+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b3e7afdf-5057-43f8-8eed-bee4c658eafa fwd="157.49.178.74" dyno=web.1 connect=1ms service=35ms status=200 bytes=2036 protocol=https
+2018-04-30T04:44:18.135365+00:00 app[web.1]: 10.9.212.204 - - [30/Apr/2018:04:44:18 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:44:19.576903+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8ed7e03c-fc39-49ef-9b6a-beaa382f9257 fwd="157.49.178.74" dyno=web.1 connect=0ms service=17ms status=200 bytes=2036 protocol=https
+2018-04-30T04:44:19.576791+00:00 app[web.1]: 10.138.22.104 - - [30/Apr/2018:04:44:19 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:44:26.582072+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=87384591-5ab7-43e2-b151-518a43430832 fwd="157.49.178.74" dyno=web.1 connect=1ms service=43ms status=200 bytes=2036 protocol=https
+2018-04-30T04:44:26.583335+00:00 app[web.1]: 10.9.212.204 - - [30/Apr/2018:04:44:26 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:44:28.838158+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=e1aec8e1-7b42-43b1-9b9f-15b48af4b3b4 fwd="157.49.178.74" dyno=web.1 connect=0ms service=38ms status=200 bytes=2036 protocol=https
+2018-04-30T04:44:28.838247+00:00 app[web.1]: 10.138.22.104 - - [30/Apr/2018:04:44:28 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:44:29.991177+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1ac30867-72bc-40f5-9fcc-07e4cc892b61 fwd="157.49.178.74" dyno=web.1 connect=1ms service=43ms status=200 bytes=2036 protocol=https
+2018-04-30T04:44:29.991612+00:00 app[web.1]: 10.9.212.204 - - [30/Apr/2018:04:44:29 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:44:34.563801+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=e6500faf-3b12-4767-be56-f1bbafec540d fwd="157.49.178.74" dyno=web.1 connect=0ms service=33ms status=200 bytes=2036 protocol=https
+2018-04-30T04:44:34.563683+00:00 app[web.1]: 10.138.22.104 - - [30/Apr/2018:04:44:34 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:44:35.821251+00:00 app[web.1]: 10.9.212.204 - - [30/Apr/2018:04:44:35 +0000] "GET /location HTTP/1.1" 200 1882 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:44:35.820044+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=4e8ec779-087e-404d-87b9-9629e579c3f7 fwd="157.49.178.74" dyno=web.1 connect=1ms service=21ms status=200 bytes=2036 protocol=https
+2018-04-30T04:45:04.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-04-30T04:45:53.862720+00:00 app[api]: Deploy 68b215a4 by user chandresh41414@gmail.com
+2018-04-30T04:45:53.862720+00:00 app[api]: Release v72 created by user chandresh41414@gmail.com
+2018-04-30T04:45:54.135027+00:00 heroku[web.1]: Restarting
+2018-04-30T04:45:54.135602+00:00 heroku[web.1]: State changed from up to starting
+2018-04-30T04:45:04.000000+00:00 app[api]: Build succeeded
+2018-04-30T04:45:55.236224+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-30T04:45:55.264455+00:00 app[web.1]: [2018-04-30 04:45:55 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-30T04:45:55.265577+00:00 app[web.1]: [2018-04-30 04:45:55 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-30T04:45:55.269483+00:00 app[web.1]: [2018-04-30 04:45:55 +0000] [4] [INFO] Handling signal: term
+2018-04-30T04:45:55.371846+00:00 app[web.1]: [2018-04-30 04:45:55 +0000] [4] [INFO] Shutting down: Master
+2018-04-30T04:45:55.484451+00:00 heroku[web.1]: Process exited with status 0
+2018-04-30T04:46:06.607625+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-30T04:46:09.177354+00:00 app[web.1]: [2018-04-30 04:46:09 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-30T04:46:09.178243+00:00 app[web.1]: [2018-04-30 04:46:09 +0000] [4] [INFO] Listening at: http://0.0.0.0:16075 (4)
+2018-04-30T04:46:09.178571+00:00 app[web.1]: [2018-04-30 04:46:09 +0000] [4] [INFO] Using worker: sync
+2018-04-30T04:46:09.186100+00:00 app[web.1]: [2018-04-30 04:46:09 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-30T04:46:09.206367+00:00 app[web.1]: [2018-04-30 04:46:09 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-30T04:46:09.369311+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T04:46:09.369320+00:00 app[web.1]:   """)
+2018-04-30T04:46:09.385300+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T04:46:09.385303+00:00 app[web.1]:   """)
+2018-04-30T04:46:10.498535+00:00 heroku[web.1]: State changed from starting to up
+2018-04-30T04:46:14.295856+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=74fee32d-7c77-477a-8691-1c07c122acba fwd="157.49.178.74" dyno=web.1 connect=0ms service=2837ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:14.313586+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=805f301f-e97a-4673-8384-163f8419eaae fwd="157.49.178.74" dyno=web.1 connect=0ms service=287ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:14.295975+00:00 app[web.1]: 10.5.186.67 - - [30/Apr/2018:04:46:14 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:46:14.313149+00:00 app[web.1]: 10.30.53.52 - - [30/Apr/2018:04:46:14 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:46:16.693486+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=6382bbf2-e09c-493a-974e-fe651a1c6863 fwd="157.49.178.74" dyno=web.1 connect=0ms service=39ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:16.693045+00:00 app[web.1]: 10.30.53.52 - - [30/Apr/2018:04:46:16 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:46:18.227316+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=005e711e-596d-4b00-a4b3-012d747ab883 fwd="157.49.178.74" dyno=web.1 connect=0ms service=41ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:18.231992+00:00 app[web.1]: 10.30.53.52 - - [30/Apr/2018:04:46:18 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:46:19.820283+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f68d6fe8-7433-4c13-ac0a-0585f4c60c9c fwd="157.49.178.74" dyno=web.1 connect=0ms service=34ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:19.822266+00:00 app[web.1]: 10.30.53.52 - - [30/Apr/2018:04:46:19 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:46:21.101452+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f72c3a9a-c3ee-4f48-ac20-bc55a6b0f2f3 fwd="157.49.178.74" dyno=web.1 connect=0ms service=34ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:21.100842+00:00 app[web.1]: 10.30.53.52 - - [30/Apr/2018:04:46:21 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:46:22.145622+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=102bbab6-271d-4f34-86dd-8b3698b75bd8 fwd="157.49.178.74" dyno=web.1 connect=1ms service=39ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:22.145087+00:00 app[web.1]: 10.30.53.52 - - [30/Apr/2018:04:46:22 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:46:29.002600+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=31e5bd86-6951-4b16-849a-9c1f4e3537e1 fwd="157.49.178.74" dyno=web.1 connect=0ms service=36ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:29.002110+00:00 app[web.1]: 10.30.53.52 - - [30/Apr/2018:04:46:28 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:46:32.708106+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=901a563d-4a6c-4c4d-9772-00ac7802cad3 fwd="157.49.178.74" dyno=web.1 connect=0ms service=41ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:32.707603+00:00 app[web.1]: 10.30.53.52 - - [30/Apr/2018:04:46:32 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:46:33.614007+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=102b2827-ba13-4847-9a17-73502c1267d9 fwd="157.49.134.226" dyno=web.1 connect=0ms service=28ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:33.613810+00:00 app[web.1]: 10.30.49.67 - - [30/Apr/2018:04:46:33 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T04:46:35.861393+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=3e4aba77-c57b-429e-bf4f-17798f534174 fwd="157.49.134.226" dyno=web.1 connect=0ms service=36ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:35.861088+00:00 app[web.1]: 10.30.49.67 - - [30/Apr/2018:04:46:35 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T04:46:36.273941+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=e03bfe49-f494-4933-aeda-2fd361f99511 fwd="157.49.178.74" dyno=web.1 connect=0ms service=38ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:36.273258+00:00 app[web.1]: 10.30.53.52 - - [30/Apr/2018:04:46:36 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:46:37.165081+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=5fb8adc3-8350-49fc-8fbf-20f469facc4a fwd="157.49.134.226" dyno=web.1 connect=0ms service=34ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:37.165027+00:00 app[web.1]: 10.30.49.67 - - [30/Apr/2018:04:46:37 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T04:46:57.269642+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8e00f5be-b60f-469f-b61b-a4aebd11cb5d fwd="157.49.178.74" dyno=web.1 connect=0ms service=44ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:57.269072+00:00 app[web.1]: 10.30.53.52 - - [30/Apr/2018:04:46:57 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:46:58.245205+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=c4e5238b-ac9a-4a4f-a461-a4f56af49307 fwd="157.49.178.74" dyno=web.1 connect=0ms service=43ms status=200 bytes=159 protocol=https
+2018-04-30T04:46:58.244995+00:00 app[web.1]: 10.5.221.41 - - [30/Apr/2018:04:46:58 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:47:16.685354+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8d8f33ce-b1d1-4aa3-8112-58155be923a5 fwd="157.49.178.74" dyno=web.1 connect=0ms service=42ms status=200 bytes=159 protocol=https
+2018-04-30T04:47:16.685029+00:00 app[web.1]: 10.5.221.41 - - [30/Apr/2018:04:47:16 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:47:55.065767+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=d793d17b-3bd8-4b34-821c-9654434cbec7 fwd="157.49.178.74" dyno=web.1 connect=0ms service=38ms status=200 bytes=159 protocol=https
+2018-04-30T04:47:55.066036+00:00 app[web.1]: 10.5.221.41 - - [30/Apr/2018:04:47:55 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:48:00.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-04-30T04:48:24.297742+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=cef1c3d7-2547-4472-8f7c-90b2d5a547d2 fwd="157.49.178.74" dyno=web.1 connect=0ms service=39ms status=200 bytes=159 protocol=https
+2018-04-30T04:48:24.298648+00:00 app[web.1]: 10.5.221.41 - - [30/Apr/2018:04:48:24 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:48:38.978934+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=c8ad52d1-314a-49d3-b5de-08eb85193578 fwd="157.49.178.74" dyno=web.1 connect=0ms service=41ms status=200 bytes=159 protocol=https
+2018-04-30T04:48:38.978942+00:00 app[web.1]: 10.5.221.41 - - [30/Apr/2018:04:48:38 +0000] "GET /location HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:48:47.971884+00:00 app[api]: Release v73 created by user chandresh41414@gmail.com
+2018-04-30T04:48:47.971884+00:00 app[api]: Deploy 58a9cd70 by user chandresh41414@gmail.com
+2018-04-30T04:48:48.194416+00:00 heroku[web.1]: Restarting
+2018-04-30T04:48:48.194416+00:00 heroku[web.1]: State changed from up to starting
+2018-04-30T04:48:00.000000+00:00 app[api]: Build succeeded
+2018-04-30T04:48:49.402758+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-30T04:48:49.433127+00:00 app[web.1]: [2018-04-30 04:48:49 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-30T04:48:49.456558+00:00 app[web.1]: [2018-04-30 04:48:49 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-30T04:48:49.457972+00:00 app[web.1]: [2018-04-30 04:48:49 +0000] [4] [INFO] Handling signal: term
+2018-04-30T04:48:49.560361+00:00 app[web.1]: [2018-04-30 04:48:49 +0000] [4] [INFO] Shutting down: Master
+2018-04-30T04:48:49.707087+00:00 heroku[web.1]: Process exited with status 0
+2018-04-30T04:49:00.661415+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-30T04:49:02.863577+00:00 app[web.1]: [2018-04-30 04:49:02 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-30T04:49:02.864612+00:00 app[web.1]: [2018-04-30 04:49:02 +0000] [4] [INFO] Listening at: http://0.0.0.0:52413 (4)
+2018-04-30T04:49:02.864807+00:00 app[web.1]: [2018-04-30 04:49:02 +0000] [4] [INFO] Using worker: sync
+2018-04-30T04:49:02.870816+00:00 app[web.1]: [2018-04-30 04:49:02 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-30T04:49:02.966614+00:00 app[web.1]: [2018-04-30 04:49:02 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-30T04:49:03.006585+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T04:49:03.006588+00:00 app[web.1]:   """)
+2018-04-30T04:49:03.036076+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T04:49:03.036080+00:00 app[web.1]:   """)
+2018-04-30T04:49:03.374304+00:00 heroku[web.1]: State changed from starting to up
+2018-04-30T04:49:07.563862+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f7bc086f-fdee-47ef-9b07-ad51a82ee5ca fwd="14.139.155.24" dyno=web.1 connect=1ms service=2834ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:07.561328+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=82831cc4-c271-4df0-b9c6-6d89bbe12158 fwd="157.49.178.74" dyno=web.1 connect=1ms service=3470ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:07.562794+00:00 app[web.1]: 10.11.169.30 - - [30/Apr/2018:04:49:07 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:07.565429+00:00 app[web.1]: 10.7.193.72 - - [30/Apr/2018:04:49:07 +0000] "GET /location HTTP/1.1" 200 16 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-04-30T04:49:07.578743+00:00 app[web.1]: 10.5.221.41 - - [30/Apr/2018:04:49:07 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:07.578191+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b4183893-9641-4cc0-9ab7-61f31a4ec307 fwd="157.49.178.74" dyno=web.1 connect=1ms service=2256ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:08.434146+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fierce-hamlet-74882.herokuapp.com request_id=7be7a4ec-82bf-4334-a3ce-e0c84656b81b fwd="14.139.155.24" dyno=web.1 connect=1ms service=9ms status=404 bytes=930 protocol=https
+2018-04-30T04:49:08.435570+00:00 app[web.1]: 10.7.193.72 - - [30/Apr/2018:04:49:08 +0000] "GET /favicon.ico HTTP/1.1" 404 762 "https://fierce-hamlet-74882.herokuapp.com/location" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-04-30T04:49:14.701168+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=fefd7254-1118-495b-b6ad-234d1ea016ea fwd="157.49.178.74" dyno=web.1 connect=1ms service=23ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:14.702896+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:14 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:16.611211+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:16 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:16.609934+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8658d8bc-1018-4959-9b09-4a5c0de73571 fwd="157.49.178.74" dyno=web.1 connect=0ms service=22ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:17.958266+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:17 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:17.957097+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=039738db-a21f-40e0-a85d-1959b1801ad0 fwd="157.49.178.74" dyno=web.1 connect=1ms service=17ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:19.158572+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8b5adf32-3957-4775-8821-7c71fd98081b fwd="157.49.178.74" dyno=web.1 connect=1ms service=26ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:19.159957+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:19 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:20.139270+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:20 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:20.138091+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1bd3cb17-83f5-4ec3-b8b9-4f619cd14930 fwd="157.49.178.74" dyno=web.1 connect=1ms service=21ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:26.527825+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=df494116-c645-4e2b-b754-bfaa7175f233 fwd="157.49.134.226" dyno=web.1 connect=1ms service=18ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:26.530183+00:00 app[web.1]: 10.5.228.216 - - [30/Apr/2018:04:49:26 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T04:49:30.832349+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=cc0add68-e723-4461-8077-e1f22add97a9 fwd="157.49.178.74" dyno=web.1 connect=1ms service=20ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:30.833430+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:30 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:46.973508+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=3dce0788-b1c8-49e3-a678-13bce0a8a3ee fwd="14.139.155.24" dyno=web.1 connect=1ms service=28ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:46.967503+00:00 app[web.1]: 10.7.193.72 - - [30/Apr/2018:04:49:46 +0000] "GET /location HTTP/1.1" 200 16 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-04-30T04:49:48.675486+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=76547826-9214-4a2f-b15b-a7bae4c53364 fwd="157.49.178.74" dyno=web.1 connect=1ms service=23ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:48.676469+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:48 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:50.270752+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1a90c4e1-573f-4b11-953c-db2cffb64837 fwd="157.49.178.74" dyno=web.1 connect=1ms service=18ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:50.271816+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:50 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:51.415545+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:51 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:51.414305+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=6933fa47-a408-41c2-920e-2a37742bb409 fwd="157.49.178.74" dyno=web.1 connect=1ms service=17ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:52.310089+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=2597d04c-1db8-4805-b806-c4dea5361fcc fwd="157.49.178.74" dyno=web.1 connect=1ms service=18ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:52.311186+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:52 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:53.513248+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=db5ddafa-f7cb-4f7f-8498-080405452ce9 fwd="157.49.178.74" dyno=web.1 connect=1ms service=21ms status=200 bytes=168 protocol=https
+2018-04-30T04:49:53.514449+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:53 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:55.158872+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:49:55 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:49:55.157759+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=c6d6c54d-a4a8-4a09-90fe-6d3764dd88de fwd="157.49.178.74" dyno=web.1 connect=1ms service=26ms status=200 bytes=168 protocol=https
+2018-04-30T04:50:02.012998+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=f2d759df-bf72-4107-9e46-f10b8fe02e5e fwd="157.49.178.74" dyno=web.1 connect=1ms service=350ms status=200 bytes=159 protocol=https
+2018-04-30T04:50:02.008778+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-30T04:50:02.008791+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-30T04:50:02.013190+00:00 app[web.1]: predictions:  [0 0 2 0]
+2018-04-30T04:50:02.014025+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:50:02 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:50:06.473719+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=14bec3ad-6a09-4963-bc2b-f2e519e8b95e fwd="14.139.155.24" dyno=web.1 connect=1ms service=21ms status=200 bytes=168 protocol=https
+2018-04-30T04:50:06.474916+00:00 app[web.1]: 10.7.193.72 - - [30/Apr/2018:04:50:06 +0000] "GET /location HTTP/1.1" 200 16 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-04-30T04:50:20.360871+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-04-30T04:50:20.469590+00:00 app[web.1]: 77.66312392987889 12.84334170312238
+2018-04-30T04:50:20.479464+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:50:20 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:50:20.478313+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=d25857f8-31c0-4586-984d-095652413d3c fwd="157.49.178.74" dyno=web.1 connect=1ms service=520ms status=200 bytes=159 protocol=https
+2018-04-30T04:50:29.331874+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9f3afab5-b551-4a53-a787-96a7c8703890 fwd="157.49.178.74" dyno=web.1 connect=0ms service=20ms status=200 bytes=229 protocol=https
+2018-04-30T04:50:29.333061+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:50:29 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:50:30.991858+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b212780b-fa6b-4860-8718-c962845557ce fwd="14.139.155.24" dyno=web.1 connect=1ms service=19ms status=200 bytes=229 protocol=https
+2018-04-30T04:50:30.993163+00:00 app[web.1]: 10.7.193.72 - - [30/Apr/2018:04:50:30 +0000] "GET /location HTTP/1.1" 200 77 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-04-30T04:50:32.331305+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=2ddb0583-2c34-4a27-bdad-c5fb85bf54dd fwd="157.49.178.74" dyno=web.1 connect=0ms service=19ms status=200 bytes=229 protocol=https
+2018-04-30T04:50:32.332531+00:00 app[web.1]: 10.67.162.211 - - [30/Apr/2018:04:50:32 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T04:54:42.427249+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=e6688c2b-f159-4176-9be3-493be17e7f2d fwd="157.49.134.226" dyno=web.1 connect=1ms service=21ms status=200 bytes=229 protocol=https
+2018-04-30T04:54:42.427254+00:00 app[web.1]: 10.43.188.181 - - [30/Apr/2018:04:54:42 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T04:54:43.724328+00:00 app[web.1]: 10.43.188.181 - - [30/Apr/2018:04:54:43 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T04:54:43.723682+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=07634fb6-bbd4-4c9e-990a-2a06bb02b348 fwd="157.49.134.226" dyno=web.1 connect=1ms service=19ms status=200 bytes=229 protocol=https
+2018-04-30T05:15:16.535380+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9f54d420-5087-4475-bd41-433bc258d9ba fwd="157.49.155.126" dyno=web.1 connect=1ms service=52ms status=200 bytes=229 protocol=https
+2018-04-30T05:15:16.542012+00:00 app[web.1]: 10.43.188.181 - - [30/Apr/2018:05:15:16 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T05:15:18.317491+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1271b9e6-e526-444f-86ed-65134438d71e fwd="157.49.155.126" dyno=web.1 connect=1ms service=34ms status=200 bytes=229 protocol=https
+2018-04-30T05:15:18.318360+00:00 app[web.1]: 10.43.188.181 - - [30/Apr/2018:05:15:18 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T05:36:13.549706+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9792c9df-39a4-417b-b919-256fe16704cc fwd="157.49.155.126" dyno=web.1 connect=1ms service=22ms status=200 bytes=229 protocol=https
+2018-04-30T05:36:13.550607+00:00 app[web.1]: 10.138.22.104 - - [30/Apr/2018:05:36:13 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T05:36:15.565595+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=60bb7ac9-6ea1-43b2-a6cc-8a30327d0696 fwd="157.49.155.126" dyno=web.1 connect=1ms service=38ms status=200 bytes=229 protocol=https
+2018-04-30T05:36:15.566339+00:00 app[web.1]: 10.138.22.104 - - [30/Apr/2018:05:36:15 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T05:45:11.653094+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=d8017101-98b9-424e-87ea-d5ba4aa8f969 fwd="157.49.186.214" dyno=web.1 connect=0ms service=39ms status=200 bytes=229 protocol=https
+2018-04-30T05:45:11.656490+00:00 app[web.1]: 10.11.206.114 - - [30/Apr/2018:05:45:11 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T05:45:13.286848+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=60aa4810-8c36-4649-8d33-480075a7b746 fwd="157.49.186.214" dyno=web.1 connect=0ms service=28ms status=200 bytes=229 protocol=https
+2018-04-30T05:45:13.288314+00:00 app[web.1]: 10.11.206.114 - - [30/Apr/2018:05:45:13 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T05:45:14.424361+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=3dfeaa4d-e7f9-499a-b6bf-1a14e85e1f04 fwd="157.49.186.214" dyno=web.1 connect=0ms service=21ms status=200 bytes=229 protocol=https
+2018-04-30T05:45:14.427680+00:00 app[web.1]: 10.11.206.114 - - [30/Apr/2018:05:45:14 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T06:18:16.029286+00:00 heroku[web.1]: Idling
+2018-04-30T06:18:16.030147+00:00 heroku[web.1]: State changed from up to down
+2018-04-30T06:18:17.001752+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-30T06:18:17.027258+00:00 app[web.1]: [2018-04-30 06:18:17 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-30T06:18:17.037851+00:00 app[web.1]: [2018-04-30 06:18:17 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-30T06:18:17.179385+00:00 app[web.1]: [2018-04-30 06:18:17 +0000] [4] [INFO] Shutting down: Master
+2018-04-30T06:18:17.077345+00:00 app[web.1]: [2018-04-30 06:18:17 +0000] [4] [INFO] Handling signal: term
+2018-04-30T06:18:17.301736+00:00 heroku[web.1]: Process exited with status 0
+2018-04-30T07:10:33.702164+00:00 heroku[web.1]: Unidling
+2018-04-30T07:10:33.702950+00:00 heroku[web.1]: State changed from down to starting
+2018-04-30T07:10:42.274296+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-30T07:10:44.003066+00:00 app[web.1]: [2018-04-30 07:10:44 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-30T07:10:44.003662+00:00 app[web.1]: [2018-04-30 07:10:44 +0000] [4] [INFO] Listening at: http://0.0.0.0:25156 (4)
+2018-04-30T07:10:44.003765+00:00 app[web.1]: [2018-04-30 07:10:44 +0000] [4] [INFO] Using worker: sync
+2018-04-30T07:10:44.007509+00:00 app[web.1]: [2018-04-30 07:10:44 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-30T07:10:44.028525+00:00 app[web.1]: [2018-04-30 07:10:44 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-30T07:10:44.130801+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T07:10:44.130804+00:00 app[web.1]:   """)
+2018-04-30T07:10:44.173120+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T07:10:44.173124+00:00 app[web.1]:   """)
+2018-04-30T07:10:44.628023+00:00 heroku[web.1]: State changed from starting to up
+2018-04-30T07:10:47.700979+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=aff8b3ba-1795-474c-bd8f-64ae09c8a446 fwd="157.49.134.226" dyno=web.1 connect=2ms service=1309ms status=200 bytes=229 protocol=https
+2018-04-30T07:10:47.669026+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=883f7fa1-8b40-4c31-b6a0-d329e0b0e8aa fwd="157.49.134.226" dyno=web.1 connect=0ms service=1871ms status=200 bytes=229 protocol=https
+2018-04-30T07:10:47.690797+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=d3aa2e92-886c-45a7-b1c0-299efc0f2463 fwd="157.49.134.226" dyno=web.1 connect=0ms service=2584ms status=200 bytes=229 protocol=https
+2018-04-30T07:10:47.667471+00:00 app[web.1]: 10.41.164.211 - - [30/Apr/2018:07:10:47 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T07:10:47.689840+00:00 app[web.1]: 10.99.209.164 - - [30/Apr/2018:07:10:47 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T07:10:47.700054+00:00 app[web.1]: 10.37.154.186 - - [30/Apr/2018:07:10:47 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T07:10:49.452213+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=4783c1ec-c8bd-42cf-b39f-48177b6115dc fwd="157.49.134.226" dyno=web.1 connect=1ms service=31ms status=200 bytes=229 protocol=https
+2018-04-30T07:10:49.451527+00:00 app[web.1]: 10.37.154.186 - - [30/Apr/2018:07:10:49 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T07:46:20.142542+00:00 heroku[web.1]: Idling
+2018-04-30T07:46:20.143349+00:00 heroku[web.1]: State changed from up to down
+2018-04-30T07:46:20.764335+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-30T07:46:20.774323+00:00 app[web.1]: [2018-04-30 07:46:20 +0000] [4] [INFO] Handling signal: term
+2018-04-30T07:46:20.774768+00:00 app[web.1]: [2018-04-30 07:46:20 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-30T07:46:20.774841+00:00 app[web.1]: [2018-04-30 07:46:20 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-30T07:46:21.075715+00:00 app[web.1]: [2018-04-30 07:46:21 +0000] [4] [INFO] Shutting down: Master
+2018-04-30T07:46:21.242711+00:00 heroku[web.1]: Process exited with status 0
+2018-04-30T08:03:55.095957+00:00 heroku[web.1]: Unidling
+2018-04-30T08:03:55.096199+00:00 heroku[web.1]: State changed from down to starting
+2018-04-30T08:04:08.960666+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-30T08:04:11.688728+00:00 app[web.1]: [2018-04-30 08:04:11 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-30T08:04:11.689615+00:00 app[web.1]: [2018-04-30 08:04:11 +0000] [4] [INFO] Listening at: http://0.0.0.0:51825 (4)
+2018-04-30T08:04:11.698415+00:00 app[web.1]: [2018-04-30 08:04:11 +0000] [4] [INFO] Using worker: sync
+2018-04-30T08:04:11.713805+00:00 app[web.1]: [2018-04-30 08:04:11 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-30T08:04:11.811842+00:00 app[web.1]: [2018-04-30 08:04:11 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-30T08:04:12.070061+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T08:04:12.070101+00:00 app[web.1]:   """)
+2018-04-30T08:04:12.102142+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T08:04:12.102148+00:00 app[web.1]:   """)
+2018-04-30T08:04:12.671119+00:00 heroku[web.1]: State changed from starting to up
+2018-04-30T08:04:21.065430+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=0fb8af88-6214-40ff-89d7-addf4b0b69e9 fwd="157.49.128.146" dyno=web.1 connect=0ms service=7401ms status=200 bytes=229 protocol=https
+2018-04-30T08:04:21.167969+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8d538bc2-12b2-4191-a80b-7733c64ba9cc fwd="157.49.128.146" dyno=web.1 connect=0ms service=6577ms status=200 bytes=229 protocol=https
+2018-04-30T08:04:21.154974+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=a53109dc-5410-487b-90c3-0ad3f6011baa fwd="157.49.128.146" dyno=web.1 connect=1ms service=6830ms status=200 bytes=229 protocol=https
+2018-04-30T08:04:21.107822+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=eeef7c8b-9ad1-414c-8e0b-009e536b53e1 fwd="157.49.128.146" dyno=web.1 connect=1ms service=7418ms status=200 bytes=229 protocol=https
+2018-04-30T08:04:21.202140+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=2cea6d6b-5499-4cae-ba02-57cec333b689 fwd="157.49.134.226" dyno=web.1 connect=0ms service=6539ms status=200 bytes=229 protocol=https
+2018-04-30T08:04:21.066109+00:00 app[web.1]: 10.31.61.102 - - [30/Apr/2018:08:04:21 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T08:04:21.108249+00:00 app[web.1]: 10.152.237.144 - - [30/Apr/2018:08:04:21 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T08:04:21.158073+00:00 app[web.1]: 10.43.197.68 - - [30/Apr/2018:08:04:21 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T08:04:21.174633+00:00 app[web.1]: 10.239.186.148 - - [30/Apr/2018:08:04:21 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T08:04:21.202076+00:00 app[web.1]: 10.79.229.184 - - [30/Apr/2018:08:04:21 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T08:04:21.216122+00:00 app[web.1]: 10.180.74.112 - - [30/Apr/2018:08:04:21 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T08:04:21.226978+00:00 app[web.1]: 10.81.169.74 - - [30/Apr/2018:08:04:21 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T08:04:21.271541+00:00 app[web.1]: 10.101.153.165 - - [30/Apr/2018:08:04:21 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T08:04:21.272299+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9f25960d-8f2c-4407-bb2a-edd43b393acb fwd="157.49.134.226" dyno=web.1 connect=0ms service=3206ms status=200 bytes=229 protocol=https
+2018-04-30T08:04:21.214764+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=14799081-d28a-49b5-8368-2079cce63ff7 fwd="157.49.128.146" dyno=web.1 connect=1ms service=5988ms status=200 bytes=229 protocol=https
+2018-04-30T08:04:21.225181+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9cf9e094-1924-4005-aa5e-16098ca02926 fwd="157.49.128.146" dyno=web.1 connect=1ms service=5024ms status=200 bytes=229 protocol=https
+2018-04-30T08:39:22.650741+00:00 heroku[web.1]: Idling
+2018-04-30T08:39:22.651851+00:00 heroku[web.1]: State changed from up to down
+2018-04-30T08:39:24.140793+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-30T08:39:24.158556+00:00 app[web.1]: [2018-04-30 08:39:24 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-30T08:39:24.159140+00:00 app[web.1]: [2018-04-30 08:39:24 +0000] [4] [INFO] Handling signal: term
+2018-04-30T08:39:24.160570+00:00 app[web.1]: [2018-04-30 08:39:24 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-30T08:39:24.475372+00:00 app[web.1]: [2018-04-30 08:39:24 +0000] [4] [INFO] Shutting down: Master
+2018-04-30T08:39:24.627676+00:00 heroku[web.1]: Process exited with status 0
+2018-04-30T11:31:44.999584+00:00 heroku[web.1]: Unidling
+2018-04-30T11:31:45.000377+00:00 heroku[web.1]: State changed from down to starting
+2018-04-30T11:31:57.088096+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-30T11:32:00.801639+00:00 heroku[web.1]: State changed from starting to up
+2018-04-30T11:32:00.665112+00:00 app[web.1]: [2018-04-30 11:32:00 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-30T11:32:00.665905+00:00 app[web.1]: [2018-04-30 11:32:00 +0000] [4] [INFO] Listening at: http://0.0.0.0:17128 (4)
+2018-04-30T11:32:00.666047+00:00 app[web.1]: [2018-04-30 11:32:00 +0000] [4] [INFO] Using worker: sync
+2018-04-30T11:32:00.681499+00:00 app[web.1]: [2018-04-30 11:32:00 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-30T11:32:00.763941+00:00 app[web.1]: [2018-04-30 11:32:00 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-30T11:32:00.925783+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T11:32:00.925807+00:00 app[web.1]:   """)
+2018-04-30T11:32:01.319294+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T11:32:01.319312+00:00 app[web.1]:   """)
+2018-04-30T11:32:12.999063+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=7f48ee9a-b2eb-4f90-a6c9-60e5dc483740 fwd="157.49.131.107" dyno=web.1 connect=4ms service=10440ms status=200 bytes=229 protocol=https
+2018-04-30T11:32:12.907874+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=d2ac6de9-0a4d-4cc1-b9bf-9558733fab0a fwd="157.49.131.107" dyno=web.1 connect=1ms service=11191ms status=200 bytes=229 protocol=https
+2018-04-30T11:32:12.936780+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=6a089a37-fbbe-4b3e-96cd-32466cfdd11a fwd="157.49.131.107" dyno=web.1 connect=0ms service=11050ms status=200 bytes=229 protocol=https
+2018-04-30T11:32:13.002374+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=58c35e28-7b7b-45e3-83c3-d937e687af12 fwd="157.49.131.107" dyno=web.1 connect=0ms service=9641ms status=200 bytes=229 protocol=https
+2018-04-30T11:32:12.966956+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=48da5588-62cd-45ad-b1b8-31d140afbd11 fwd="157.49.131.107" dyno=web.1 connect=0ms service=10481ms status=200 bytes=229 protocol=https
+2018-04-30T11:32:12.868404+00:00 app[web.1]: 10.31.61.102 - - [30/Apr/2018:11:32:12 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:32:12.906830+00:00 app[web.1]: 10.13.221.137 - - [30/Apr/2018:11:32:12 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:32:12.868992+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f3056eb7-07da-49de-92e1-2497a1a80595 fwd="157.49.131.107" dyno=web.1 connect=1ms service=11751ms status=200 bytes=229 protocol=https
+2018-04-30T11:32:12.913451+00:00 app[web.1]: 10.123.156.99 - - [30/Apr/2018:11:32:12 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:32:12.936430+00:00 app[web.1]: 10.11.176.95 - - [30/Apr/2018:11:32:12 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:32:12.958257+00:00 app[web.1]: 10.165.82.149 - - [30/Apr/2018:11:32:12 +0000] "GET /location HTTP/1.1" 200 77 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-04-30T11:32:12.967519+00:00 app[web.1]: 10.101.219.132 - - [30/Apr/2018:11:32:12 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:32:12.999845+00:00 app[web.1]: 10.5.207.142 - - [30/Apr/2018:11:32:12 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:32:13.000529+00:00 app[web.1]: 10.69.81.69 - - [30/Apr/2018:11:32:12 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:32:13.028260+00:00 app[web.1]: 10.79.228.240 - - [30/Apr/2018:11:32:13 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:32:13.040632+00:00 app[web.1]: 10.181.55.151 - - [30/Apr/2018:11:32:13 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:32:13.040791+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=531552a1-a559-46be-8586-a1d6ee39e787 fwd="157.49.131.107" dyno=web.1 connect=1ms service=7411ms status=200 bytes=229 protocol=https
+2018-04-30T11:32:12.913666+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b5640ba7-5243-47d6-be5f-c36edcaa27c6 fwd="157.49.131.107" dyno=web.1 connect=1ms service=11359ms status=200 bytes=229 protocol=https
+2018-04-30T11:32:13.029015+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=a6ca762d-8380-4a5e-9656-49510b4f205c fwd="157.49.131.107" dyno=web.1 connect=1ms service=2474ms status=200 bytes=229 protocol=https
+2018-04-30T11:32:12.958637+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=da55e981-5192-4d41-9bff-a231ca32fc7c fwd="14.139.155.24" dyno=web.1 connect=2ms service=10842ms status=200 bytes=229 protocol=https
+2018-04-30T11:32:14.136215+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=aad1ec6e-d56b-4a68-bacf-ef2c30f45e59 fwd="157.49.131.107" dyno=web.1 connect=1ms service=45ms status=200 bytes=229 protocol=https
+2018-04-30T11:32:14.136155+00:00 app[web.1]: 10.11.169.30 - - [30/Apr/2018:11:32:14 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:32:14.937061+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fierce-hamlet-74882.herokuapp.com request_id=55f6e4aa-2950-49f9-b27a-39399be37eba fwd="14.139.155.24" dyno=web.1 connect=3ms service=29ms status=404 bytes=930 protocol=https
+2018-04-30T11:32:14.936601+00:00 app[web.1]: 10.165.82.149 - - [30/Apr/2018:11:32:14 +0000] "GET /favicon.ico HTTP/1.1" 404 762 "https://fierce-hamlet-74882.herokuapp.com/location" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-04-30T11:32:15.069112+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:32:15 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:32:15.070559+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=4b19e077-7ed3-4058-8ed9-cec4c0a6aa3a fwd="157.49.131.107" dyno=web.1 connect=1ms service=41ms status=200 bytes=229 protocol=https
+2018-04-30T11:33:01.374725+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=e417a5ba-6699-4683-b024-0b1f4c89832e fwd="157.49.142.28" dyno=web.1 connect=0ms service=40ms status=200 bytes=229 protocol=https
+2018-04-30T11:33:01.374309+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:33:01 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:33:02.916346+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9fb5185a-a781-4c5f-9e0c-21b3b52dffb0 fwd="157.49.131.107" dyno=web.1 connect=1ms service=52ms status=200 bytes=229 protocol=https
+2018-04-30T11:33:02.916320+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:33:02 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:33:04.261168+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:33:04 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:33:04.261075+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=6357a780-8c28-45fc-90ab-0e48cf7940e9 fwd="157.49.131.107" dyno=web.1 connect=1ms service=37ms status=200 bytes=229 protocol=https
+2018-04-30T11:33:08.194460+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:33:08 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:33:08.194495+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=3475676b-1ad8-416c-ab31-6fc4f9e903d7 fwd="157.49.131.107" dyno=web.1 connect=1ms service=29ms status=200 bytes=229 protocol=https
+2018-04-30T11:33:21.799634+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=83036cc6-3d4e-424b-9d46-e8be806390b8 fwd="157.49.131.107" dyno=web.1 connect=1ms service=55ms status=200 bytes=229 protocol=https
+2018-04-30T11:33:21.799795+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:33:21 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:33:23.467401+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=22f0075b-73e5-4aad-8bcc-a760fe266204 fwd="157.49.131.107" dyno=web.1 connect=1ms service=43ms status=200 bytes=229 protocol=https
+2018-04-30T11:33:23.467565+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:33:23 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:33:43.720531+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9c177952-04b3-4c5c-99a1-c3147a61ed6b fwd="157.49.131.107" dyno=web.1 connect=1ms service=36ms status=200 bytes=229 protocol=https
+2018-04-30T11:33:43.720342+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:33:43 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:33:50.309471+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1f170e46-34d1-4686-8323-b2de053c1041 fwd="157.49.142.28" dyno=web.1 connect=0ms service=38ms status=200 bytes=229 protocol=https
+2018-04-30T11:33:50.309419+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:33:50 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:33:54.103897+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:33:54 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:33:54.103714+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=6b3f92ff-6939-4bcd-95d4-d52632077e0a fwd="157.49.131.107" dyno=web.1 connect=1ms service=49ms status=200 bytes=229 protocol=https
+2018-04-30T11:33:55.246780+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=c999d316-7ced-4c6a-8ef4-075eaa05224f fwd="157.49.131.107" dyno=web.1 connect=1ms service=43ms status=200 bytes=229 protocol=https
+2018-04-30T11:33:55.246991+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:33:55 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:34:15.321741+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=76d9aef0-c8b4-4f59-af02-1a1932adfe28 fwd="157.49.131.107" dyno=web.1 connect=1ms service=37ms status=200 bytes=229 protocol=https
+2018-04-30T11:34:15.285019+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=d0d926c7-2cee-4ec4-8e9c-c381f60ec723 fwd="157.49.142.28" dyno=web.1 connect=0ms service=44ms status=200 bytes=229 protocol=https
+2018-04-30T11:34:15.285291+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:34:15 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:34:15.321892+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:34:15 +0000] "GET /location HTTP/1.1" 200 77 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:34:32.817402+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-30T11:34:32.838487+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-04-30T11:34:32.817413+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-30T11:34:33.011153+00:00 app[web.1]: 77.66306583750114 12.843369618072876
+2018-04-30T11:34:33.027422+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:34:33 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:34:33.027424+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=ff463efe-0287-40f6-b1d0-d7cc40c81c88 fwd="157.49.142.28" dyno=web.1 connect=0ms service=1346ms status=200 bytes=159 protocol=https
+2018-04-30T11:34:33.480652+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-04-30T11:34:33.480661+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-04-30T11:34:33.496000+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-04-30T11:34:33.619732+00:00 app[web.1]: 77.66317748283532 12.843315969469174
+2018-04-30T11:34:33.628802+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:34:33 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:34:33.628546+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=dc8bbc14-7229-4865-a088-b4f16c2e7871 fwd="157.49.131.107" dyno=web.1 connect=1ms service=1624ms status=200 bytes=159 protocol=https
+2018-04-30T11:34:50.673852+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=602fbfb8-848f-4c2c-9b48-9ec2c270ae69 fwd="157.49.131.107" dyno=web.1 connect=1ms service=44ms status=200 bytes=356 protocol=https
+2018-04-30T11:34:50.673942+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:34:50 +0000] "GET /location HTTP/1.1" 200 203 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:34:54.744554+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=a31dc65f-0431-456c-a65d-42f236879323 fwd="157.49.142.28" dyno=web.1 connect=0ms service=34ms status=200 bytes=356 protocol=https
+2018-04-30T11:34:54.744471+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:34:54 +0000] "GET /location HTTP/1.1" 200 203 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:35:23.091654+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=a3d94f82-9631-46d2-91ba-25cf237a65ff fwd="157.49.131.107" dyno=web.1 connect=1ms service=47ms status=200 bytes=356 protocol=https
+2018-04-30T11:35:23.091388+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:35:23 +0000] "GET /location HTTP/1.1" 200 203 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:35:23.606592+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=6387ad93-b060-4999-8714-e1c5d1424458 fwd="157.49.142.28" dyno=web.1 connect=1ms service=35ms status=200 bytes=356 protocol=https
+2018-04-30T11:35:23.606619+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:35:23 +0000] "GET /location HTTP/1.1" 200 203 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:35:32.040583+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=f86c685e-af85-4e2e-9e8f-e7ec55b3aba6 fwd="157.49.142.28" dyno=web.1 connect=0ms service=615ms status=200 bytes=159 protocol=https
+2018-04-30T11:35:32.039297+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T11:35:32.040438+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:35:32 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:35:32.489759+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-04-30T11:35:32.691105+00:00 app[web.1]: 77.66317599538675 12.843316684228917
+2018-04-30T11:35:32.722777+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:35:32 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:35:32.723691+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=b7c6c60e-c55f-4371-8127-66432861dbfe fwd="157.49.131.107" dyno=web.1 connect=2ms service=1243ms status=200 bytes=159 protocol=https
+2018-04-30T11:35:57.960352+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=645460d6-2b5d-4125-89b5-c700a12377de fwd="157.49.131.107" dyno=web.1 connect=1ms service=46ms status=200 bytes=419 protocol=https
+2018-04-30T11:35:57.960454+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:35:57 +0000] "GET /location HTTP/1.1" 200 266 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:36:00.105602+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=af0558b0-cb6b-4dcc-a45d-6ccca511c78c fwd="157.49.142.28" dyno=web.1 connect=0ms service=49ms status=200 bytes=419 protocol=https
+2018-04-30T11:36:00.105165+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:36:00 +0000] "GET /location HTTP/1.1" 200 266 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:36:03.696858+00:00 app[web.1]: 10.113.180.10 - - [30/Apr/2018:11:36:03 +0000] "GET /location HTTP/1.1" 200 266 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:36:03.697052+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=d2342d2d-36fd-479a-9eb4-33f03378f19f fwd="157.49.131.107" dyno=web.1 connect=1ms service=42ms status=200 bytes=419 protocol=https
+2018-04-30T11:36:06.344689+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9e19b49e-c7f3-4ff2-a118-cf34b6d58b16 fwd="157.49.142.28" dyno=web.1 connect=0ms service=39ms status=200 bytes=419 protocol=https
+2018-04-30T11:36:06.344844+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:36:06 +0000] "GET /location HTTP/1.1" 200 266 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:36:14.432192+00:00 app[web.1]: 10.41.238.100 - - [30/Apr/2018:11:36:14 +0000] "GET /favicon.ico HTTP/1.1" 404 762 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon"
+2018-04-30T11:36:14.432260+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fierce-hamlet-74882.herokuapp.com request_id=068b0780-3cc5-4e6c-8661-7cdbfe867dbb fwd="14.139.155.24,64.233.172.185" dyno=web.1 connect=0ms service=2ms status=404 bytes=930 protocol=https
+2018-04-30T11:36:21.073004+00:00 app[web.1]: 10.141.252.172 - - [30/Apr/2018:11:36:21 +0000] "GET /location HTTP/1.1" 200 266 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-04-30T11:36:21.072144+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8bd0a292-f672-4bd3-9e1d-03272ca574fa fwd="14.139.155.24" dyno=web.1 connect=1ms service=35ms status=200 bytes=419 protocol=https
+2018-04-30T11:36:30.828514+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=b18ed907-21f8-47dd-b9b4-ba40c272aa75 fwd="157.49.142.28" dyno=web.1 connect=0ms service=53ms status=200 bytes=419 protocol=https
+2018-04-30T11:36:30.828548+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:36:30 +0000] "GET /location HTTP/1.1" 200 266 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:37:19.969878+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=46b226bb-53a2-45f3-afc8-d13099f0af59 fwd="157.49.131.107" dyno=web.1 connect=0ms service=929ms status=200 bytes=159 protocol=https
+2018-04-30T11:37:19.968642+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T11:37:19.969773+00:00 app[web.1]: 10.61.230.86 - - [30/Apr/2018:11:37:19 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:37:20.193847+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T11:37:20.195012+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:37:20 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:37:20.195187+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=66fda792-b782-493e-a6a7-4de0e77ebecf fwd="157.49.142.28" dyno=web.1 connect=0ms service=1383ms status=200 bytes=159 protocol=https
+2018-04-30T11:37:44.397273+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=a14aac9e-7909-4312-be13-571159d4f594 fwd="157.49.131.107" dyno=web.1 connect=0ms service=1027ms status=200 bytes=159 protocol=https
+2018-04-30T11:37:44.396191+00:00 app[web.1]: predictions:  [0 0 0 2]
+2018-04-30T11:37:44.397125+00:00 app[web.1]: 10.61.230.86 - - [30/Apr/2018:11:37:44 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:37:44.756707+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T11:37:44.759902+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:37:44 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:37:44.760288+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=ccb9b751-922b-4e3e-b7ea-45c633c6efbe fwd="157.49.142.28" dyno=web.1 connect=0ms service=1224ms status=200 bytes=159 protocol=https
+2018-04-30T11:38:29.273365+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-04-30T11:38:29.274274+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:38:29 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:38:29.274424+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=3a2635bd-9656-46bb-a948-2775ba5b2589 fwd="157.49.142.28" dyno=web.1 connect=0ms service=832ms status=200 bytes=159 protocol=https
+2018-04-30T11:38:30.362452+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=583757d1-d82e-423f-93d6-59894869a109 fwd="157.49.131.107" dyno=web.1 connect=0ms service=1087ms status=200 bytes=159 protocol=https
+2018-04-30T11:38:30.361298+00:00 app[web.1]: predictions:  [0 0 0 2]
+2018-04-30T11:38:30.362246+00:00 app[web.1]: 10.61.230.86 - - [30/Apr/2018:11:38:30 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:38:39.798744+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-04-30T11:38:40.027379+00:00 app[web.1]: 77.66305584587172 12.843374419317728
+2018-04-30T11:38:40.040334+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:38:40 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:38:40.040174+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=b5635ed5-f24e-4a2d-8e70-2675bfedc3f4 fwd="157.49.142.28" dyno=web.1 connect=0ms service=767ms status=200 bytes=159 protocol=https
+2018-04-30T11:38:53.188622+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=0be39e1e-08e2-4592-b475-dbf69822505f fwd="157.49.142.28" dyno=web.1 connect=0ms service=35ms status=200 bytes=482 protocol=https
+2018-04-30T11:38:53.189033+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:11:38:53 +0000] "GET /location HTTP/1.1" 200 329 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-04-30T11:38:58.100686+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=602ee1bc-0f1b-4221-ba9c-3a07fd12a976 fwd="157.49.131.107" dyno=web.1 connect=0ms service=40ms status=200 bytes=482 protocol=https
+2018-04-30T11:38:58.100864+00:00 app[web.1]: 10.61.230.86 - - [30/Apr/2018:11:38:58 +0000] "GET /location HTTP/1.1" 200 329 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T11:40:05.641839+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=eabb28d0-63c7-46ff-8989-4fd3c887fe61 fwd="157.49.131.107" dyno=web.1 connect=1ms service=49ms status=200 bytes=482 protocol=https
+2018-04-30T11:40:05.642592+00:00 app[web.1]: 10.158.195.117 - - [30/Apr/2018:11:40:05 +0000] "GET /location HTTP/1.1" 200 329 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T12:13:56.860066+00:00 heroku[web.1]: Idling
+2018-04-30T12:13:56.860066+00:00 heroku[web.1]: State changed from up to down
+2018-04-30T12:13:57.794807+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-30T12:13:57.817266+00:00 app[web.1]: [2018-04-30 12:13:57 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-30T12:13:57.817376+00:00 app[web.1]: [2018-04-30 12:13:57 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-30T12:13:57.823746+00:00 app[web.1]: [2018-04-30 12:13:57 +0000] [4] [INFO] Handling signal: term
+2018-04-30T12:13:57.927256+00:00 app[web.1]: [2018-04-30 12:13:57 +0000] [4] [INFO] Shutting down: Master
+2018-04-30T12:13:58.079670+00:00 heroku[web.1]: Process exited with status 0
+2018-04-30T18:11:47.554402+00:00 heroku[web.1]: Unidling
+2018-04-30T18:11:47.554675+00:00 heroku[web.1]: State changed from down to starting
+2018-04-30T18:11:59.913441+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-04-30T18:12:02.837131+00:00 heroku[web.1]: State changed from starting to up
+2018-04-30T18:12:02.863928+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T18:12:02.863949+00:00 app[web.1]:   """)
+2018-04-30T18:12:02.865912+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-04-30T18:12:02.865915+00:00 app[web.1]:   """)
+2018-04-30T18:12:02.609384+00:00 app[web.1]: [2018-04-30 18:12:02 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-04-30T18:12:02.626873+00:00 app[web.1]: [2018-04-30 18:12:02 +0000] [4] [INFO] Listening at: http://0.0.0.0:45324 (4)
+2018-04-30T18:12:02.627045+00:00 app[web.1]: [2018-04-30 18:12:02 +0000] [4] [INFO] Using worker: sync
+2018-04-30T18:12:02.633392+00:00 app[web.1]: [2018-04-30 18:12:02 +0000] [8] [INFO] Booting worker with pid: 8
+2018-04-30T18:12:02.687658+00:00 app[web.1]: [2018-04-30 18:12:02 +0000] [9] [INFO] Booting worker with pid: 9
+2018-04-30T18:12:09.084731+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1625e88a-8d91-44bf-87a0-b5e366fe804e fwd="157.49.157.4" dyno=web.1 connect=0ms service=4733ms status=200 bytes=482 protocol=https
+2018-04-30T18:12:09.108699+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=16c579c2-04fc-4151-a5bb-6dc6a8bfa744 fwd="157.49.157.4" dyno=web.1 connect=1ms service=3478ms status=200 bytes=482 protocol=https
+2018-04-30T18:12:09.109678+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=02adad8c-fff9-4713-87a1-3e36a7a966f0 fwd="157.49.157.4" dyno=web.1 connect=1ms service=4068ms status=200 bytes=482 protocol=https
+2018-04-30T18:12:09.082015+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8ac03bcb-0891-4498-bf1f-4453f2507025 fwd="157.49.157.4" dyno=web.1 connect=1ms service=5527ms status=200 bytes=482 protocol=https
+2018-04-30T18:12:09.079676+00:00 app[web.1]: 10.158.185.56 - - [30/Apr/2018:18:12:09 +0000] "GET /location HTTP/1.1" 200 329 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T18:12:09.084659+00:00 app[web.1]: 10.239.186.148 - - [30/Apr/2018:18:12:09 +0000] "GET /location HTTP/1.1" 200 329 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T18:12:09.109093+00:00 app[web.1]: 10.9.237.87 - - [30/Apr/2018:18:12:09 +0000] "GET /location HTTP/1.1" 200 329 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T18:12:09.109302+00:00 app[web.1]: 10.93.210.26 - - [30/Apr/2018:18:12:09 +0000] "GET /location HTTP/1.1" 200 329 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T18:12:16.025912+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f5f85866-285d-4c14-9117-babd7b924539 fwd="157.49.157.4" dyno=web.1 connect=0ms service=41ms status=200 bytes=482 protocol=https
+2018-04-30T18:12:16.025357+00:00 app[web.1]: 10.35.228.180 - - [30/Apr/2018:18:12:16 +0000] "GET /location HTTP/1.1" 200 329 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-04-30T18:45:43.202965+00:00 heroku[web.1]: Idling
+2018-04-30T18:45:43.203997+00:00 heroku[web.1]: State changed from up to down
+2018-04-30T18:45:44.136892+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-04-30T18:45:44.185414+00:00 app[web.1]: [2018-04-30 18:45:44 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-04-30T18:45:44.191658+00:00 app[web.1]: [2018-04-30 18:45:44 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-04-30T18:45:44.226539+00:00 app[web.1]: [2018-04-30 18:45:44 +0000] [4] [INFO] Handling signal: term
+2018-04-30T18:45:44.339013+00:00 app[web.1]: [2018-04-30 18:45:44 +0000] [4] [INFO] Shutting down: Master
+2018-04-30T18:45:44.578084+00:00 heroku[web.1]: Process exited with status 0
+2018-05-01T04:01:42.054976+00:00 heroku[web.1]: Unidling
+2018-05-01T04:01:42.055301+00:00 heroku[web.1]: State changed from down to starting
+2018-05-01T04:01:54.991204+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-05-01T04:01:57.787120+00:00 heroku[web.1]: State changed from starting to up
+2018-05-01T04:01:57.642286+00:00 app[web.1]: [2018-05-01 04:01:57 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-05-01T04:01:57.648721+00:00 app[web.1]: [2018-05-01 04:01:57 +0000] [8] [INFO] Booting worker with pid: 8
+2018-05-01T04:01:57.643398+00:00 app[web.1]: [2018-05-01 04:01:57 +0000] [4] [INFO] Using worker: sync
+2018-05-01T04:01:57.643210+00:00 app[web.1]: [2018-05-01 04:01:57 +0000] [4] [INFO] Listening at: http://0.0.0.0:25256 (4)
+2018-05-01T04:01:57.703358+00:00 app[web.1]: [2018-05-01 04:01:57 +0000] [9] [INFO] Booting worker with pid: 9
+2018-05-01T04:01:57.858250+00:00 app[web.1]:   """)
+2018-05-01T04:01:57.858247+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-01T04:01:58.079899+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-01T04:01:58.079923+00:00 app[web.1]:   """)
+2018-05-01T04:02:03.978240+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fierce-hamlet-74882.herokuapp.com request_id=46556559-dbbe-49b3-84e2-dbd597d90c06 fwd="14.139.155.24,64.233.172.160" dyno=web.1 connect=0ms service=9ms status=404 bytes=930 protocol=https
+2018-05-01T04:02:03.833786+00:00 app[web.1]: 10.11.169.30 - - [01/May/2018:04:02:03 +0000] "GET /location HTTP/1.1" 200 329 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon"
+2018-05-01T04:02:03.978366+00:00 app[web.1]: 10.16.206.216 - - [01/May/2018:04:02:03 +0000] "GET /favicon.ico HTTP/1.1" 404 762 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon"
+2018-05-01T04:02:03.834192+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=5d4ebcce-8c02-4ef8-b03b-75befc5e11af fwd="14.139.155.24,64.233.172.182" dyno=web.1 connect=1ms service=5580ms status=200 bytes=482 protocol=https
+2018-05-01T04:37:33.613338+00:00 heroku[web.1]: Idling
+2018-05-01T04:37:33.613775+00:00 heroku[web.1]: State changed from up to down
+2018-05-01T04:39:48.133940+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-05-01T04:39:48.150978+00:00 app[web.1]: [2018-05-01 04:39:48 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-05-01T04:39:48.160417+00:00 app[web.1]: [2018-05-01 04:39:48 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-05-01T04:39:48.188284+00:00 app[web.1]: [2018-05-01 04:39:48 +0000] [4] [INFO] Handling signal: term
+2018-05-01T04:39:48.291903+00:00 app[web.1]: [2018-05-01 04:39:48 +0000] [4] [INFO] Shutting down: Master
+2018-05-01T04:39:48.421327+00:00 heroku[web.1]: Process exited with status 0
+2018-05-01T16:26:41.515017+00:00 heroku[web.1]: Unidling
+2018-05-01T16:26:41.515384+00:00 heroku[web.1]: State changed from down to starting
+2018-05-01T16:26:50.285626+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-05-01T16:26:52.008822+00:00 app[web.1]: [2018-05-01 16:26:52 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-05-01T16:26:52.009336+00:00 app[web.1]: [2018-05-01 16:26:52 +0000] [4] [INFO] Listening at: http://0.0.0.0:50641 (4)
+2018-05-01T16:26:52.013053+00:00 app[web.1]: [2018-05-01 16:26:52 +0000] [8] [INFO] Booting worker with pid: 8
+2018-05-01T16:26:52.009443+00:00 app[web.1]: [2018-05-01 16:26:52 +0000] [4] [INFO] Using worker: sync
+2018-05-01T16:26:52.088510+00:00 app[web.1]: [2018-05-01 16:26:52 +0000] [9] [INFO] Booting worker with pid: 9
+2018-05-01T16:26:52.102475+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-01T16:26:52.102478+00:00 app[web.1]:   """)
+2018-05-01T16:26:52.144867+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-01T16:26:52.144872+00:00 app[web.1]:   """)
+2018-05-01T16:26:52.452572+00:00 heroku[web.1]: State changed from starting to up
+2018-05-01T16:26:57.211199+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1e10f14c-945c-4767-8fbd-9ab84bab4f75 fwd="157.49.170.31" dyno=web.1 connect=1ms service=3636ms status=200 bytes=482 protocol=http
+2018-05-01T16:26:57.211141+00:00 app[web.1]: 10.113.221.66 - - [01/May/2018:16:26:57 +0000] "GET /location HTTP/1.1" 200 329 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Redmi Note 3 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.126 Mobile Safari/537.36"
+2018-05-01T16:26:58.148983+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fierce-hamlet-74882.herokuapp.com request_id=329255c2-f267-4f72-b972-aae85780e340 fwd="157.49.170.31" dyno=web.1 connect=1ms service=10ms status=404 bytes=929 protocol=http
+2018-05-01T16:26:58.148957+00:00 app[web.1]: 10.113.221.66 - - [01/May/2018:16:26:58 +0000] "GET /favicon.ico HTTP/1.1" 404 761 "http://fierce-hamlet-74882.herokuapp.com/location" "Mozilla/5.0 (Linux; Android 6.0.1; Redmi Note 3 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.126 Mobile Safari/537.36"
+2018-05-01T16:27:00.582692+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=bb547216-65cb-46dd-89f7-2cd9d211d56e fwd="157.49.170.31" dyno=web.1 connect=1ms service=24ms status=200 bytes=482 protocol=http
+2018-05-01T16:27:00.582575+00:00 app[web.1]: 10.113.221.66 - - [01/May/2018:16:27:00 +0000] "GET /location HTTP/1.1" 200 329 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Redmi Note 3 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.126 Mobile Safari/537.36"
+2018-05-01T16:35:44.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-05-01T16:36:35.765490+00:00 app[api]: Release v74 created by user chandresh41414@gmail.com
+2018-05-01T16:36:35.765490+00:00 app[api]: Deploy 97f5d1a8 by user chandresh41414@gmail.com
+2018-05-01T16:36:36.206606+00:00 heroku[web.1]: Restarting
+2018-05-01T16:36:36.206606+00:00 heroku[web.1]: State changed from up to starting
+2018-05-01T16:35:44.000000+00:00 app[api]: Build succeeded
+2018-05-01T16:36:36.942424+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-05-01T16:36:36.950203+00:00 app[web.1]: [2018-05-01 16:36:36 +0000] [4] [INFO] Handling signal: term
+2018-05-01T16:36:36.950910+00:00 app[web.1]: [2018-05-01 16:36:36 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-05-01T16:36:36.956470+00:00 app[web.1]: [2018-05-01 16:36:36 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-05-01T16:36:37.251870+00:00 app[web.1]: [2018-05-01 16:36:37 +0000] [4] [INFO] Shutting down: Master
+2018-05-01T16:36:37.341316+00:00 heroku[web.1]: Process exited with status 0
+2018-05-01T16:36:44.712492+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-05-01T16:36:46.932640+00:00 app[web.1]: [2018-05-01 16:36:46 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-05-01T16:36:46.933171+00:00 app[web.1]: [2018-05-01 16:36:46 +0000] [4] [INFO] Listening at: http://0.0.0.0:32859 (4)
+2018-05-01T16:36:46.933265+00:00 app[web.1]: [2018-05-01 16:36:46 +0000] [4] [INFO] Using worker: sync
+2018-05-01T16:36:46.936925+00:00 app[web.1]: [2018-05-01 16:36:46 +0000] [8] [INFO] Booting worker with pid: 8
+2018-05-01T16:36:47.002108+00:00 app[web.1]: [2018-05-01 16:36:47 +0000] [9] [INFO] Booting worker with pid: 9
+2018-05-01T16:36:47.048101+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-01T16:36:47.048107+00:00 app[web.1]:   """)
+2018-05-01T16:36:47.055698+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-01T16:36:47.055702+00:00 app[web.1]:   """)
+2018-05-01T16:36:48.482870+00:00 heroku[web.1]: State changed from starting to up
+2018-05-01T16:36:52.000000+00:00 app[api]: Build started by user chandresh41414@gmail.com
+2018-05-01T16:37:34.745064+00:00 heroku[web.1]: Restarting
+2018-05-01T16:37:34.746032+00:00 heroku[web.1]: State changed from up to starting
+2018-05-01T16:37:34.363958+00:00 app[api]: Release v75 created by user chandresh41414@gmail.com
+2018-05-01T16:37:34.363958+00:00 app[api]: Deploy f0a88cc1 by user chandresh41414@gmail.com
+2018-05-01T16:36:52.000000+00:00 app[api]: Build succeeded
+2018-05-01T16:37:35.371580+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-05-01T16:37:35.390367+00:00 app[web.1]: [2018-05-01 16:37:35 +0000] [4] [INFO] Handling signal: term
+2018-05-01T16:37:35.390395+00:00 app[web.1]: [2018-05-01 16:37:35 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-05-01T16:37:35.390397+00:00 app[web.1]: [2018-05-01 16:37:35 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-05-01T16:37:35.583046+00:00 app[web.1]: [2018-05-01 16:37:35 +0000] [4] [INFO] Shutting down: Master
+2018-05-01T16:37:35.684805+00:00 heroku[web.1]: Process exited with status 0
+2018-05-01T16:37:47.480426+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-05-01T16:37:50.375470+00:00 app[web.1]: [2018-05-01 16:37:50 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-05-01T16:37:50.387185+00:00 app[web.1]: [2018-05-01 16:37:50 +0000] [4] [INFO] Listening at: http://0.0.0.0:59182 (4)
+2018-05-01T16:37:50.387332+00:00 app[web.1]: [2018-05-01 16:37:50 +0000] [4] [INFO] Using worker: sync
+2018-05-01T16:37:50.405801+00:00 app[web.1]: [2018-05-01 16:37:50 +0000] [8] [INFO] Booting worker with pid: 8
+2018-05-01T16:37:50.432990+00:00 app[web.1]: [2018-05-01 16:37:50 +0000] [9] [INFO] Booting worker with pid: 9
+2018-05-01T16:37:50.732659+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-01T16:37:50.732720+00:00 app[web.1]:   """)
+2018-05-01T16:37:50.768546+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-01T16:37:50.768551+00:00 app[web.1]:   """)
+2018-05-01T16:37:51.251981+00:00 heroku[web.1]: State changed from starting to up
+2018-05-01T16:38:00.048389+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=e7105dea-1709-4ddd-a6bc-26107331f2c8 fwd="14.139.155.24" dyno=web.1 connect=0ms service=1549ms status=200 bytes=482 protocol=https
+2018-05-01T16:38:00.051161+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=a3205e79-fdaf-4e73-96b9-4998401a9260 fwd="14.139.155.24" dyno=web.1 connect=4ms service=6359ms status=200 bytes=482 protocol=https
+2018-05-01T16:38:00.050269+00:00 app[web.1]: 10.136.207.141 - - [01/May/2018:16:38:00 +0000] "GET /location HTTP/1.1" 200 329 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-05-01T16:38:00.051928+00:00 app[web.1]: 10.5.228.216 - - [01/May/2018:16:38:00 +0000] "GET /location HTTP/1.1" 200 329 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-05-01T16:38:03.131554+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fierce-hamlet-74882.herokuapp.com request_id=e4cf145f-bd4e-4e00-ae52-e4a74fd305ec fwd="14.139.155.24" dyno=web.1 connect=2ms service=25ms status=404 bytes=930 protocol=https
+2018-05-01T16:38:03.131511+00:00 app[web.1]: 10.37.154.186 - - [01/May/2018:16:38:03 +0000] "GET /favicon.ico HTTP/1.1" 404 762 "https://fierce-hamlet-74882.herokuapp.com/location" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-05-01T16:38:17.781664+00:00 heroku[router]: at=info method=GET path="/clear/delete/db" host=fierce-hamlet-74882.herokuapp.com request_id=2ded5d35-9bb0-410e-bee4-0b1b1a2ff4db fwd="14.139.155.24" dyno=web.1 connect=1ms service=44ms status=200 bytes=159 protocol=https
+2018-05-01T16:38:17.781762+00:00 app[web.1]: 10.37.154.186 - - [01/May/2018:16:38:17 +0000] "GET /clear/delete/db HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-05-01T16:38:21.938244+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=af050726-4869-485f-9ac2-cd194519f535 fwd="14.139.155.24" dyno=web.1 connect=1ms service=33ms status=200 bytes=168 protocol=https
+2018-05-01T16:38:21.938141+00:00 app[web.1]: 10.37.154.186 - - [01/May/2018:16:38:21 +0000] "GET /location HTTP/1.1" 200 16 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-05-01T16:39:06.851487+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9837a508-6124-4d84-af5a-d94a42fe2296 fwd="157.49.167.21" dyno=web.1 connect=1ms service=32ms status=200 bytes=168 protocol=https
+2018-05-01T16:39:06.847976+00:00 app[web.1]: 10.33.183.21 - - [01/May/2018:16:39:06 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-01T16:39:33.338225+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=a9f75d43-c7ae-48c3-ac4d-06b327c8993b fwd="157.49.167.21" dyno=web.1 connect=1ms service=34ms status=200 bytes=168 protocol=https
+2018-05-01T16:39:33.337919+00:00 app[web.1]: 10.65.65.211 - - [01/May/2018:16:39:33 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-01T16:39:35.483620+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=a11bfb55-1231-4a84-8cfc-87645ec3eaf2 fwd="157.49.167.21" dyno=web.1 connect=3ms service=36ms status=200 bytes=168 protocol=https
+2018-05-01T16:39:35.483459+00:00 app[web.1]: 10.65.65.211 - - [01/May/2018:16:39:35 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-01T16:40:27.962881+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=cd3eba61-33fa-48e2-a725-6c70980fa70e fwd="157.49.167.21" dyno=web.1 connect=1ms service=39ms status=200 bytes=168 protocol=https
+2018-05-01T16:40:27.962363+00:00 app[web.1]: 10.65.65.211 - - [01/May/2018:16:40:27 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-01T16:41:07.492755+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=ed2cf29f-f83b-4f72-a77d-d947bbcfc903 fwd="14.139.155.24" dyno=web.1 connect=0ms service=32ms status=200 bytes=168 protocol=https
+2018-05-01T16:41:07.491932+00:00 app[web.1]: 10.33.239.90 - - [01/May/2018:16:41:07 +0000] "GET /location HTTP/1.1" 200 16 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-05-01T16:42:29.298713+00:00 app[web.1]: 10.69.237.119 - - [01/May/2018:16:42:29 +0000] "GET /location HTTP/1.1" 200 16 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-01T16:42:29.299268+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=4b4fd454-ba5e-4ec8-8c83-9979cf0d5b67 fwd="157.49.167.21" dyno=web.1 connect=1ms service=44ms status=200 bytes=168 protocol=https
+2018-05-01T16:42:46.965114+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=d74993e0-561e-44af-9667-92cf749e6f26 fwd="157.49.167.21" dyno=web.1 connect=1ms service=810ms status=200 bytes=159 protocol=https
+2018-05-01T16:42:46.847166+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-05-01T16:42:46.847183+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-05-01T16:42:46.860251+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-05-01T16:42:46.956778+00:00 app[web.1]: 77.66287283511313 12.842825096926024
+2018-05-01T16:42:46.966694+00:00 app[web.1]: 10.69.237.119 - - [01/May/2018:16:42:46 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-01T16:42:55.491356+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=713b48e9-64a5-4a56-abd3-d4a15c61f991 fwd="157.49.167.21" dyno=web.1 connect=1ms service=37ms status=200 bytes=228 protocol=https
+2018-05-01T16:42:55.490607+00:00 app[web.1]: 10.69.237.119 - - [01/May/2018:16:42:55 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-01T17:16:59.121392+00:00 heroku[web.1]: Idling
+2018-05-01T17:16:59.122025+00:00 heroku[web.1]: State changed from up to down
+2018-05-01T17:17:00.001838+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-05-01T17:17:00.026875+00:00 app[web.1]: [2018-05-01 17:17:00 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-05-01T17:17:00.031405+00:00 app[web.1]: [2018-05-01 17:17:00 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-05-01T17:17:00.045128+00:00 app[web.1]: [2018-05-01 17:17:00 +0000] [4] [INFO] Handling signal: term
+2018-05-01T17:17:00.148894+00:00 app[web.1]: [2018-05-01 17:17:00 +0000] [4] [INFO] Shutting down: Master
+2018-05-01T17:17:00.246611+00:00 heroku[web.1]: Process exited with status 0
+2018-05-02T01:40:01.735151+00:00 heroku[web.1]: Unidling
+2018-05-02T01:40:01.735583+00:00 heroku[web.1]: State changed from down to starting
+2018-05-02T01:40:13.931797+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-05-02T01:40:16.438634+00:00 heroku[web.1]: State changed from starting to up
+2018-05-02T01:40:16.191396+00:00 app[web.1]: [2018-05-02 01:40:16 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-05-02T01:40:16.195842+00:00 app[web.1]: [2018-05-02 01:40:16 +0000] [4] [INFO] Listening at: http://0.0.0.0:16875 (4)
+2018-05-02T01:40:16.196104+00:00 app[web.1]: [2018-05-02 01:40:16 +0000] [4] [INFO] Using worker: sync
+2018-05-02T01:40:16.209289+00:00 app[web.1]: [2018-05-02 01:40:16 +0000] [8] [INFO] Booting worker with pid: 8
+2018-05-02T01:40:16.409964+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-02T01:40:16.238282+00:00 app[web.1]: [2018-05-02 01:40:16 +0000] [9] [INFO] Booting worker with pid: 9
+2018-05-02T01:40:16.409968+00:00 app[web.1]:   """)
+2018-05-02T01:40:16.428010+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-02T01:40:16.428015+00:00 app[web.1]:   """)
+2018-05-02T01:40:21.001742+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=fe22f9f9-ae52-49d0-a40a-0325c83da833 fwd="111.93.157.115,64.233.172.162" dyno=web.1 connect=1ms service=3091ms status=200 bytes=228 protocol=https
+2018-05-02T01:40:21.155913+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fierce-hamlet-74882.herokuapp.com request_id=458522aa-e0eb-4fa1-be3d-2582ab9352eb fwd="111.93.157.115,64.233.172.172" dyno=web.1 connect=0ms service=10ms status=404 bytes=930 protocol=https
+2018-05-02T01:40:21.001848+00:00 app[web.1]: 10.43.197.68 - - [02/May/2018:01:40:20 +0000] "GET /location HTTP/1.1" 200 76 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon"
+2018-05-02T01:40:21.156743+00:00 app[web.1]: 10.41.195.2 - - [02/May/2018:01:40:21 +0000] "GET /favicon.ico HTTP/1.1" 404 762 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon"
+2018-05-02T02:15:43.815349+00:00 heroku[web.1]: Idling
+2018-05-02T02:15:43.816127+00:00 heroku[web.1]: State changed from up to down
+2018-05-02T02:15:44.768474+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2018-05-02T02:15:44.794428+00:00 app[web.1]: [2018-05-02 02:15:44 +0000] [8] [INFO] Worker exiting (pid: 8)
+2018-05-02T02:15:44.795086+00:00 app[web.1]: [2018-05-02 02:15:44 +0000] [9] [INFO] Worker exiting (pid: 9)
+2018-05-02T02:15:44.792805+00:00 app[web.1]: [2018-05-02 02:15:44 +0000] [4] [INFO] Handling signal: term
+2018-05-02T02:15:45.618152+00:00 app[web.1]: [2018-05-02 02:15:45 +0000] [4] [INFO] Shutting down: Master
+2018-05-02T02:15:45.746712+00:00 heroku[web.1]: Process exited with status 0
+2018-05-02T02:31:38.355182+00:00 heroku[web.1]: Unidling
+2018-05-02T02:31:38.355604+00:00 heroku[web.1]: State changed from down to starting
+2018-05-02T02:31:50.711459+00:00 heroku[web.1]: Starting process with command `gunicorn bottle_rest_simple:app`
+2018-05-02T02:31:53.944861+00:00 heroku[web.1]: State changed from starting to up
+2018-05-02T02:31:53.665128+00:00 app[web.1]: [2018-05-02 02:31:53 +0000] [4] [INFO] Starting gunicorn 19.7.1
+2018-05-02T02:31:53.666070+00:00 app[web.1]: [2018-05-02 02:31:53 +0000] [4] [INFO] Listening at: http://0.0.0.0:22932 (4)
+2018-05-02T02:31:53.666353+00:00 app[web.1]: [2018-05-02 02:31:53 +0000] [4] [INFO] Using worker: sync
+2018-05-02T02:31:53.672232+00:00 app[web.1]: [2018-05-02 02:31:53 +0000] [8] [INFO] Booting worker with pid: 8
+2018-05-02T02:31:53.735302+00:00 app[web.1]: [2018-05-02 02:31:53 +0000] [9] [INFO] Booting worker with pid: 9
+2018-05-02T02:31:54.032144+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-02T02:31:54.032253+00:00 app[web.1]:   """)
+2018-05-02T02:31:54.301795+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+2018-05-02T02:31:54.301815+00:00 app[web.1]:   """)
+2018-05-02T02:32:00.922677+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=31392151-e36e-4880-a3fa-ad748aa6be09 fwd="14.139.155.24" dyno=web.1 connect=0ms service=4466ms status=200 bytes=228 protocol=https
+2018-05-02T02:32:00.923183+00:00 app[web.1]: 10.141.149.107 - - [02/May/2018:02:32:00 +0000] "GET /location HTTP/1.1" 200 76 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-05-02T02:32:02.238084+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fierce-hamlet-74882.herokuapp.com request_id=47323f4f-5b48-4783-952b-81704447842a fwd="14.139.155.24" dyno=web.1 connect=0ms service=11ms status=404 bytes=930 protocol=https
+2018-05-02T02:32:02.237249+00:00 app[web.1]: 10.141.149.107 - - [02/May/2018:02:32:02 +0000] "GET /favicon.ico HTTP/1.1" 404 762 "https://fierce-hamlet-74882.herokuapp.com/location" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-05-02T02:32:10.409504+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=3cbd3c60-d15f-415c-ad19-482efbc31879 fwd="14.139.155.24" dyno=web.1 connect=0ms service=43ms status=200 bytes=228 protocol=https
+2018-05-02T02:32:10.411676+00:00 app[web.1]: 10.141.149.107 - - [02/May/2018:02:32:10 +0000] "GET /location HTTP/1.1" 200 76 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+2018-05-02T02:35:17.802301+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=fierce-hamlet-74882.herokuapp.com request_id=57866173-6e97-4f7a-929b-e92490c33ce4 fwd="157.49.168.156" dyno=web.1 connect=214ms service=112ms status=404 bytes=929 protocol=http
+2018-05-02T02:35:17.800812+00:00 app[web.1]: 10.16.221.230 - - [02/May/2018:02:35:17 +0000] "GET /favicon.ico HTTP/1.1" 404 761 "http://fierce-hamlet-74882.herokuapp.com/location" "Mozilla/5.0 (Linux; Android 6.0.1; Redmi Note 3 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.126 Mobile Safari/537.36"
+2018-05-02T02:35:18.679957+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=0a16cbf4-9d09-48c9-ae12-d26577f14699 fwd="157.49.168.156" dyno=web.1 connect=0ms service=43ms status=200 bytes=228 protocol=http
+2018-05-02T02:35:18.678973+00:00 app[web.1]: 10.16.221.230 - - [02/May/2018:02:35:18 +0000] "GET /location HTTP/1.1" 200 76 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Redmi Note 3 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.126 Mobile Safari/537.36"
+2018-05-02T02:40:33.281249+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=11584377-a172-467a-9715-ac9aa462a479 fwd="157.49.185.10" dyno=web.1 connect=0ms service=17ms status=200 bytes=228 protocol=https
+2018-05-02T02:40:33.278509+00:00 app[web.1]: 10.67.162.211 - - [02/May/2018:02:40:33 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T02:40:35.260766+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=77417cd2-9f5b-4b00-9a93-1fcdc694c9ff fwd="157.49.185.10" dyno=web.1 connect=0ms service=34ms status=200 bytes=228 protocol=https
+2018-05-02T02:40:35.258087+00:00 app[web.1]: 10.67.162.211 - - [02/May/2018:02:40:35 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T02:58:19.748966+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=195fcccc-7b1e-4dc0-929b-f795f5efcd53 fwd="157.49.149.116" dyno=web.1 connect=0ms service=39ms status=200 bytes=228 protocol=https
+2018-05-02T02:58:19.749841+00:00 app[web.1]: 10.30.65.228 - - [02/May/2018:02:58:19 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:05:46.081012+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=ef5cabf6-7799-43fe-940f-09ec0c76f706 fwd="157.49.168.156" dyno=web.1 connect=0ms service=36ms status=200 bytes=228 protocol=https
+2018-05-02T03:05:46.077864+00:00 app[web.1]: 10.123.156.99 - - [02/May/2018:03:05:46 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:05:48.384796+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=15893e96-96ec-4817-a2fb-2dbd29765dc4 fwd="157.49.168.156" dyno=web.1 connect=0ms service=50ms status=200 bytes=228 protocol=https
+2018-05-02T03:05:48.383796+00:00 app[web.1]: 10.123.156.99 - - [02/May/2018:03:05:48 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:05:59.213860+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1379c331-d8bc-4e9d-9691-f544e79aaa31 fwd="223.186.118.108" dyno=web.1 connect=1ms service=51ms status=200 bytes=228 protocol=https
+2018-05-02T03:05:59.217580+00:00 app[web.1]: 10.142.180.61 - - [02/May/2018:03:05:59 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:06:06.871077+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=6196278f-1b55-47db-99c0-c4e45d230f45 fwd="223.186.118.108" dyno=web.1 connect=1ms service=33ms status=200 bytes=228 protocol=https
+2018-05-02T03:06:06.874962+00:00 app[web.1]: 10.142.180.61 - - [02/May/2018:03:06:06 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:10:58.682718+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=d021dbc3-a50b-460e-abe5-0f6fd53e1e67 fwd="157.49.168.156" dyno=web.1 connect=0ms service=77ms status=200 bytes=228 protocol=https
+2018-05-02T03:10:58.682368+00:00 app[web.1]: 10.9.233.102 - - [02/May/2018:03:10:58 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:11:01.147368+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=0f960125-f525-43bd-b5d3-afb83f2c9817 fwd="157.49.168.156" dyno=web.1 connect=0ms service=62ms status=200 bytes=228 protocol=https
+2018-05-02T03:11:01.156995+00:00 app[web.1]: 10.9.233.102 - - [02/May/2018:03:11:01 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:11:03.952531+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=77f78640-24ee-4782-8122-640b0dc9bc1f fwd="157.49.168.156" dyno=web.1 connect=0ms service=47ms status=200 bytes=228 protocol=https
+2018-05-02T03:11:03.961383+00:00 app[web.1]: 10.9.233.102 - - [02/May/2018:03:11:03 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:11:09.039072+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=f24b9f3d-776c-4cd5-b046-88d651ea98eb fwd="223.186.118.108" dyno=web.1 connect=1ms service=46ms status=200 bytes=228 protocol=https
+2018-05-02T03:11:09.039733+00:00 app[web.1]: 10.101.219.132 - - [02/May/2018:03:11:09 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:11:16.625347+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1a58fe9f-da78-4e81-baef-7b232ec0e1bd fwd="157.49.168.156" dyno=web.1 connect=0ms service=47ms status=200 bytes=228 protocol=https
+2018-05-02T03:11:16.624870+00:00 app[web.1]: 10.9.233.102 - - [02/May/2018:03:11:16 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:23:30.609374+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=39c69c4d-e423-4f01-b97f-d6eb3ba2cee2 fwd="157.49.168.156" dyno=web.1 connect=0ms service=18ms status=200 bytes=228 protocol=https
+2018-05-02T03:23:30.609169+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:23:30 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:23:39.974268+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=1086ed8f-ba42-4c07-883f-bcdd554f3e31 fwd="157.49.168.156" dyno=web.1 connect=0ms service=17ms status=200 bytes=228 protocol=https
+2018-05-02T03:23:39.974735+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:23:39 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:23:53.512315+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=180c1d11-f2a3-48aa-8045-1e2a5803ed46 fwd="157.49.142.218" dyno=web.1 connect=0ms service=16ms status=200 bytes=228 protocol=https
+2018-05-02T03:23:53.512645+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:23:53 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:23:59.953804+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=845762b5-fc5a-4984-b749-a27e503d731f fwd="223.186.118.108" dyno=web.1 connect=14ms service=94ms status=200 bytes=228 protocol=https
+2018-05-02T03:23:59.953064+00:00 app[web.1]: 10.51.202.214 - - [02/May/2018:03:23:59 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:24:23.167266+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=2f5ad651-a1b6-40ec-92f7-5a1e36bd92ae fwd="223.186.118.108" dyno=web.1 connect=1ms service=35ms status=200 bytes=228 protocol=https
+2018-05-02T03:24:23.166509+00:00 app[web.1]: 10.51.202.214 - - [02/May/2018:03:24:23 +0000] "GET /location HTTP/1.1" 200 76 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:24:28.627951+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=2d2153f0-8aae-4b79-ad8a-1fabf736f781 fwd="157.49.168.156" dyno=web.1 connect=1ms service=340ms status=200 bytes=159 protocol=https
+2018-05-02T03:24:28.612610+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-05-02T03:24:28.612623+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-05-02T03:24:28.627138+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:24:28.628291+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:24:28 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:24:29.252670+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-05-02T03:24:29.400624+00:00 app[web.1]: 77.6617422090174 12.845541879783495
+2018-05-02T03:24:29.405522+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:24:29 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:24:29.405271+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=a626b4e6-181c-4d59-813f-0854b589bf93 fwd="157.49.142.218" dyno=web.1 connect=0ms service=448ms status=200 bytes=159 protocol=https
+2018-05-02T03:24:39.529866+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=6a33be3c-fb91-45c8-8192-830a36a2318d fwd="157.49.168.156" dyno=web.1 connect=0ms service=303ms status=200 bytes=159 protocol=https
+2018-05-02T03:24:39.525416+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py:164: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+2018-05-02T03:24:39.525431+00:00 app[web.1]:   warnings.warn("Numerical issues were encountered "
+2018-05-02T03:24:39.529255+00:00 app[web.1]: predictions:  [0 0 0 2]
+2018-05-02T03:24:39.529964+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:24:39 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:24:40.738181+00:00 app[web.1]: 77.66149750706123 12.845549757435952
+2018-05-02T03:24:40.680416+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-05-02T03:24:40.742436+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:24:40 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:24:40.742228+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=2a7c12eb-9536-4aa9-8783-4cc5e98faa27 fwd="157.49.142.218" dyno=web.1 connect=0ms service=300ms status=200 bytes=159 protocol=https
+2018-05-02T03:24:51.418525+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:24:51.419195+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:24:51 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:24:51.419031+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=2e09b53e-243c-4c50-9f29-1131bdcd6543 fwd="157.49.168.156" dyno=web.1 connect=0ms service=342ms status=200 bytes=159 protocol=https
+2018-05-02T03:24:57.189821+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=44bcdbdb-f223-40a5-a062-85ac687500cc fwd="157.49.142.218" dyno=web.1 connect=0ms service=303ms status=200 bytes=159 protocol=https
+2018-05-02T03:24:57.244041+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=8e9bb59c-54de-4acd-841d-57fab2b3394d fwd="157.49.142.218" dyno=web.1 connect=0ms service=261ms status=200 bytes=159 protocol=https
+2018-05-02T03:24:57.189174+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:24:57.190126+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:24:57 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:24:57.244293+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:24:57 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:24:57.243675+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:25:01.251692+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=9f658e30-f744-4ae2-b6e1-5387687d2bc9 fwd="157.49.168.156" dyno=web.1 connect=0ms service=369ms status=200 bytes=159 protocol=https
+2018-05-02T03:25:01.251075+00:00 app[web.1]: predictions:  [0 2 0 0]
+2018-05-02T03:25:01.251735+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:25:01 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:25:03.192606+00:00 app[web.1]: predictions:  [1 0 0 0]
+2018-05-02T03:25:03.285191+00:00 app[web.1]: 77.66108571032522 12.845452089205223
+2018-05-02T03:25:03.289777+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:25:03 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:25:03.289596+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=8180cf0f-c64a-407f-95fb-2652c85313b0 fwd="157.49.142.218" dyno=web.1 connect=0ms service=343ms status=200 bytes=159 protocol=https
+2018-05-02T03:25:08.150541+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=a7840762-ae12-438b-a0a0-70a4d8ed07a6 fwd="223.186.118.108" dyno=web.1 connect=1ms service=18ms status=200 bytes=417 protocol=https
+2018-05-02T03:25:08.149599+00:00 app[web.1]: 10.51.202.214 - - [02/May/2018:03:25:08 +0000] "GET /location HTTP/1.1" 200 264 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:25:09.295376+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=4864ac47-1812-40cf-bd4c-a93bfaf5ec40 fwd="223.186.118.108" dyno=web.1 connect=1ms service=20ms status=200 bytes=417 protocol=https
+2018-05-02T03:25:09.295486+00:00 app[web.1]: 10.142.224.246 - - [02/May/2018:03:25:09 +0000] "GET /location HTTP/1.1" 200 264 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:25:12.061319+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=9b5d04c9-a43d-4dd7-8cf7-b47aedcbde22 fwd="157.49.168.156" dyno=web.1 connect=0ms service=239ms status=200 bytes=159 protocol=https
+2018-05-02T03:25:12.060728+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:25:12.061360+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:25:12 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:25:14.619073+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=ccb55117-dbba-4fb0-81fd-5df52aca3465 fwd="157.49.142.218" dyno=web.1 connect=1ms service=401ms status=200 bytes=159 protocol=https
+2018-05-02T03:25:14.615819+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:25:14.616739+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:25:14 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:25:20.125059+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=315a7a0d-6926-431f-b2f1-d34088663f79 fwd="223.186.118.108" dyno=web.1 connect=1ms service=16ms status=200 bytes=417 protocol=https
+2018-05-02T03:25:20.125270+00:00 app[web.1]: 10.142.224.246 - - [02/May/2018:03:25:20 +0000] "GET /location HTTP/1.1" 200 264 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:25:22.730356+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=e77a8147-9374-40cb-84a5-04e8dce8529b fwd="157.49.168.156" dyno=web.1 connect=0ms service=233ms status=200 bytes=159 protocol=https
+2018-05-02T03:25:22.729879+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:25:22.730442+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:25:22 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:25:26.138710+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=1fd4405b-78e0-4866-bd6a-faa661e58626 fwd="157.49.142.218" dyno=web.1 connect=36ms service=271ms status=200 bytes=159 protocol=https
+2018-05-02T03:25:26.138313+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:25:26.138873+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:25:26 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:25:27.944230+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=184f32a4-a2d5-48c2-9168-4bad43b05887 fwd="223.186.118.108" dyno=web.1 connect=1ms service=24ms status=200 bytes=417 protocol=https
+2018-05-02T03:25:27.943813+00:00 app[web.1]: 10.189.169.232 - - [02/May/2018:03:25:27 +0000] "GET /location HTTP/1.1" 200 264 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:25:37.238896+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=adafac51-4ed2-4fb7-a60d-699eadb1e04a fwd="157.49.142.218" dyno=web.1 connect=0ms service=337ms status=200 bytes=159 protocol=https
+2018-05-02T03:25:37.238404+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:25:37.239208+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:25:37 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:25:50.925816+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-05-02T03:25:50.996561+00:00 app[web.1]: 77.66018025973331 12.84455612251958
+2018-05-02T03:25:51.007319+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:25:51 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:25:51.006853+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=dd458939-06a3-44b2-a794-b59c8da6eee0 fwd="157.49.168.156" dyno=web.1 connect=0ms service=339ms status=200 bytes=159 protocol=https
+2018-05-02T03:25:54.362930+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-05-02T03:25:54.417873+00:00 app[web.1]: 77.66027164032454 12.843571092351016
+2018-05-02T03:25:54.423254+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:25:54 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:25:54.422338+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=fc3e0bb1-adb4-4eac-a108-b35670718887 fwd="157.49.142.218" dyno=web.1 connect=0ms service=331ms status=200 bytes=159 protocol=https
+2018-05-02T03:25:56.706371+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=839a0c40-eda5-48d7-be58-72f22179b1d1 fwd="223.186.118.108" dyno=web.1 connect=1ms service=31ms status=200 bytes=542 protocol=https
+2018-05-02T03:25:56.705451+00:00 app[web.1]: 10.189.169.232 - - [02/May/2018:03:25:56 +0000] "GET /location HTTP/1.1" 200 389 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:25:58.588787+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=02cb6008-3d02-438c-a157-f1605eb61cf7 fwd="223.186.118.108" dyno=web.1 connect=1ms service=19ms status=200 bytes=542 protocol=https
+2018-05-02T03:25:58.655066+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8372f069-2e31-4eb7-a2ca-e03a2fac306c fwd="223.186.118.108" dyno=web.1 connect=0ms service=27ms status=200 bytes=542 protocol=https
+2018-05-02T03:25:58.589011+00:00 app[web.1]: 10.45.100.228 - - [02/May/2018:03:25:58 +0000] "GET /location HTTP/1.1" 200 389 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:25:58.651932+00:00 app[web.1]: 10.181.55.151 - - [02/May/2018:03:25:58 +0000] "GET /location HTTP/1.1" 200 389 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:26:02.297320+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=1234c115-45b1-4755-bc7a-e06fd5a44e1a fwd="157.49.168.156" dyno=web.1 connect=0ms service=400ms status=200 bytes=159 protocol=https
+2018-05-02T03:26:02.296753+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:26:02.297736+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:26:02 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:26:05.411569+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/numpy/lib/function_base.py:1775: RuntimeWarning: divide by zero encountered in true_divide
+2018-05-02T03:26:05.543710+00:00 app[web.1]:   File "/app/.heroku/python/bin/bottle.py", line 862, in _handle
+2018-05-02T03:26:05.543723+00:00 app[web.1]:     standardized_data = StandardScaler().fit_transform(x)
+2018-05-02T03:26:05.411586+00:00 app[web.1]:   a = -(dx2)/(dx1 * (dx1 + dx2))
+2018-05-02T03:26:05.411666+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/numpy/lib/function_base.py:1777: RuntimeWarning: divide by zero encountered in true_divide
+2018-05-02T03:26:05.543712+00:00 app[web.1]:     return route.call(**args)
+2018-05-02T03:26:05.411669+00:00 app[web.1]:   c = dx1 / (dx2 * (dx1 + dx2))
+2018-05-02T03:26:05.543714+00:00 app[web.1]:   File "/app/.heroku/python/bin/bottle.py", line 1740, in wrapper
+2018-05-02T03:26:05.412503+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/numpy/lib/function_base.py:1783: RuntimeWarning: invalid value encountered in add
+2018-05-02T03:26:05.412506+00:00 app[web.1]:   out[slice1] = a * f[slice2] + b * f[slice3] + c * f[slice4]
+2018-05-02T03:26:05.412755+00:00 app[web.1]: /app/.heroku/python/lib/python3.6/site-packages/numpy/core/_methods.py:26: RuntimeWarning: invalid value encountered in reduce
+2018-05-02T03:26:05.543716+00:00 app[web.1]:     rv = callback(*a, **ka)
+2018-05-02T03:26:05.543725+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/sklearn/base.py", line 517, in fit_transform
+2018-05-02T03:26:05.543743+00:00 app[web.1]: ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+2018-05-02T03:26:05.543727+00:00 app[web.1]:     return self.fit(X, **fit_params).transform(X)
+2018-05-02T03:26:05.544426+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:26:05 +0000] "POST /data HTTP/1.1" 500 765 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:26:05.543728+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py", line 590, in fit
+2018-05-02T03:26:05.412758+00:00 app[web.1]:   return umr_maximum(a, axis, None, out, keepdims)
+2018-05-02T03:26:05.543718+00:00 app[web.1]:   File "/app/bottle_rest_simple.py", line 22, in process
+2018-05-02T03:26:05.543735+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/sklearn/utils/validation.py", line 453, in check_array
+2018-05-02T03:26:05.543705+00:00 app[web.1]: Traceback (most recent call last):
+2018-05-02T03:26:05.543719+00:00 app[web.1]:     model.predictPotholes(request.json)
+2018-05-02T03:26:05.543737+00:00 app[web.1]:     _assert_all_finite(array)
+2018-05-02T03:26:05.543721+00:00 app[web.1]:   File "/app/model.py", line 273, in predictPotholes
+2018-05-02T03:26:05.543739+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/sklearn/utils/validation.py", line 44, in _assert_all_finite
+2018-05-02T03:26:05.543740+00:00 app[web.1]:     " or a value too large for %r." % X.dtype)
+2018-05-02T03:26:05.543730+00:00 app[web.1]:     return self.partial_fit(X, y)
+2018-05-02T03:26:05.543732+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.6/site-packages/sklearn/preprocessing/data.py", line 612, in partial_fit
+2018-05-02T03:26:05.543733+00:00 app[web.1]:     warn_on_dtype=True, estimator=self, dtype=FLOAT_DTYPES)
+2018-05-02T03:26:05.544581+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=7cf994ce-0cd6-4c63-a188-a2a530f79424 fwd="157.49.142.218" dyno=web.1 connect=0ms service=338ms status=500 bytes=945 protocol=https
+2018-05-02T03:26:12.636856+00:00 app[web.1]: predictions:  [1 0 0 0]
+2018-05-02T03:26:12.755761+00:00 app[web.1]: 77.66038333591526 12.8427067043525
+2018-05-02T03:26:12.760548+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:26:12 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:26:12.760415+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=1e04e5e0-30a4-442e-a51a-4ed5dab209d0 fwd="157.49.168.156" dyno=web.1 connect=0ms service=522ms status=200 bytes=159 protocol=https
+2018-05-02T03:26:16.695415+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=ce2414a3-18af-4ba8-9483-7cd12c91e18f fwd="157.49.142.218" dyno=web.1 connect=0ms service=317ms status=200 bytes=159 protocol=https
+2018-05-02T03:26:16.695714+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:26:16 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:26:16.694302+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:26:23.251180+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=7f9d9241-d97f-4adc-9f19-cb7fbe6a07a7 fwd="157.49.168.156" dyno=web.1 connect=0ms service=365ms status=200 bytes=159 protocol=https
+2018-05-02T03:26:23.250487+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:26:23.251430+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:26:23 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:26:27.794021+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=91773e01-6df8-4b1b-8eb8-37a82b4d25bc fwd="157.49.142.218" dyno=web.1 connect=0ms service=349ms status=200 bytes=159 protocol=https
+2018-05-02T03:26:27.793463+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:26:27.794435+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:26:27 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:26:28.331975+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=0c51d4c9-5816-4207-8e6b-77fdd3259e43 fwd="223.186.118.108" dyno=web.1 connect=0ms service=23ms status=200 bytes=605 protocol=https
+2018-05-02T03:26:28.328835+00:00 app[web.1]: 10.181.55.151 - - [02/May/2018:03:26:28 +0000] "GET /location HTTP/1.1" 200 452 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:26:34.055815+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=00a25c5d-230e-4d7f-ac5c-1b3fa692a1c7 fwd="157.49.168.156" dyno=web.1 connect=0ms service=334ms status=200 bytes=159 protocol=https
+2018-05-02T03:26:34.055216+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:26:34.056233+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:26:34 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:26:39.033447+00:00 app[web.1]: predictions:  [0 0 0 2]
+2018-05-02T03:26:39.034540+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:26:39 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:26:39.033894+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=f79d1ae4-f806-4960-849f-670fe4cc8839 fwd="157.49.142.218" dyno=web.1 connect=0ms service=309ms status=200 bytes=159 protocol=https
+2018-05-02T03:26:44.773357+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=a64e84c9-641f-4ba1-8744-3c38dc167dac fwd="157.49.168.156" dyno=web.1 connect=0ms service=282ms status=200 bytes=159 protocol=https
+2018-05-02T03:26:44.772873+00:00 app[web.1]: predictions:  [2 0 0 0]
+2018-05-02T03:26:44.773711+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:26:44 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:26:50.355749+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=f0831fb3-38cf-47e4-8c39-f41bf94ed2d1 fwd="157.49.142.218" dyno=web.1 connect=0ms service=300ms status=200 bytes=159 protocol=https
+2018-05-02T03:26:50.355275+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:26:50.356237+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:26:50 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:26:53.132375+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=9b7658a7-69e6-4ecc-9c1a-927a50417064 fwd="223.186.118.108" dyno=web.1 connect=0ms service=17ms status=200 bytes=605 protocol=https
+2018-05-02T03:26:53.129121+00:00 app[web.1]: 10.181.55.151 - - [02/May/2018:03:26:53 +0000] "GET /location HTTP/1.1" 200 452 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:26:55.636621+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=e693e64e-24ed-48d9-a13b-0dbc28db60e9 fwd="157.49.168.156" dyno=web.1 connect=0ms service=320ms status=200 bytes=159 protocol=https
+2018-05-02T03:26:55.637205+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:26:55 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:26:55.636061+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:27:01.629143+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=cedd1120-fdec-4629-b8f5-011ad913ca30 fwd="157.49.142.218" dyno=web.1 connect=0ms service=489ms status=200 bytes=159 protocol=https
+2018-05-02T03:27:01.628857+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:27:01.629644+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:27:01 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:27:04.814988+00:00 app[web.1]: 10.181.55.151 - - [02/May/2018:03:27:04 +0000] "GET /location HTTP/1.1" 200 452 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:27:04.818434+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=08804429-4229-4811-9caf-553ee5e8f919 fwd="223.186.118.108" dyno=web.1 connect=0ms service=23ms status=200 bytes=605 protocol=https
+2018-05-02T03:27:06.470976+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=1fd868e1-0d07-4603-888d-ff1f10849ff1 fwd="157.49.168.156" dyno=web.1 connect=0ms service=280ms status=200 bytes=159 protocol=https
+2018-05-02T03:27:06.470102+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:27:06.471139+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:27:06 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:27:09.920696+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=a12e98a4-5ca8-41f7-a947-3c3c40c9c577 fwd="223.186.118.108" dyno=web.1 connect=1ms service=27ms status=200 bytes=605 protocol=https
+2018-05-02T03:27:09.917618+00:00 app[web.1]: 10.181.55.151 - - [02/May/2018:03:27:09 +0000] "GET /location HTTP/1.1" 200 452 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:27:12.825784+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=df784bc6-3dbe-487b-8687-818637478612 fwd="157.49.142.218" dyno=web.1 connect=0ms service=326ms status=200 bytes=159 protocol=https
+2018-05-02T03:27:12.756878+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-05-02T03:27:12.815268+00:00 app[web.1]: 77.65837512225663 12.83902680678255
+2018-05-02T03:27:12.821322+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:27:12 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:27:16.365497+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=88fb7afa-fefd-448e-8e39-6e556747b065 fwd="223.186.118.108" dyno=web.1 connect=0ms service=20ms status=200 bytes=668 protocol=https
+2018-05-02T03:27:16.362051+00:00 app[web.1]: 10.181.55.151 - - [02/May/2018:03:27:16 +0000] "GET /location HTTP/1.1" 200 515 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:27:17.353520+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=01e35e0e-862f-4071-a0ea-5143209b1817 fwd="157.49.168.156" dyno=web.1 connect=0ms service=237ms status=200 bytes=159 protocol=https
+2018-05-02T03:27:17.353056+00:00 app[web.1]: predictions:  [0 0 2 0]
+2018-05-02T03:27:17.353838+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:27:17 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:27:24.081454+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=233397e9-7cd9-49e5-84b1-64edecd42326 fwd="157.49.142.218" dyno=web.1 connect=0ms service=316ms status=200 bytes=159 protocol=https
+2018-05-02T03:27:24.080407+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:27:24.081370+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:27:24 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:27:28.252512+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=c02ae35f-b7b4-47e5-8559-d80b83e414da fwd="157.49.168.156" dyno=web.1 connect=0ms service=356ms status=200 bytes=159 protocol=https
+2018-05-02T03:27:28.251883+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:27:28.252850+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:27:28 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:27:32.270831+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=a5bf1bee-c461-4a15-ad46-49a6260d492f fwd="223.186.118.108" dyno=web.1 connect=0ms service=15ms status=200 bytes=668 protocol=https
+2018-05-02T03:27:32.267631+00:00 app[web.1]: 10.181.55.151 - - [02/May/2018:03:27:32 +0000] "GET /location HTTP/1.1" 200 515 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:27:35.275356+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:27:35.276412+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:27:35 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:27:35.276157+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=85c8d35c-51a9-449f-a68e-27546d9468a7 fwd="157.49.142.218" dyno=web.1 connect=0ms service=281ms status=200 bytes=159 protocol=https
+2018-05-02T03:27:39.312877+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=fa389b3d-526f-449e-b15a-6a98829ef831 fwd="157.49.168.156" dyno=web.1 connect=0ms service=306ms status=200 bytes=159 protocol=https
+2018-05-02T03:27:39.250900+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-05-02T03:27:39.308224+00:00 app[web.1]: 77.65610560116647 12.8390861346302
+2018-05-02T03:27:39.313157+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:27:39 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:27:46.597259+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=8243b8f7-e87a-4692-b73f-e2d1e228816f fwd="157.49.142.218" dyno=web.1 connect=0ms service=341ms status=200 bytes=159 protocol=https
+2018-05-02T03:27:46.596472+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:27:46.597470+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:27:46 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:27:49.863481+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-05-02T03:27:49.999894+00:00 app[web.1]: 77.65577199677105 12.839132491115254
+2018-05-02T03:27:50.008744+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:27:50 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:27:50.007925+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=3a2783cf-e603-460e-a6fc-ad403e11d1da fwd="157.49.168.156" dyno=web.1 connect=0ms service=396ms status=200 bytes=159 protocol=https
+2018-05-02T03:27:57.892270+00:00 app[web.1]: predictions:  [1 0 0 0]
+2018-05-02T03:27:57.963361+00:00 app[web.1]: 77.6557490485903 12.839135577418658
+2018-05-02T03:27:57.968230+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:27:57 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:27:57.967661+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=e0322bd0-e74c-4567-8955-ad9eebb9a731 fwd="157.49.142.218" dyno=web.1 connect=0ms service=382ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:00.798286+00:00 app[web.1]: predictions:  [1 0 0 0]
+2018-05-02T03:28:00.865725+00:00 app[web.1]: 77.65559930744546 12.839163080635032
+2018-05-02T03:28:00.870972+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:28:00 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:28:00.870244+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=c06ccbe1-8e5e-48c1-a783-e98bc047186b fwd="157.49.168.156" dyno=web.1 connect=0ms service=454ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:01.531379+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=16bd800a-a288-493f-8f18-0cbc31a27ed6 fwd="223.186.118.108" dyno=web.1 connect=0ms service=21ms status=200 bytes=919 protocol=https
+2018-05-02T03:28:01.527778+00:00 app[web.1]: 10.181.55.151 - - [02/May/2018:03:28:01 +0000] "GET /location HTTP/1.1" 200 766 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:28:09.554863+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=b2c2e507-4aa3-4982-bbff-a3af52935dcc fwd="157.49.142.218" dyno=web.1 connect=1ms service=429ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:09.554350+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:28:09.555338+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:28:09 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:28:11.872982+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-05-02T03:28:11.933566+00:00 app[web.1]: 77.65425429951532 12.839477926579919
+2018-05-02T03:28:11.938051+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:28:11 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:28:11.937528+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=f3ff2fed-a257-4d1e-95e3-ca2eaa22d519 fwd="157.49.168.156" dyno=web.1 connect=0ms service=335ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:20.423403+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=be79daef-7d01-47d0-a5d0-5ad3575ec5a0 fwd="157.49.142.218" dyno=web.1 connect=0ms service=337ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:20.422763+00:00 app[web.1]: predictions:  [2 0 0 0]
+2018-05-02T03:28:20.423656+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:28:20 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:28:22.421984+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-05-02T03:28:22.552460+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:28:22 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:28:22.539675+00:00 app[web.1]: 77.65397338936059 12.839602408175528
+2018-05-02T03:28:22.551892+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=a049d86f-e01d-4de2-97fe-6307ba3b0db5 fwd="157.49.168.156" dyno=web.1 connect=0ms service=455ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:31.714817+00:00 app[web.1]: predictions:  [1 0 0 0]
+2018-05-02T03:28:31.816757+00:00 app[web.1]: 77.65393463259761 12.839623931635506
+2018-05-02T03:28:31.833855+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:28:31 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:28:31.833284+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=c91b1dc1-f3d9-4c41-8667-f3b7ca995abb fwd="157.49.142.218" dyno=web.1 connect=0ms service=470ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:33.383309+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=49eeb1d5-17bc-4c67-9d7e-63757498e413 fwd="157.49.168.156" dyno=web.1 connect=1ms service=374ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:33.382589+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:28:33.383667+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:28:33 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:28:42.790105+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=d71233b3-8916-49f4-a956-44a5e5a2119a fwd="157.49.142.218" dyno=web.1 connect=0ms service=229ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:42.789757+00:00 app[web.1]: predictions:  [0 2 0 0]
+2018-05-02T03:28:42.790361+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:28:42 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:28:44.637638+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=48a6fa39-2829-450b-a7b8-751c6da97978 fwd="157.49.168.156" dyno=web.1 connect=0ms service=265ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:44.637183+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:28:44.637842+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:28:44 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:28:53.881687+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:28:53.882752+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:28:53 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:28:53.882621+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=b0ebf322-329b-408a-a0a7-295f87b7a980 fwd="157.49.142.218" dyno=web.1 connect=0ms service=256ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:58.939578+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=1010694b-2ffe-4470-990b-57ffcaa6ea4a fwd="157.49.168.156" dyno=web.1 connect=0ms service=418ms status=200 bytes=159 protocol=https
+2018-05-02T03:28:58.861396+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-05-02T03:28:58.934996+00:00 app[web.1]: 77.65260265737565 12.840320112399402
+2018-05-02T03:28:58.939955+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:28:58 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:29:05.290580+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=1a01d17f-9188-46bc-9f8a-e5d5af4b4816 fwd="157.49.142.218" dyno=web.1 connect=0ms service=324ms status=200 bytes=159 protocol=https
+2018-05-02T03:29:05.290249+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:29:05.290966+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:29:05 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:29:09.551298+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=3dfc2375-fea2-42d2-ae47-18dab4fbac52 fwd="157.49.168.156" dyno=web.1 connect=0ms service=339ms status=200 bytes=159 protocol=https
+2018-05-02T03:29:09.550631+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:29:09.551326+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:29:09 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:29:16.670257+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=f1aef454-3723-4041-bc85-4d2201f0e589 fwd="157.49.142.218" dyno=web.1 connect=0ms service=344ms status=200 bytes=159 protocol=https
+2018-05-02T03:29:16.669840+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:29:16.670685+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:29:16 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:29:20.347220+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=fc45965c-42e3-4811-b88e-616048439b8f fwd="157.49.168.156" dyno=web.1 connect=0ms service=270ms status=200 bytes=159 protocol=https
+2018-05-02T03:29:20.346694+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:29:20.347420+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:29:20 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:29:27.582847+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=c8cae7a0-fffa-4219-92f3-5f4406494abe fwd="157.49.142.218" dyno=web.1 connect=0ms service=321ms status=200 bytes=159 protocol=https
+2018-05-02T03:29:27.582436+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:29:27.583110+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:29:27 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:29:31.165298+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:29:31.166040+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:29:31 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:29:31.165686+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=6cd4fc35-43ed-4f0f-9d7a-ab6a14bea634 fwd="157.49.168.156" dyno=web.1 connect=0ms service=348ms status=200 bytes=159 protocol=https
+2018-05-02T03:29:38.995998+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=86453886-487e-4d70-bc6a-11580df84222 fwd="157.49.142.218" dyno=web.1 connect=0ms service=489ms status=200 bytes=159 protocol=https
+2018-05-02T03:29:38.860307+00:00 app[web.1]: predictions:  [1 0 0 0]
+2018-05-02T03:29:38.989264+00:00 app[web.1]: 77.65174052205985 12.840585701053975
+2018-05-02T03:29:38.996647+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:29:38 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:29:40.981033+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=cd9624fa-1ada-4cc8-84d6-873778cfdde7 fwd="223.186.118.108" dyno=web.1 connect=0ms service=16ms status=200 bytes=1234 protocol=https
+2018-05-02T03:29:40.982409+00:00 app[web.1]: 10.30.65.228 - - [02/May/2018:03:29:40 +0000] "GET /location HTTP/1.1" 200 1080 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V9.5.3.0.MHOMIFA)"
+2018-05-02T03:29:41.876826+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=d75351dd-32e9-4a5e-a31a-100a225b69d5 fwd="157.49.168.156" dyno=web.1 connect=0ms service=259ms status=200 bytes=159 protocol=https
+2018-05-02T03:29:41.876460+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:29:41.877310+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:29:41 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:29:50.032781+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=a0ac1e57-4194-43dd-85cc-a6544ed2e7f0 fwd="157.49.142.218" dyno=web.1 connect=0ms service=306ms status=200 bytes=159 protocol=https
+2018-05-02T03:29:50.032422+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:29:50.033519+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:29:50 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:29:52.813952+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=ef3f0ef6-d513-4a4b-bd64-6c5f59ce2173 fwd="157.49.168.156" dyno=web.1 connect=0ms service=376ms status=200 bytes=159 protocol=https
+2018-05-02T03:29:52.813478+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:29:52.814160+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:29:52 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:29:57.538216+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=0a8bf0b3-7255-4131-8c47-4105ff90e93c fwd="157.49.168.156" dyno=web.1 connect=0ms service=31ms status=200 bytes=1234 protocol=https
+2018-05-02T03:29:57.538469+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:29:57 +0000] "GET /location HTTP/1.1" 200 1080 "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:29:58.998882+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=418721de-a8c4-40a5-90a9-25904677c3c0 fwd="157.49.142.218" dyno=web.1 connect=0ms service=22ms status=200 bytes=1234 protocol=https
+2018-05-02T03:29:58.999455+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:29:58 +0000] "GET /location HTTP/1.1" 200 1080 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:30:01.571929+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=9746b3dc-31d5-4ed2-824b-565fd756f339 fwd="157.49.142.218" dyno=web.1 connect=0ms service=490ms status=200 bytes=159 protocol=https
+2018-05-02T03:30:01.571348+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:30:01.572363+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:30:01 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:30:03.613210+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=977908d9-ebba-4511-af9c-49b5a56d79a4 fwd="157.49.168.156" dyno=web.1 connect=0ms service=331ms status=200 bytes=159 protocol=https
+2018-05-02T03:30:03.612619+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:30:03.613566+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:30:03 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:30:12.582238+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=8c3a7518-4d7c-400d-8f66-b1b7e8897d82 fwd="157.49.142.218" dyno=web.1 connect=0ms service=330ms status=200 bytes=159 protocol=https
+2018-05-02T03:30:12.484952+00:00 app[web.1]: predictions:  [0 1 0 0]
+2018-05-02T03:30:12.578163+00:00 app[web.1]: 77.65062999225859 12.840788033786579
+2018-05-02T03:30:12.582541+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:30:12 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:30:14.358888+00:00 app[web.1]: predictions:  [1 0 0 0]
+2018-05-02T03:30:14.466758+00:00 app[web.1]: 77.65060143740439 12.840826132976128
+2018-05-02T03:30:14.470689+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:30:14 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:30:14.470469+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=a8d03ca0-a266-4a99-b356-dedb1ca375a8 fwd="157.49.168.156" dyno=web.1 connect=0ms service=353ms status=200 bytes=159 protocol=https
+2018-05-02T03:30:23.751343+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=71d2c45c-40be-475a-acf9-5ebb9d545881 fwd="157.49.142.218" dyno=web.1 connect=0ms service=354ms status=200 bytes=159 protocol=https
+2018-05-02T03:30:23.750835+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:30:23.751691+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:30:23 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:30:25.194222+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=a5261992-e19c-4802-b764-4a19b2d0763b fwd="157.49.168.156" dyno=web.1 connect=0ms service=269ms status=200 bytes=159 protocol=https
+2018-05-02T03:30:25.193868+00:00 app[web.1]: predictions:  [0 2 0 0]
+2018-05-02T03:30:25.194542+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:30:25 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:30:35.139775+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=aba6fffa-2cb9-4bd4-a712-5232c5357991 fwd="157.49.142.218" dyno=web.1 connect=0ms service=457ms status=200 bytes=159 protocol=https
+2018-05-02T03:30:35.072830+00:00 app[web.1]: predictions:  [0 0 1 0]
+2018-05-02T03:30:35.135559+00:00 app[web.1]: 77.64941018270201 12.841143098180112
+2018-05-02T03:30:35.140421+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:30:35 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:30:36.124493+00:00 app[web.1]: predictions:  [2 0 0 0]
+2018-05-02T03:30:36.125351+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:30:36 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:30:36.125009+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=532dc5b0-0cad-480c-9afb-086d05ec31a2 fwd="157.49.168.156" dyno=web.1 connect=0ms service=348ms status=200 bytes=159 protocol=https
+2018-05-02T03:30:47.131453+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=6755431f-2a4b-44d9-a061-e03013ff50f8 fwd="157.49.168.156" dyno=web.1 connect=0ms service=472ms status=200 bytes=159 protocol=https
+2018-05-02T03:30:47.131048+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:30:47.131993+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:30:47 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:30:52.370290+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=444c68df-0a00-4fc0-af0c-c6ff6a06a13e fwd="157.49.142.218" dyno=web.1 connect=1ms service=307ms status=200 bytes=159 protocol=https
+2018-05-02T03:30:52.369539+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:30:52.370453+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:30:52 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:30:57.877174+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=4d531c55-f355-4463-a5ef-f47008f1c06e fwd="157.49.168.156" dyno=web.1 connect=0ms service=393ms status=200 bytes=159 protocol=https
+2018-05-02T03:30:57.754621+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-05-02T03:30:57.870470+00:00 app[web.1]: 77.64779153159849 12.841564851106137
+2018-05-02T03:30:57.877699+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:30:57 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:31:04.106798+00:00 app[web.1]: 77.64782181694417 12.841555686665089
+2018-05-02T03:31:04.120612+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:31:04 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:31:03.938187+00:00 app[web.1]: predictions:  [0 1 0 0]
+2018-05-02T03:31:04.120051+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=02c7b601-b787-43d1-826b-9e3edc5dd058 fwd="157.49.142.218" dyno=web.1 connect=1ms service=782ms status=200 bytes=159 protocol=https
+2018-05-02T03:31:09.146307+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-05-02T03:31:09.244637+00:00 app[web.1]: 77.64734921697155 12.841679643134846
+2018-05-02T03:31:09.250879+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:31:09 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:31:09.250361+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=e88892b6-0815-44fd-b3da-6da27f6c3842 fwd="157.49.168.156" dyno=web.1 connect=1ms service=450ms status=200 bytes=159 protocol=https
+2018-05-02T03:31:15.542366+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=7ec7e1f7-5680-4c44-9856-f3b74f97fed2 fwd="157.49.142.218" dyno=web.1 connect=0ms service=436ms status=200 bytes=159 protocol=https
+2018-05-02T03:31:15.541486+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:31:15.542725+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:31:15 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:31:26.325692+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=d381931a-25a1-4be6-97b8-4d403ed1eea9 fwd="157.49.168.156" dyno=web.1 connect=0ms service=537ms status=200 bytes=159 protocol=https
+2018-05-02T03:31:26.325246+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:31:26.326132+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:31:26 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:31:26.557822+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:31:26.560128+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:31:26 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:31:26.559720+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=23773b69-6e5d-4226-bb50-e5ff712d7b4c fwd="157.49.142.218" dyno=web.1 connect=0ms service=673ms status=200 bytes=159 protocol=https
+2018-05-02T03:31:37.692545+00:00 app[web.1]: 77.64553311897889 12.841901000731166
+2018-05-02T03:31:37.563305+00:00 app[web.1]: predictions:  [0 0 0 1]
+2018-05-02T03:31:37.700988+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:31:37 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
+2018-05-02T03:31:37.699411+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=8219e418-e0fa-4a8e-8532-3664fc5de923 fwd="157.49.142.218" dyno=web.1 connect=0ms service=535ms status=200 bytes=159 protocol=https
+2018-05-02T03:31:38.905775+00:00 heroku[router]: at=info method=POST path="/data" host=fierce-hamlet-74882.herokuapp.com request_id=ad1b95db-c92b-4e3a-99b0-e4817746711f fwd="157.49.168.156" dyno=web.1 connect=1ms service=554ms status=200 bytes=159 protocol=https
+2018-05-02T03:31:38.905427+00:00 app[web.1]: predictions:  [0 0 0 0]
+2018-05-02T03:31:38.906272+00:00 app[web.1]: 10.9.144.211 - - [02/May/2018:03:31:38 +0000] "POST /data HTTP/1.1" 200 - "-" "Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/8.4.26)"
+2018-05-02T03:58:09.999489+00:00 heroku[router]: at=info method=GET path="/location" host=fierce-hamlet-74882.herokuapp.com request_id=8d3bb0c2-2712-4d38-911b-3138151b1075 fwd="157.49.142.218" dyno=web.1 connect=1ms service=17ms status=200 bytes=1674 protocol=https
+2018-05-02T03:58:10.000003+00:00 app[web.1]: 10.146.44.229 - - [02/May/2018:03:58:09 +0000] "GET /location HTTP/1.1" 200 1520 "-" "Dalvik/2.1.0 (Linux; U; Android 7.0; Redmi Note 4 MIUI/8.4.26)"
