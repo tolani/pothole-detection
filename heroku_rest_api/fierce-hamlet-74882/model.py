@@ -287,7 +287,7 @@ def predictPotholes(raw):
 	c = 0
 
 	for i in range(len(y_pred)):
-		if( y_pred[i] == 1 ):
+		if( y_pred[i] == 1 ):        # means if it is a pothole then add it to DB : add gps co ordinates to DB
 			URL = URL + str(y[i][0]) + ','
 			URL = URL + str(y[i][1]) + '|'
 			c = 1
